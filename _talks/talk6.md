@@ -1,10 +1,10 @@
 ---
-name: talk4
+name: talk6
 speakers:
   - The Anonymous
-track: Cat B
+track: Cat A
 tags:
   - Talk
 ---
 
-talk4
+talk6

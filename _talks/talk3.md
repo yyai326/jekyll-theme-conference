@@ -1,7 +1,7 @@
 ---
-name: Arcu Non Odio
+name: talk3
 speakers:
-  - Alex Rosales
+  - The Anonymous
 track: Cat A
 tags:
   - Talk

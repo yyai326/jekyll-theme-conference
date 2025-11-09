@@ -1,11 +1,9 @@
 ---
-name: Condimentum Vitae Sapien Pellentesque
+name: talk2
 speakers:
-  - Tolga Philip
-  - Alex Rosales
-  track: Cat A
-  tags:
+  - Liu Hong
+  - Li Jing
+track: Cat A
+tags:
   - Talk
-  - No recording
-hide: true
 ---
