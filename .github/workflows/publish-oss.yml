@@ -1,4 +1,4 @@
-name: Build & Publish Ruby Gem
+name: deploy to oss
 # Performs the following steps:
 #   - Sets the environment up
 #   - Builds the gem
