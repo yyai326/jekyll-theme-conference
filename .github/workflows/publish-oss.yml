@@ -8,8 +8,8 @@ name: deploy to oss
 # Gets triggered upon the creation of a new tag
 on:
   push:
-    tags:
-      - "v*" # Matches tags with the name "v*", i.e. v1.0, v20.15.10
+    branches:
+    - main
 
 jobs:
   build:
