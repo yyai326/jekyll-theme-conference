@@ -1,11 +1,4 @@
 name: deploy to oss
-# Performs the following steps:
-#   - Sets the environment up
-#   - Builds the gem
-#   - Uploads the gem to RubyGem
-#   - Creates a GitHub release and attaches the gem to it
-
-# Gets triggered upon the creation of a new tag
 on:
   push:
     branches:
@@ -34,7 +27,7 @@ jobs:
         
       - name: Cache Ossutil
         id: cache-ossutil
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: ossutil64
           key: ${{ runner.os }}-ossutil64
