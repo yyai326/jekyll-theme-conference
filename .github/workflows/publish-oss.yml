@@ -42,4 +42,4 @@ jobs:
           ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
       - name: Publish Site
         run: |
-          ./ossutil64 cp -r -f -u _site/ oss://your-oss-bucket-name/ --jobs 1000 --retry-times 3 --loglevel info
+          ./ossutil64 cp -r -f -u _site/ oss://oss-lh-conf/ --jobs 1000 --retry-times 3 --loglevel info
