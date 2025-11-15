@@ -1,0 +1,52 @@
+name: Build & Publish Ruby Gem
+# Performs the following steps:
+#   - Sets the environment up
+#   - Builds the gem
+#   - Uploads the gem to RubyGem
+#   - Creates a GitHub release and attaches the gem to it
+
+# Gets triggered upon the creation of a new tag
+on:
+  push:
+    tags:
+      - "v*" # Matches tags with the name "v*", i.e. v1.0, v20.15.10
+
+jobs:
+  build:
+    name: Build + Publish
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        id: checkout_code
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby 3.3
+        id: setup_ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Build Site
+        run: |
+          bundle exec jekyll build --trace --profile
+        
+      - name: Cache Ossutil
+        id: cache-ossutil
+        uses: actions/cache@v2
+        with:
+          path: ossutil64
+          key: ${{ runner.os }}-ossutil64
+        continue-on-error: true
+      - name: Get Ossutil
+        if: steps.cache-ossutil.outputs.cache-hit != 'true'
+        run: |
+          wget -q http://gosspublic.alicdn.com/ossutil/1.7.3/ossutil64
+      - name: Config Ossutil
+        run: |
+          chmod +x ossutil64
+          ./ossutil64 config -e ${{ secrets.ENDPOINT }} -i ${{ secrets.ACCESS_KEY_ID }} -k ${{ secrets.ACCESS_KEY_SECRET }} -L CH
+      - name: Publish Site
+        run: |
+          ./ossutil64 cp -r -f -u _site/ oss://your-oss-bucket-name/ --jobs 1000 --retry-times 3 --loglevel info
