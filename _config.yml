@@ -1,7 +1,7 @@
-title: AsiaComb 2025
+title: ASIACOMB 2026
 preposition: at
 description: >-
-  AsiaComb 2025 organization on 2025/11/16 in Hangzhou, China
+  #AsiaComb 2025 organization on 2025/11/16 in Hangzhou, China
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -57,7 +57,7 @@ conference:
   lang: en
 
   # Timezone
-  tz: "+08:00"
+  tz: "+09:00"
 
   # Show theme errors:
   show_errors: True
@@ -65,25 +65,30 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: logotest
-      img: 'math.svg'
+      name: logo
+      img: 'ASIACOMB_logo2.png'  # inside /assets/images/
       url: 'https://www.ibs.re.kr/ecopro/hongliu/'
     breakpoint: md
     links:
       - name: Program
         relative_url: /program/
+      - name: Submission
+        relative_url: /Abstract_submission/
+      - name: Registration
+        relative_url: /registration/
       - name: Talks
         relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
-      - name: Previous Editions
-        menu:
-          - name: 2025 (current)
-            disabled: true
-          - name: 2024
-            relative_url: /2024/
+
+#      - name: Previous Editions
+#        menu:
+#          - name: 2025 (current)
+#            disabled: true
+#          - name: 2024
+#            relative_url: /2024/
 
   # Link Preview for Sharing
   link_preview:
@@ -109,7 +114,9 @@ conference:
       color: primary
       main_only: true
       text: |
-       Introduct 1
+       ASIACOMB 2026 will be held in Daejeon, South Korea from August 24 to 28, 2026.   
+       Abstract submission deadline: March 22, 2026
+
 
 
 

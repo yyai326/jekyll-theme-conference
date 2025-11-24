@@ -2,6 +2,8 @@
 layout: default 
 ---
 
+# Call for Abstracts
+
 ASIACOMB invites submissions of abstracts for 25 min contributed talks on all areas of combinatorics, especially ToDo.
 Abstract should be maximum 2 pages in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
