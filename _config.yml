@@ -66,7 +66,7 @@ conference:
   navigation:
     logo:
       name: logo
-      img: 'ASIACOMB_logo2.PNG'  # inside /assets/images/
+      img: 'ASIACOMB_logo.png'  # inside /assets/images/
       url: 'https://www.ibs.re.kr/ecopro/hongliu/'
     breakpoint: md
     links:
