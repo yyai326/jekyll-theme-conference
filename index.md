@@ -36,7 +36,7 @@ ToDo
 ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics, especially ToDo.
 Abstract should be maximum 2 pages in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
-See [Abstract Submission](https://yangxi.me/Abstract_submission/) for more details.
+See [Abstract Submission](/Abstract_submission/) for more details.
 
 ### Organizers
 
@@ -50,7 +50,7 @@ See [Registration](https://yangxi.me/Registration/) for more details.
 
 ### Venue
 The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, South Korea.
-For more information about the venue and accommodation, please visit the [Venue](https://yangxi.me/Venue/) page.
+For more information about the venue and accommodation, please visit the [Location](https://yangxi.me/location/) page.
 
 ### Contact
 For any inquiries, please contact us at <asiacomb@ibs.re.kr>.
