@@ -1,7 +1,7 @@
 title: ASIACOMB 2026
 preposition: at
-description: >-
-  #AsiaComb 2025 organization on 2025/11/16 in Hangzhou, China
+#description: >-
+#  AsiaComb 2025 organization on 2025/11/16 in Hangzhou, China
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
@@ -66,7 +66,7 @@ conference:
   navigation:
     logo:
       name: logo
-      img: 'ASIACOMB_logo2.png'  # inside /assets/images/
+      img: 'ASIACOMB_logo2.PNG'  # inside /assets/images/
       url: 'https://www.ibs.re.kr/ecopro/hongliu/'
     breakpoint: md
     links:
