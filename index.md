@@ -2,8 +2,6 @@
 layout: home
 ---
 
-![lh](/assets/images/poster.png)
-
 
 
 ## About ASIACOMB
@@ -33,7 +31,7 @@ ToDo
 
 ### Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics, especially ToDo.
+ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics, especially <span style = "color:red">ToDo</span>.
 Abstract should be maximum 2 pages in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
 See [Abstract Submission](/Abstract_submission/) for more details.
@@ -54,6 +52,9 @@ For more information about the venue and accommodation, please visit the [Locati
 
 ### Contact
 For any inquiries, please contact us at <asiacomb@ibs.re.kr>.
+
+![lh](/assets/images/poster.png)
+
 
 ### Sponsors
 
