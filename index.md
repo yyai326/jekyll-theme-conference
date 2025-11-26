@@ -19,15 +19,14 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 Conference: August 24-28, 2026   
  
-Nominations for the European Prize in Combinatorics: ToDo 
+Nominations for the Asian Prize in Combinatorics: <span style = "color:red">ToDo</span>
 
 Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>.    
 
 
 ## Invited Speakers
 
-ToDo
-
+<span style = "color:red">ToDo</span>
 
 ### Call for Abstracts
 
@@ -38,7 +37,8 @@ See [Abstract Submission](/Abstract_submission/) for more details.
 
 ### Organizers
 
-ToDo
+<span style = "color:red">ToDo</span>
+
 
 ### Registration
 Early registration deadline is *June 14, 2026*.   

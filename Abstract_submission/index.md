@@ -16,7 +16,7 @@ Abstract should be maximum 2 pages in length (including figures and references) 
 - Published works are also eligible for submission, provided that journal or conference policies allow such presentations.
 
 ## Way of Submission
-Please submit your abstract via ToDo
+Please submit your abstract via <span style = "color:red">ToDo</span>
 
 ## Important Dates
 Abstract submission deadline: March 22, 2026   

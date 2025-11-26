@@ -25,10 +25,10 @@ To register for the conference, please fill out the registration form (ToDo) and
 If you are a student, please be prepared to provide a valid student ID during the registration process.
 
 #### Payment Methods
-ToDo
+<span style = "color:red">ToDo</span>
 
 #### Cancellation Policy
-ToDo
+<span style = "color:red">ToDo</span>
 
 
 For any inquiries regarding registration, please contact us at <asiacomb@ibs.re.kr>.

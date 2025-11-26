@@ -21,15 +21,15 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 
 ### Getting to DCC
 
-ToDo
+<span style = "color:red">ToDo</span>
 
 ### Accommodation
 
-ToDo
+<span style = "color:red">ToDo</span>
 
 
 ### Local Attractions
-ToDo
+<span style = "color:red">ToDo</span>
 
 You can adapt the design as well as the section shown on the map by copying the `assets/js/main.js` from the theme's repository and editing it. See also the subsection [Location / Room Overview](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#location--room-overview) section of the theme's README file.
 
