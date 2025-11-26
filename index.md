@@ -19,14 +19,20 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 Conference: August 24-28, 2026   
  
-Nominations for the Asian Prize in Combinatorics: <span style = "color:red">ToDo</span>
+Nominations for the Asian Prize in Combinatorics: <span style = "color:red">T.B.A.</span>
 
 Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>.    
 
 
-## Invited Speakers
+## Plenary Speakers
 
-<span style = "color:red">ToDo</span>
+- Van Vu (Yale University)
+- Anton Bernshteyn (University of Illinois at Urbana-Champaign)
+- Jaehoon Kim (Korea Advanced Institute of Science and Technology)
+- Jie Han (Beijing Institute of Technology)
+- Bojan Mohar (Simon Fraser University)
+- Mihyun Kang (Graz University of Technology)
+- Joshua Zahl (Nankai University)
 
 ### Call for Abstracts
 
@@ -37,7 +43,11 @@ See [Abstract Submission](/Abstract_submission/) for more details.
 
 ### Organizers
 
-<span style = "color:red">ToDo</span>
+
+- Hong Liu (IBS ECOPRO, Chair)
+- Zichao Dong (IBS ECOPRO)
+- Suyun Jiang (Jianghan University)
+- Zhuo Wu (University of Warwick)
 
 
 ### Registration

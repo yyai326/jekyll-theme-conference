@@ -67,11 +67,11 @@ conference:
     logo:
       name: logo
       img: 'ASIACOMB_logo.png'  # inside /assets/images/
-      url: 'https://www.ibs.re.kr/ecopro/hongliu/'
+      url: '/'  # relative URL to homepage
     breakpoint: md
     links:
-      - name: Program
-        relative_url: /program/
+#      - name: Program
+#        relative_url: /program/
       - name: Submission
         relative_url: /Abstract_submission/
       - name: Registration
@@ -82,6 +82,8 @@ conference:
         relative_url: /speakers/
       - name: Location
         relative_url: /location/
+      - name: Committee
+        relative_url: /committee/
 
 #      - name: Previous Editions
 #        menu:
