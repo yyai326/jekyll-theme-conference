@@ -15,13 +15,13 @@ Late registration deadline: August 14, 2026
 | Student (with ID)      | ??                 | ??                |
 
 
-Registration includes access to all scientific sessions, conference materials, coffee breaks, welcome reception, and conference banquet (ToDo: check details).
+Registration includes access to all scientific sessions, conference materials, coffee breaks, welcome reception, and conference banquet (<span style = "color:red">ToDo</span>: check details).
 Accommodation is not included in the registration fee and should be arranged separately.
 
 
 ## How to Register
 
-To register for the conference, please fill out the registration form (ToDo) and make the payment according to the instructions provided on the form.
+To register for the conference, please fill out the registration form (<span style = "color:red">ToDo</span>) and make the payment according to the instructions provided on the form.
 If you are a student, please be prepared to provide a valid student ID during the registration process.
 
 #### Payment Methods
