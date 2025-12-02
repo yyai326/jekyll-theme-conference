@@ -4,8 +4,12 @@ layout: default
 
 # Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for 25 min contributed talks on all areas of combinatorics, especially <span style = "color:red">ToDo</span>.
-Abstract should be maximum 2 pages in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
+ASIACOMB invites submissions of abstracts for 25-minute contributed talks on all areas of combinatorics, especially <span style = "color:red">ToDo</span>.
+Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
+
+## Important Dates
+Abstract submission deadline: March 22, 2026   
+Notification of acceptance: May 10, 2026   
 
 
 ## Submission Guidelines
@@ -16,10 +20,6 @@ Abstract should be maximum 2 pages in length (including figures and references) 
 - Published works are also eligible for submission, provided that journal or conference policies allow such presentations.
 
 ## Way of Submission
-Please submit your abstract via <span style = "color:red">ToDo</span>
-
-## Important Dates
-Abstract submission deadline: March 22, 2026   
-Notification of acceptance: May 10, 2026   
+Please submit your abstract via [Indico](https://indico.ibs.re.kr/event/1150/). You will need to create an account on the Indico platform if you do not already have one. 
 
 

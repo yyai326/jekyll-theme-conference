@@ -20,9 +20,11 @@ Accommodation is not included in the registration fee and should be arranged sep
 
 
 ## How to Register
+Registration for the conference will be started on <span style = "color:red">ToDo</span>.
 
-To register for the conference, please fill out the registration form (<span style = "color:red">ToDo</span>) and make the payment according to the instructions provided on the form.
+To register for the conference, please fill out the registration form in [Indico](https://indico.ibs.re.kr/event/1150/) and make the payment according to the instructions provided on the form. You don't need to create an account on Indico to register, but having one may help you manage your registration more easily.
 If you are a student, please be prepared to provide a valid student ID during the registration process.
+
 
 #### Payment Methods
 <span style = "color:red">ToDo</span>

@@ -1,5 +1,5 @@
 ---
-name: talk7
+name: Talk7
 speakers:
   - The Anonymous
 track: Cat A

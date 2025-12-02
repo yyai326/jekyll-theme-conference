@@ -1,5 +1,5 @@
 ---
-name: talk3
+name: Talk3
 speakers:
   - The Anonymous
 track: Cat A

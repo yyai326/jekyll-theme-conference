@@ -1,5 +1,5 @@
 ---
-name: talk5
+name: Talk5
 speakers:
   - The Anonymous
 track: Cat B

@@ -10,7 +10,7 @@ layout: default
 - Seog-Jin Kim (Konkuk University)	
 - Thomas Lam (University of Michigan)
 - Hong Liu (Institute for Basic Science)	
-- Dömötör Pálvölgyi (Eötvös Loránd University, Hungary)
+- Dömötör Pálvölgyi (Eötvös Loránd University)
 - Tuan Tran (University of Science and Technology of China)
 - Oleg Pikhurko (University of Warwick)
 
@@ -30,7 +30,7 @@ layout: default
 - Kenta Ozeki (Yokohama National University)
 - Péter Pál Pach (HUN-REN Alfréd Rényi Institute of Mathematics)	
 - Tuan Tran (University of Science and Technology of China)
-- Dömötör Pálvölgyi (Eötvös Loránd University, Hungary)	
+- Dömötör Pálvölgyi (Eötvös Loránd University)	
 - Botong Wang (University of Wisconsin-Madison)
 - Jinyoung Park (New York University)	
 - Hehui Wu (Fudan University)

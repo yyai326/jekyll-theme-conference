@@ -1,5 +1,5 @@
 ---
-name: talk2
+name: Talk2
 speakers:
   - Liu Hong
   - Li Jing

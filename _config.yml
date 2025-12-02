@@ -112,7 +112,7 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Welcome to the Asia Comb
+    - title: Welcome to the ASIACOMB 2026
       color: primary
       main_only: true
       text: |

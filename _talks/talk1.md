@@ -1,5 +1,5 @@
 ---
-name: talk1
+name: Talk1
 speakers:
   - Liu Hong
 track: Cat B
