@@ -47,4 +47,7 @@ layout: default
 - Zichao Dong (IBS ECOPRO)
 - Suyun Jiang (Jianghan University)
 - Zhuo Wu (University of Warwick)
+- Felix Christian Clemen (University of Victoria)
+- Seonghyuk Im (KAIST & IBS ECOPRO)
+
 

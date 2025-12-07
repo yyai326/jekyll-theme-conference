@@ -13,7 +13,7 @@ The inaugural conference of the ASIACOMB series, ASIACOMB2026, will be held in D
 ## Important Dates
 
 Abstract submission deadline: March 22, 2026   
-Notification of acceptance: May 10, 2026   
+Notification of acceptance: Apr 26, 2026   
 Proceedings camera ready: May 30, 2026   
 Early registration deadline: June 14, 2026   
 Late registration deadline: August 14, 2026   
@@ -41,6 +41,8 @@ Abstracts should be a maximum of 1 page in length (including figures and referen
 
 See [Abstract Submission](/Abstract_submission/) for more details.
 
+
+
 ### Organizers
 
 
@@ -48,7 +50,8 @@ See [Abstract Submission](/Abstract_submission/) for more details.
 - Zichao Dong (IBS ECOPRO)
 - Suyun Jiang (Jianghan University)
 - Zhuo Wu (University of Warwick)
-
+- Felix Christian Clemen (University of Victoria)
+- Seonghyuk Im (KAIST & IBS ECOPRO)
 
 ### Registration
 Early registration deadline is *June 14, 2026*.   
