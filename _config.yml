@@ -76,8 +76,6 @@ conference:
         relative_url: /Abstract_submission/
       - name: Registration
         relative_url: /Registration/
-      - name: Talks
-        relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
       - name: Location

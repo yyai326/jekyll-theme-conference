@@ -32,13 +32,11 @@
         {% if speaker.hide %}
           {{ speaker.first_name }} {{ speaker.last_name }}
         {% else %}
-          <a href="{{ speaker.url | prepend: site.baseurl }}">
-            {{ speaker.first_name }} {{ speaker.last_name }}
-          </a>
+          {{ speaker.first_name }} {{ speaker.last_name }}
+
           {% if speaker.img %}
-          <p></p><a href="{{ speaker.url | prepend: site.baseurl }}">
+            <p></p>
             <img src="{{ speaker.img }}" class="align-middle">
-            </a>
           {% endif %}
         {% endif %}
       </li>
