@@ -6,6 +6,7 @@ img: /assets/images/ASIACOMB_logo.png
 links:
   - name: Profile
     absolute_url: https://www.ibs.re.kr/ecopro/hongliu/
+affiliation: IBS ECOPRO
 ---
 
 

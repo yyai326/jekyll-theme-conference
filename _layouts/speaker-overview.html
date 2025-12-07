@@ -11,28 +11,21 @@
   {{ content }}
 
   <div class="speakerlist">
-    {% assign cur_letter = false %}
     {% assign speakers = site.speakers | sort_natural: 'last_name' %}
+    
+    <ul class="list-unstyled">
+
     {% for speaker in speakers %}
-
-      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-      {% if cur_letter != last_letter %}
-        {% if cur_letter %}
-            </ul>
-          </div>
-        {% endif %}
-
-        {% assign cur_letter = last_letter %}
-        <div class="speakergroup">
-          <h3>{{ cur_letter }}</h3>
-          <ul class="list-unstyled">
-      {% endif %}
-
+      
       <li class="font-weight-light">
         {% if speaker.hide %}
           {{ speaker.first_name }} {{ speaker.last_name }}
         {% else %}
           {{ speaker.first_name }} {{ speaker.last_name }}
+
+          {% if speaker.affiliation %}
+            ({{ speaker.affiliation }})
+          {% endif %}
 
           {% if speaker.img %}
             <p></p>
@@ -40,11 +33,8 @@
           {% endif %}
         {% endif %}
       </li>
-
     {% endfor %}
 
-      </ul>
-    </div>
+    </ul>
   </div>
-
 {% include partials/footer.html %}
