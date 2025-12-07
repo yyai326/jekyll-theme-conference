@@ -13,28 +13,30 @@
   <div class="speakerlist">
     {% assign speakers = site.speakers | sort_natural: 'last_name' %}
     
-    <ul class="list-unstyled">
+    <div class="row">
+      {% for speaker in speakers %}
+        
+        <div class="col-md-4 mb-4 text-center">
+          
+          <div class="font-weight-light font-weight-bold">
+            {{ speaker.first_name }} {{ speaker.last_name }}
+            {% if speaker.affiliation %}
+               <br>
+               <span class="text-muted">({{ speaker.affiliation }})</span>
+            {% endif %}
+          </div>
 
-    {% for speaker in speakers %}
-      
-      <li class="font-weight-light">
-        {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-        {% else %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-
-          {% if speaker.affiliation %}
-            ({{ speaker.affiliation }})
+          {% if speaker.img and speaker.hide != true %}
+            <div class="mt-2">
+              <img src="{{ speaker.img }}" class="img-fluid rounded" style="max-height: 200px; width: auto;">
+            </div>
           {% endif %}
+          
+        </div>
 
-          {% if speaker.img %}
-            <p></p>
-            <img src="{{ speaker.img }}" class="align-middle">
-          {% endif %}
-        {% endif %}
-      </li>
-    {% endfor %}
-
-    </ul>
+      {% endfor %}
+    </div>
   </div>
+    
+    
 {% include partials/footer.html %}
