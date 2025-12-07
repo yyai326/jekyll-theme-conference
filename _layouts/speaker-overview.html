@@ -11,36 +11,40 @@
   {{ content }}
 
   <div class="speakerlist">
+    {% assign cur_letter = false %}
     {% assign speakers = site.speakers | sort_natural: 'last_name' %}
-    
-    <div class="row">
-      {% for speaker in speakers %}
-        
-        <div class="col-md-4 mb-5">
-          
-          <div style="display: block; width: 100%; text-align: center; margin-bottom: 5px;">
-            <span class="font-weight-bold h5">
-              {{ speaker.first_name }} {{ speaker.last_name }}
-            </span>
+    {% for speaker in speakers %}
+
+      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+      {% if cur_letter != last_letter %}
+        {% if cur_letter %}
+            </ul>
           </div>
+        {% endif %}
 
-          {% if speaker.affiliation %}
-            <div style="display: block; width: 100%; text-align: center; margin-bottom: 10px;">
-              <span class="text-muted small">
-                ({{ speaker.affiliation }})
-              </span>
-            </div>
+        {% assign cur_letter = last_letter %}
+        <div class="speakergroup">
+          <h3>{{ cur_letter }}</h3>
+          <ul class="list-unstyled">
+      {% endif %}
+
+      <li class="font-weight-light">
+        {% if speaker.hide %}
+          {{ speaker.first_name }} {{ speaker.last_name }}
+        {% else %}
+          {{ speaker.first_name }} {{ speaker.last_name }}
+
+          {% if speaker.img %}
+            <p></p>
+            <img src="{{ speaker.img }}" class="align-middle">
           {% endif %}
+        {% endif %}
+      </li>
 
-          {% if speaker.img and speaker.hide != true %}
-            <div style="display: block; width: 100%; text-align: center;">
-              <img src="{{ speaker.img }}" class="img-fluid rounded" style="display: block; margin: 0 auto; max-height: 200px; width: auto;">
-            </div>
-          {% endif %}
-          
-        </div>
+    {% endfor %}
 
-      {% endfor %}
+      </ul>
     </div>
   </div>
+
 {% include partials/footer.html %}
