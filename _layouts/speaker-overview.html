@@ -16,26 +16,28 @@
     <div class="row">
       {% for speaker in speakers %}
         
-        <div class="col-md-4 mb-5 text-center">
+        <div class="col-md-4 mb-5">
           
-          <div class="font-weight-bold" style="font-size: 1.2em;">
-            {{ speaker.first_name }} {{ speaker.last_name }}
-          </div>
-
-          {% if speaker.affiliation %}
-            <div class="text-muted mb-2">
-              ({{ speaker.affiliation }})
+          <div class="d-flex flex-column align-items-center">
+            
+            <div class="font-weight-bold h5 mb-1">
+              {{ speaker.first_name }} {{ speaker.last_name }}
             </div>
-          {% endif %}
 
-          {% if speaker.img and speaker.hide != true %}
-            <img src="{{ speaker.img }}" class="img-fluid rounded d-block mx-auto mt-2" style="max-height: 200px;">
-          {% endif %}
-          
+            {% if speaker.affiliation %}
+              <div class="text-muted small mb-2">
+                ({{ speaker.affiliation }})
+              </div>
+            {% endif %}
+
+            {% if speaker.img and speaker.hide != true %}
+              <img src="{{ speaker.img }}" class="img-fluid rounded" style="max-height: 200px; width: auto;">
+            {% endif %}
+            
+          </div>
         </div>
 
       {% endfor %}
     </div>
   </div>    
-    
 {% include partials/footer.html %}
