@@ -21,7 +21,7 @@ Conference: August 24-28, 2026
  
 Nominations for the Asian Prize in Combinatorics: <span style = "color:red">T.B.A.</span>
 
-Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>.    
+Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail information about the Prize will be provided soon.
 
 
 ## Plenary Speakers
@@ -33,10 +33,11 @@ Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>.
 - Bojan Mohar (Simon Fraser University)
 - Mihyun Kang (Graz University of Technology)
 - Joshua Zahl (Nankai University)
+- Allen Knutson (Cornell University)
 
 ### Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics, especially <span style = "color:red">ToDo</span>.
+ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics.
 Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
 See [Abstract Submission](/Abstract_submission/) for more details.
@@ -56,12 +57,12 @@ See [Abstract Submission](/Abstract_submission/) for more details.
 ### Registration
 Early registration deadline is *June 14, 2026*.   
 
-See [Registration](https://yangxi.me/Registration/) for more details.
+See [Registration](/Registration/) for more details.
 
 
 ### Venue
 The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, South Korea.
-For more information about the venue and accommodation, please visit the [Location](https://yangxi.me/location/) page.
+For more information about the venue and accommodation, please visit the [Location](/location/) page.
 
 ### Contact
 For any inquiries, please contact us at <asiacomb@ibs.re.kr>.

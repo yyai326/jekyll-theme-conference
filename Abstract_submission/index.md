@@ -4,7 +4,17 @@ layout: default
 
 # Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for 25-minute contributed talks on all areas of combinatorics, especially <span style = "color:red">ToDo</span>.
+ASIACOMB invites submissions of abstracts for 25-minute contributed talks on all areas of combinatorics, especially
+- Structural graph theory
+- Extremal and probabilistic combinatorics
+- Algebraic combinatorics
+- Additive combinatorics
+- Discrete geometry
+- Geometric and combinatorial optimization
+- Combinatorial algorithms
+- Connection of combinatorics with descriptive mathematics
+
+
 Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
 ## Important Dates
