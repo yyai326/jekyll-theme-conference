@@ -30,10 +30,9 @@ If you are a student, please be prepared to provide a valid student ID during th
 -->
 
 #### Payment Methods
-<span style = "color:red">T.B.A.</span>
+T.B.A.
 
 #### Cancellation Policy
-<span style = "color:red">T.B.A.</span>
-
+T.B.A.
 
 For any inquiries regarding registration, please contact us at <asiacomb@ibs.re.kr>.

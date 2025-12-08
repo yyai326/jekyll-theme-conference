@@ -19,7 +19,7 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 Conference: August 24-28, 2026   
  
-Nominations for the Asian Prize in Combinatorics: <span style = "color:red">T.B.A.</span>
+Nominations for the Asian Prize in Combinatorics: T.B.A.
 
 Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail information about the Prize will be provided soon.
 
@@ -40,7 +40,7 @@ Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail informa
 ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics.
 Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
-See [Abstract Submission](/Abstract_submission/) for more details.
+See [Submission](/Abstract_submission/) for more details.
 
 
 
