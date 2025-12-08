@@ -55,7 +55,7 @@ See [Submission](/Abstract_submission/) for more details.
 - Seonghyuk Im (KAIST & IBS ECOPRO)
 
 ### Registration
-Early registration deadline is *June 14, 2026*.   
+Early registration will start in Early January, 2026. The early registration deadline is *June 14, 2026*.   
 
 See [Registration](/Registration/) for more details.
 
