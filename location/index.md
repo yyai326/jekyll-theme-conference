@@ -40,6 +40,8 @@ T.B.A.
 T.B.A.
 
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.4038674012477!2d127.39177500000001!3d36.375216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356549856f487a11%3A0xd03c3bec141f8760!2zREND64yA7KCE7Luo67Kk7IWY7IS87YSw!5e0!3m2!1sko!2skr!4v1765168273590!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
 
 <!--You can adapt the design as well as the section shown on the map by copying the `assets/js/main.js` from the theme's repository and editing it. See also the subsection [Location / Room Overview](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#location--room-overview) section of the theme's README file.-->
