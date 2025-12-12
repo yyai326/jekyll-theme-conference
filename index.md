@@ -67,7 +67,7 @@ For more information about the venue and accommodation, please visit the [Locati
 ### Contact
 For any inquiries, please contact us at <asiacomb@ibs.re.kr>.
 
-![lh](/assets/images/poster.png)
+![lh](/assets/images/poster.jpg)
 
 
 ### Sponsors
