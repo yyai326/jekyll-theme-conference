@@ -44,10 +44,10 @@ layout: default
 ## Organizing Committee
 
 - Hong Liu (IBS ECOPRO, Chair)
-- Zichao Dong (IBS ECOPRO)
-- Suyun Jiang (Jianghan University)
-- Zhuo Wu (University of Warwick)
 - Felix Christian Clemen (University of Victoria)
 - Seonghyuk Im (KAIST & IBS ECOPRO)
+- Zichao Dong (IBS ECOPRO)
+- Suyun Jiang (Jianghan University)
+- Zhuo Wu (Universitat Politècnica de Catalunya)
 
 

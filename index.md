@@ -25,15 +25,14 @@ Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail informa
 
 
 ## Plenary Speakers
-
-- Van Vu (Yale University)
 - Anton Bernshteyn (University of California, Los Angeles)
-- Jaehoon Kim (Korea Advanced Institute of Science and Technology)
 - Jie Han (Beijing Institute of Technology)
-- Bojan Mohar (Simon Fraser University)
 - Mihyun Kang (Graz University of Technology)
-- Joshua Zahl (Nankai University)
+- Jaehoon Kim (Korea Advanced Institute of Science and Technology)
 - Allen Knutson (Cornell University)
+- Bojan Mohar (Simon Fraser University)
+- Van Vu (Yale University)
+- Joshua Zahl (Nankai University)
 
 ### Call for Abstracts
 
@@ -48,11 +47,11 @@ See [Submission](/Abstract_submission/) for more details.
 
 
 - Hong Liu (IBS ECOPRO, Chair)
-- Zichao Dong (IBS ECOPRO)
-- Suyun Jiang (Jianghan University)
-- Zhuo Wu (University of Warwick)
 - Felix Christian Clemen (University of Victoria)
 - Seonghyuk Im (KAIST & IBS ECOPRO)
+- Zichao Dong (IBS ECOPRO)
+- Suyun Jiang (Jianghan University)
+- Zhuo Wu (Universitat Politècnica de Catalunya)
 
 ### Registration
 Early registration will start in Early January, 2026. The early registration deadline is *June 14, 2026*.   
