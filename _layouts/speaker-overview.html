@@ -4,7 +4,7 @@
     {% if page.title %}
       {{ page.title }}
     {% else %}
-      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Plenary Speakers" }}
+      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Speakers" }}
     {% endif %}
   </h1>
 
@@ -28,7 +28,7 @@
           <ul class="list-unstyled">
       {% endif %}
 
-      <li>
+      <li class="mb-4">
         {% if speaker.hide %}
           <span class="h5 font-weight-bold">{{ speaker.first_name }} {{ speaker.last_name }}</span>
           {% if speaker.affiliation %} ({{ speaker.affiliation }}) {% endif %}
@@ -48,5 +48,5 @@
       </ul>
     </div>
   </div>
-
-{% include partials/footer.html %}
+  
+  {% include partials/footer.html %}
