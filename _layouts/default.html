@@ -1,18 +1,17 @@
-
-
-{% include partials/header.html %}
-
 <style>
-  /* Change all links to standard blue */
-  a {
-    color: #007bff !important; /* Bootstrap Blue */
+  /* Only change links that are inside the 'page-content' wrapper */
+  .page-content a {
+    color: #007bff !important; /* Blue */
   }
-  /* Optional: Change color when hovering */
-  a:hover {
-    color: #0056b3 !important; /* Darker Blue */
+  .page-content a:hover {
+    color: #0056b3 !important; /* Darker Blue on hover */
   }
 </style>
 
+{% include partials/header.html %}
+<div class="page-content">
 {{ content }}
+
+</div>
 
 {% include partials/footer.html %}
