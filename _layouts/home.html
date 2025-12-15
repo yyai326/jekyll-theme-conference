@@ -1,3 +1,13 @@
+<style>
+  /* Only change links that are inside the 'page-content' wrapper */
+  .page-content a {
+    color: #007bff !important; /* Blue */
+  }
+  .page-content a:hover {
+    color: #0056b3 !important; /* Darker Blue on hover */
+  }
+</style>
+
 {% include partials/header.html %}
 
   <div class="jumbotron">
@@ -18,8 +28,11 @@
     {% endif %}
 
     <hr class="my-4">
+    <div class="page-content">
+
 
     {{ content }}
+    </div>
 
     {% if site.conference.main.links %}
       <div class="lead d-print-none">
