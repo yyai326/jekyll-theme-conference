@@ -37,10 +37,6 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 
 T.B.A.
 
-### Local Attractions
-
-T.B.A.
-
 
 
 

@@ -4,13 +4,13 @@
     {% if page.title %}
       {{ page.title }}
     {% else %}
-      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Speakers" }}
+      {{ site.data.lang[site.conference.lang].speaker.overview | default: "Plenary Speakers" }}
     {% endif %}
   </h1>
 
   {{ content }}
 
-  <div class="speakerlist">
+<div class="speakerlist">
     {% assign cur_letter = false %}
     {% assign speakers = site.speakers | sort_natural: 'last_name' %}
     {% for speaker in speakers %}
@@ -28,11 +28,13 @@
           <ul class="list-unstyled">
       {% endif %}
 
-      <li class="font-weight-light">
+      <li>
         {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
+          <span class="h5 font-weight-bold">{{ speaker.first_name }} {{ speaker.last_name }}</span>
+          {% if speaker.affiliation %} ({{ speaker.affiliation }}) {% endif %}
         {% else %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
+          <span class="h5 font-weight-bold">{{ speaker.first_name }} {{ speaker.last_name }}</span>
+          {% if speaker.affiliation %} ({{ speaker.affiliation }}) {% endif %}
 
           {% if speaker.img %}
             <p></p>
