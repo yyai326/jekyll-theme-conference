@@ -15,7 +15,6 @@ Late registration deadline: August 14, 2026
 | Student (with ID)   &nbsp;   | 150 USD                 | 180 USD                |
 
 <br />
-<br />
 
 
 
