@@ -8,17 +8,16 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 
 #### Registration Fees
-<span style="font-size: 15px">T.B.A.</span>
-<!-- 
-| Category               | Early Registration | Late Registration |
+
+| Category               | Early Registration | Regular Registration |
 |------------------------|--------------------|-------------------|
-| Regular                | ??                 | ??                |
-| Student (with ID)      | ??                 | ??                |
--->
-<!--
-Registration includes access to all scientific sessions, conference materials, coffee breaks, lunches, welcome reception, and conference banquet.   
+| Regular                | 200 USD                 | 230 USD                |
+| Student (with ID)      | 150 USD                 | 180 USD                |
+
+
+Registration includes access to all scientific sessions, conference materials, coffee breaks, welcome reception, and conference banquet.   
 Accommodation is not included in the registration fee and should be arranged separately.
--->
+
 
 
 ## How to Register
@@ -32,7 +31,9 @@ If you are a student, please be prepared to provide a valid student ID during th
 #### Payment Methods
 T.B.A.
 
+<!--
 #### Cancellation Policy
 T.B.A.
+-->
 
 For any inquiries regarding registration, please contact us at <asiacomb@ibs.re.kr>.
