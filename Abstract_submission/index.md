@@ -4,7 +4,7 @@ layout: default
 
 # Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for 25-minute contributed talks on all areas of combinatorics, especially
+ASIACOMB invites submissions of abstracts for 20~25-minute contributed talks on all areas of combinatorics, including
 - Additive combinatorics
 - Algebraic combinatorics
 - Combinatorial algorithms
