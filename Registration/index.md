@@ -9,10 +9,15 @@ Late registration deadline: August 14, 2026
 
 #### Registration Fees
 
-| Category               | Early Registration | Regular Registration |
+| Category               | Early Registration &nbsp;    | Regular Registration    |
 |------------------------|--------------------|-------------------|
 | Regular                | 200 USD                 | 230 USD                |
-| Student (with ID)      | 150 USD                 | 180 USD                |
+| Student (with ID)   &nbsp;   | 150 USD                 | 180 USD                |
+
+<br />
+<br />
+
+
 
 
 Registration includes access to all scientific sessions, conference materials, coffee breaks, welcome reception, and conference banquet.   
