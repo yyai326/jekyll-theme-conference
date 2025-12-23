@@ -23,7 +23,7 @@ Please submit your abstract via <span style="font-size: 20px; color: blue">[Indi
 
 ## Important Dates
 Abstract submission deadline: March 22, 2026   
-Notification of acceptance: Apr 26, 2026   
+Notification of acceptance: April 26, 2026   
 
 
 ## Submission Guidelines
