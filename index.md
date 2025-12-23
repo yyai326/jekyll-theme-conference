@@ -39,7 +39,7 @@ Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail informa
 ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics.
 Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
-See [Submission](/Abstract_submission/) for more details.
+Please see [Submission](/Abstract_submission/) for more details.
 
 
 
@@ -56,7 +56,7 @@ See [Submission](/Abstract_submission/) for more details.
 ### Registration
 Early registration will start in Early January, 2026. The early registration deadline is *June 14, 2026*.   
 
-See [Registration](/Registration/) for more details.
+Please see [Registration](/Registration/) for more details.
 
 
 ### Venue
