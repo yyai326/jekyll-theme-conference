@@ -36,10 +36,10 @@
           <span class="h5 font-weight-bold">{{ speaker.first_name }} {{ speaker.last_name }}</span>
           {% if speaker.affiliation %} ({{ speaker.affiliation }}) {% endif %}
 
-          {% if speaker.img %}
-            <p></p>
-            <img src="{{ speaker.img }}" class="align-middle">
-          {% endif %}
+        {% if speaker.img %}
+          <p></p>
+          <img src="{{ speaker.img }}" class="align-middle" style="width: 150px; height: 150px; object-fit: cover; object-position: center;">
+        {% endif %}
         {% endif %}
       </li>
 
