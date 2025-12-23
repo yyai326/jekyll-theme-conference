@@ -40,4 +40,4 @@ T.B.A.
 T.B.A.
 -->
 
-For any inquiries regarding registration, please contact us at <asiacomb@ibs.re.kr>.
+For any inquiries regarding registration, please contact us at <asiacomb2026@ibs.re.kr>.

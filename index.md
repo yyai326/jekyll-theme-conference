@@ -20,7 +20,7 @@ Conference: August 24-28, 2026
  
 Nominations for the Asian Prize in Combinatorics: T.B.A.
 
-Nominations for the Prize should be sent to <asiacomb@ibs.re.kr>. Detail information about the Prize will be provided soon.
+Nominations for the Prize should be sent to <asiacomb2026@ibs.re.kr>. Detail information about the Prize will be provided soon.
 
 
 ## Plenary Speakers
@@ -64,7 +64,7 @@ The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, S
 For more information about the venue and accommodation, please visit the [Location](/location/) page.
 
 ### Contact
-For any inquiries, please contact us at <asiacomb@ibs.re.kr>.
+For any inquiries, please contact us at <asiacomb2026@ibs.re.kr>.
 
 ![lh](/assets/images/poster.jpg)
 
