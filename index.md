@@ -30,6 +30,7 @@ Nominations for the Prize should be sent to <asiacomb2026@ibs.re.kr>. Detail inf
 - Jaehoon Kim (Korea Advanced Institute of Science and Technology)
 - Allen Knutson (Cornell University)
 - Bojan Mohar (Simon Fraser University)
+- Greta Panova (University of Southern California)
 - Alexander Postnikov (MIT)
 - Van Vu (Yale University)
 - Joshua Zahl (Nankai University)
