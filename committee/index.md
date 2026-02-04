@@ -10,7 +10,6 @@ layout: default
 - Daniel Král' (Leipzig University; Max Planck Institute for Mathematics in the Sciences (MPI MiS))
 - Thomas Lam (University of Michigan)
 - Hong Liu (Institute for Basic Science)
-- Dömötör Pálvölgyi (Eötvös Loránd University)
 - Oleg Pikhurko (University of Warwick)
 - Tuan Tran (University of Science and Technology of China)
 
@@ -29,7 +28,6 @@ layout: default
 - Jonathan A. Noel (University of Victoria)
 - Kenta Ozeki (Yokohama National University)
 - Péter Pál Pach (HUN-REN Alfréd Rényi Institute of Mathematics)
-- Dömötör Pálvölgyi (Eötvös Loránd University)
 - Jinyoung Park (New York University)
 - Oleg Pikhurko (University of Warwick)
 - Wojciech Samotij (Tel Aviv University)
