@@ -20,6 +20,8 @@ Abstracts should be a maximum of 1 page in length (including figures and referen
 ## Way of Submission
 Please submit your abstract via <span style="font-size: 20px; color: blue">[Indico](https://indico.ibs.re.kr/event/1150/)</span>. You will need to create an account on the Indico platform if you do not already have one. 
 
+Please note that when submitting your abstract, you will be required to click a microphone icon to indicate that who will be the presenting author for the talk.
+
 
 ## Important Dates
 Abstract submission deadline: March 22, 2026   
