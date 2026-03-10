@@ -40,6 +40,6 @@ By Aug 3: Full refund minus a processing fee.
 
 From Aug 4: No refund.
 
-Detail instruction can be founded at [registration page](https://asiacomb.kr/).
+Detailed instructions can be founded at [registration page](https://asiacomb.kr/).
 
 For any inquiries regarding registration, please contact us at <asiacomb2026@ibs.re.kr>.
