@@ -55,7 +55,7 @@ Please see [Submission](/Abstract_submission/) for more details.
 - Zhuo Wu (Universitat Politècnica de Catalunya)
 
 ### Registration
-Early registration will start in Early January, 2026. The early registration deadline is *June 14, 2026*.   
+Early registration starts. One can register at [Registration Page](https://asiacomb.kr/). The early registration deadline is *June 14, 2026*.   
 
 Please see [Registration](/Registration/) for more details.
 

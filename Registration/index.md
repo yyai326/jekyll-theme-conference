@@ -25,7 +25,7 @@ Accommodation is not included in the registration fee and should be arranged sep
 
 
 ## How to Register
-Registration for the conference will be started on Early Febuary, 2026. The detail instructions will be provided on this page.
+One can register at [Here](https://asiacomb.kr/). Click the `New Register' butten and fill your information.
 
 Please note that the platform for registration is different from the one for abstract submission. You will need to create a separate account with the same email address if you submitted an abstract.
 
@@ -34,9 +34,12 @@ To register for the conference, please fill out the registration form in [Indico
 If you are a student, please be prepared to provide a valid student ID during the registration process.
 -->
 
-<!--
+
 #### Cancellation Policy
-T.B.A.
--->
+By Aug 3: Full Refund, reduced by the processing fee. 
+
+From Aug 4: No Refund
+
+Detail instruction can be founded at [registration page](https://asiacomb.kr/)
 
 For any inquiries regarding registration, please contact us at <asiacomb2026@ibs.re.kr>.
