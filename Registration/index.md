@@ -25,12 +25,9 @@ Accommodation is not included in the registration fee and should be arranged sep
 
 
 ## How to Register
-Register is currently closed because of technical issue. We apologize for the inconvenience and will open the registration as soon as possible. 
-<!--
 You can register [Here](https://asiacomb.kr/). Click the `New Register' butten and enter your information.
 
 Please note that the platform for registration is different from the one for abstract submission. You will need to create a separate account with the same email address if you submitted an abstract.
--->
 
 <!--
 To register for the conference, please fill out the registration form in [Indico](https://indico.ibs.re.kr/event/1150/) and make the payment according to the instructions provided on the form. You don't need to create an account on Indico to register, but having one may help you manage your registration more easily.
@@ -43,6 +40,6 @@ By Aug 3: Full refund minus a processing fee.
 
 From Aug 4: No refund.
 
-Detailed instructions can be founded at [registration page](https://asiacomb.kr/).
+Detailed instructions can be found at [registration page](https://asiacomb.kr/).
 
 For any inquiries regarding registration, please contact us at <asiacomb2026@ibs.re.kr>.

@@ -55,8 +55,7 @@ Please see [Submission](/Abstract_submission/) for more details.
 - Zhuo Wu (Universitat Politècnica de Catalunya)
 
 ### Registration
-Register is currently closed because of technical issue. We apologize for the inconvenience and will open the registration as soon as possible. 
-<!--Early registration starts. You can register at [Registration Page](https://asiacomb.kr/). The early registration deadline is *June 14, 2026*.   -->
+Early registration starts. You can register at [Registration Page](https://asiacomb.kr/). The early registration deadline is *June 14, 2026*.   
 
 Please see [Registration](/Registration/) for more details.
 
