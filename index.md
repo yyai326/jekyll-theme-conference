@@ -49,7 +49,7 @@ Please see [Submission](/Abstract_submission/) for more details.
 
 - Hong Liu (IBS ECOPRO, Chair)
 - Felix Christian Clemen (University of Victoria)
-- Seonghyuk Im (KAIST & IBS ECOPRO)
+- Seonghyuk Im (KIAS)
 - Zichao Dong (IBS ECOPRO)
 - Suyun Jiang (Jianghan University)
 - Zhuo Wu (Universitat Politècnica de Catalunya)
