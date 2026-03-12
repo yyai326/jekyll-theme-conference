@@ -33,10 +33,11 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 
 ### Recommended Accommodations
 
-T.B.A.
-
-
-
+* [Hotel Onoma](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/): A hotel located near Shinsegae Department Store. Hotel Onoma is roughly 10 minutes by walk from DCC. Prices for a standard room start at around 300,000 KRW per night.
+* [LOTTE City Hotel, Daejeon](https://www.lottehotel.com/daejeon-city/en): A hotel located near DCC. LOTTE city hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 180,000 KRW per night.
+* [ICC Hotel](http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG): A hotel located near DCC. ICC Hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 150,000 KRW per night.
+* [Toyoko Inn Daejeon Government Complex](https://www.toyoko-inn.com/korea/search/detail/00234/): A hotel located near the Daejeon Government Complex. Toyoko Inn is roughly 40 minutes by walk or 20 minutes by bus from DCC. Prices for a standard room start at around 80,000 KRW per night.
+* [I-Hotel](https://i-hotel.co.kr/): A hotel located near DCC. I-Hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 100,000 KRW per night.
 
 
 <!--You can adapt the design as well as the section shown on the map by copying the `assets/js/main.js` from the theme's repository and editing it. See also the subsection [Location / Room Overview](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#location--room-overview) section of the theme's README file.-->
