@@ -12,7 +12,7 @@ The inaugural conference of the ASIACOMB series, ASIACOMB2026, will be held in D
 
 ## Important Dates
 
-Abstract submission deadline: March 22, 2026   
+Abstract submission deadline: March 29, 2026   
 Notification of acceptance: April 26, 2026   
 Early registration deadline: June 14, 2026   
 Late registration deadline: August 14, 2026   
