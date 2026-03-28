@@ -24,7 +24,7 @@ Please note that when submitting your abstract, you will be required to click a 
 
 
 ## Important Dates
-Abstract submission deadline has been extended until March 29, 2026. 
+Abstract submission deadline has been extended until March 29, 2026 (23:59 KST, UTC+9). 
 Notification of acceptance: April 26, 2026   
 
 
