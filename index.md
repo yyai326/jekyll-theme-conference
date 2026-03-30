@@ -12,7 +12,7 @@ The inaugural conference of the ASIACOMB series, ASIACOMB2026, will be held in D
 
 ## Important Dates
 
-Abstract submission deadline: Abstract submission is closed. Thank you for your interest in ASIACOMB 2026. 
+Abstract submission deadline: Abstract submission is closed. Thank you for your interest in ASIACOMB 2026.    
 Notification of acceptance: April 26, 2026   
 Early registration deadline: June 14, 2026   
 Late registration deadline: August 14, 2026   
@@ -37,12 +37,7 @@ Nominations for the Prize should be sent to <asiacomb2026@ibs.re.kr>. Detail inf
 
 ### Call for Abstracts
 
-ASIACOMB invites submissions of abstracts for contributed talks on all areas of combinatorics.
-Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
-
-Please see [Submission](/Abstract_submission/) for more details.
-
-
+Abstract submission is closed. Thank you for your interest in ASIACOMB 2026. We look forward to seeing you at the conference!
 
 ### Organizers
 
