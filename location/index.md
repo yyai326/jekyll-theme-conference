@@ -41,8 +41,8 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 * [Hotel Onoma](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/): A hotel located near Shinsegae Department Store. Hotel Onoma is roughly 10 minutes by walk from DCC. Prices for a standard room start at around 300,000 KRW per night. 
     - The hotel provides a special discount for ASIACOMB 2026 participants.   
     - Special Conference Rate: 
-        - Business Deluxe: 253,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
-        - Deluxe Double: 286,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
+        - Business Deluxe: (8/24~28) 253,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
+        - Deluxe Double: (8/24~28) 286,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
     - These preferential rates are available until Monday, August 3rd. After this date, reservations will be subject to standard rates and availability. Cancellations made up to two days prior to arrival may be cancelled without penalty.
     - To make a reservation, please use the following link: [Hotel Onoma Reservation for ASIACOMB 2026](https://app.marriott.com/reslink?id=1774425182232&amp;key=GRP&amp;app=resvlink). If you do not use the above link, you will not be able to receive the special discount.
 * [LOTTE City Hotel, Daejeon](https://www.lottehotel.com/daejeon-city/en): A hotel located near DCC. LOTTE city hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 180,000 KRW per night.
