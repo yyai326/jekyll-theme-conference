@@ -18,10 +18,7 @@ ASIACOMB invites submissions of abstracts for 20~25-minute contributed talks on 
 Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
 
 ## Way of Submission
-Please submit your abstract via <span style="font-size: 20px; color: blue">[Indico](https://indico.ibs.re.kr/event/1150/)</span>. You will need to create an account on the Indico platform if you do not already have one. 
-
-Please note that when submitting your abstract, you will be required to click a microphone icon to indicate that who will be the presenting author for the talk.
-
+Submission is closed. Thank you for your interest in ASIACOMB 2026. We look forward to seeing you at the conference!
 
 ## Important Dates
 Abstract submission deadline has been extended until March 29, 2026 (23:59 KST, UTC+9). 
