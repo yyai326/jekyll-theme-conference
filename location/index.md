@@ -14,6 +14,11 @@ The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, S
 The DCC is located at 107 Expo-ro, Yuseong-gu, Daejeon, South Korea. For more information about the venue, please visit the [DCC official website](https://www.dcckorea.or.kr/eng/index.do).
 
 
+### Visa Information
+Participants from some countries may require a visa or apply for a [K-ETA (Korea Electronic Travel Authorization)](https://www.k-eta.go.kr/portal/newapply/index.do) to enter South Korea. We recommend checking the visa requirements for your country well in advance of the conference. 
+
+If you need an official invitation letter for visa application, please contact us at <asiacomb2026@ibs.re.kr>.
+
 ### Getting to Daejeon
 
 After arriving at Incheon International Airport (ICN), you can take one of the following options to reach Daejeon:
@@ -33,7 +38,13 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 
 ### Recommended Accommodations
 
-* [Hotel Onoma](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/): A hotel located near Shinsegae Department Store. Hotel Onoma is roughly 10 minutes by walk from DCC. Prices for a standard room start at around 300,000 KRW per night.
+* [Hotel Onoma](https://www.marriott.com/en-us/hotels/cjjak-hotel-onoma-daejeon-autograph-collection/overview/): A hotel located near Shinsegae Department Store. Hotel Onoma is roughly 10 minutes by walk from DCC. Prices for a standard room start at around 300,000 KRW per night. 
+    - The hotel provides a special discount for ASIACOMB 2026 participants.   
+    - Special Conference Rate: 
+        - Business Deluxe: 253,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
+        - Deluxe Double: 286,000 KRW per night (All rates are exclusive of 10% VAT and do not include breakfast)
+    - These preferential rates are available until Monday, August 3rd. After this date, reservations will be subject to standard rates and availability. Cancellations made up to two days prior to arrival may be cancelled without penalty.
+    - To make a reservation, please use the following link: [Hotel Onoma Reservation for ASIACOMB 2026](https://app.marriott.com/reslink?id=1774425182232&amp;key=GRP&amp;app=resvlink). If you do not use the above link, you will not be able to receive the special discount.
 * [LOTTE City Hotel, Daejeon](https://www.lottehotel.com/daejeon-city/en): A hotel located near DCC. LOTTE city hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 180,000 KRW per night.
 * [ICC Hotel](http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG): A hotel located near DCC. ICC Hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 150,000 KRW per night.
 * [Toyoko Inn Daejeon Government Complex](https://www.toyoko-inn.com/korea/search/detail/00234/): A hotel located near the Daejeon Government Complex. Toyoko Inn is roughly 40 minutes by walk or 20 minutes by bus from DCC. Prices for a standard room start at around 80,000 KRW per night.
