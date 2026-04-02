@@ -32,7 +32,7 @@ Nominations for the Prize should be sent to <asiacomb2026@ibs.re.kr>. Detail inf
 - Bojan Mohar (Simon Fraser University)
 - Greta Panova (University of Southern California)
 - Alexander Postnikov (MIT)
-- Van Vu (Yale University)
+- Van Vu (University of Hong Kong)
 - Joshua Zahl (Nankai University)
 
 ### Call for Abstracts
