@@ -84,6 +84,8 @@ conference:
         relative_url: /location/
       - name: Committee
         relative_url: /committee/
+      - name: Visa
+        relative_url: /visa/
 
 #      - name: Previous Editions
 #        menu:
