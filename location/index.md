@@ -14,11 +14,6 @@ The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, S
 The DCC is located at 107 Expo-ro, Yuseong-gu, Daejeon, South Korea. For more information about the venue, please visit the [DCC official website](https://www.dcckorea.or.kr/eng/index.do).
 
 
-### Visa Information
-Participants from some countries may require a visa or apply for a [K-ETA (Korea Electronic Travel Authorization)](https://www.k-eta.go.kr/portal/newapply/index.do) to enter South Korea. We recommend checking the visa requirements for your country well in advance of the conference. 
-
-If you need an official invitation letter for visa application, please contact us at <asiacomb2026@ibs.re.kr>.
-
 ### Getting to Daejeon
 
 After arriving at Incheon International Airport (ICN), you can take one of the following options to reach Daejeon:
