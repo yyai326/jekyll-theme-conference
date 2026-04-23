@@ -67,7 +67,7 @@ For any inquiries, please contact us at <asiacomb2026@ibs.re.kr>.
 
 ### Sponsors
 
-![lh](/assets/images/ECOPRO_logo.png) ![lh](/assets/images/IBS_logo.png) <img src="/assets/images/daejeon_tourism_organization.png" alt="lh" style="height: 48px; width: auto; vertical-align: middle;" />
+![lh](/assets/images/ECOPRO_logo.png) ![lh](/assets/images/IBS_logo.png) <img src="/assets/images/daejeon_tourism_organization.png" alt="lh" style="height: 100px; width: auto; vertical-align: middle;" />
 
 
 
