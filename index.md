@@ -20,7 +20,6 @@ Conference: August 24-28, 2026
  
 Nominations for the Asian Prize for Combinatorics: April 30, 2026
 
-Nominations for the Prize should be sent to <asiacomb2026@ibs.re.kr>. Detail information about the Prize can be found at [here](/Prize/).
 
 
 ## Plenary Speakers
