@@ -2,8 +2,6 @@
 layout: default
 ---
 
-Detailed program information is organized below. Shared events span all rooms, and contributed talks are separated by room.
-
 <style>
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
