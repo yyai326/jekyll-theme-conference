@@ -36,6 +36,11 @@ layout: default
 		font-weight: 600;
 	}
 
+	.program-grid .registration-slot {
+		background-color: #e2e6ea;
+		font-weight: 600;
+	}
+
 	.program-grid .talk-slot {
 		vertical-align: top;
 		text-align: left;
@@ -54,8 +59,8 @@ layout: default
 	}
 
 	.program-grid .shared-talk-slot {
-		vertical-align: top;
-		text-align: left;
+		vertical-align: middle;
+		text-align: center;
 	}
 
 	.program-grid .slot-label {
@@ -75,6 +80,32 @@ layout: default
 	}
 </style>
 
+## Sunday (8/23)
+
+<div class="program-grid-wrapper">
+	<div class="table-responsive">
+		<table class="table table-bordered program-grid">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">Time</th>
+					<th scope="col">Room A</th>
+					<th scope="col">Room B</th>
+					<th scope="col">Room C</th>
+					<th scope="col">Room D</th>
+					<th scope="col">Room E</th>
+					<th scope="col">Room F</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row" class="time-slot">16:00-20:00</th>
+					<td colspan="6" class="registration-slot">Registration</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
 ## Monday (8/24)
 
 <div class="program-grid-wrapper">
@@ -92,6 +123,10 @@ layout: default
 				</tr>
 			</thead>
 			<tbody>
+				<tr>
+					<th scope="row" class="time-slot">08:00-09:00</th>
+					<td colspan="6" class="registration-slot">Registration</td>
+				</tr>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
