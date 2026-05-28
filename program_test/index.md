@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Detailed program information will be updated below. Replace the placeholder session titles, room names, and times with the final program as needed.
+Detailed program information is organized below. Shared events span all rooms, and contributed talks are separated by room.
 
 <style>
 	.program-grid-wrapper {
@@ -57,55 +57,78 @@ Detailed program information will be updated below. Replace the placeholder sess
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">09:00-09:30</th>
-					<td colspan="6" class="shared-slot">Registration</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">09:30-10:20</th>
-					<td colspan="6" class="highlight-slot">Opening Ceremony / Invited Talk</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:20-10:40</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:40-12:00</th>
-					<td>Parallel Session A1</td>
-					<td>Parallel Session B1</td>
-					<td>Parallel Session C1</td>
-					<td>Parallel Session D1</td>
-					<td>Parallel Session E1</td>
-					<td>Parallel Session F1</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">12:00-13:30</th>
-					<td colspan="6" class="shared-slot">Lunch Break</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">13:30-14:20</th>
+					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:30-15:50</th>
-					<td>Parallel Session A2</td>
-					<td>Parallel Session B2</td>
-					<td>Parallel Session C2</td>
-					<td>Parallel Session D2</td>
-					<td>Parallel Session E2</td>
-					<td>Parallel Session F2</td>
+					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td>Contributed Talk 1A</td>
+					<td>Contributed Talk 1B</td>
+					<td>Contributed Talk 1C</td>
+					<td>Contributed Talk 1D</td>
+					<td>Contributed Talk 1E</td>
+					<td>Contributed Talk 1F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">15:50-16:10</th>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:10-17:30</th>
-					<td>Parallel Session A3</td>
-					<td>Parallel Session B3</td>
-					<td>Parallel Session C3</td>
-					<td>Parallel Session D3</td>
-					<td>Parallel Session E3</td>
-					<td>Parallel Session F3</td>
+					<th scope="row" class="time-slot">11:00-11:30</th>
+					<td>Contributed Talk 2A</td>
+					<td>Contributed Talk 2B</td>
+					<td>Contributed Talk 2C</td>
+					<td>Contributed Talk 2D</td>
+					<td>Contributed Talk 2E</td>
+					<td>Contributed Talk 2F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">11:30-12:00</th>
+					<td>Contributed Talk 3A</td>
+					<td>Contributed Talk 3B</td>
+					<td>Contributed Talk 3C</td>
+					<td>Contributed Talk 3D</td>
+					<td>Contributed Talk 3E</td>
+					<td>Contributed Talk 3F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">12:00-14:30</th>
+					<td colspan="6" class="shared-slot">Lunch Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">14:30-15:30</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td>Contributed Talk 4A</td>
+					<td>Contributed Talk 4B</td>
+					<td>Contributed Talk 4C</td>
+					<td>Contributed Talk 4D</td>
+					<td>Contributed Talk 4E</td>
+					<td>Contributed Talk 4F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:30-17:00</th>
+					<td>Contributed Talk 5A</td>
+					<td>Contributed Talk 5B</td>
+					<td>Contributed Talk 5C</td>
+					<td>Contributed Talk 5D</td>
+					<td>Contributed Talk 5E</td>
+					<td>Contributed Talk 5F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">17:00-17:30</th>
+					<td>Contributed Talk 6A</td>
+					<td>Contributed Talk 6B</td>
+					<td>Contributed Talk 6C</td>
+					<td>Contributed Talk 6D</td>
+					<td>Contributed Talk 6E</td>
+					<td>Contributed Talk 6F</td>
 				</tr>
 			</tbody>
 		</table>
@@ -130,51 +153,78 @@ Detailed program information will be updated below. Replace the placeholder sess
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">09:00-09:50</th>
-					<td colspan="6" class="highlight-slot">Invited Talk</td>
+					<th scope="row" class="time-slot">09:00-10:00</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-11:20</th>
-					<td>Parallel Session A4</td>
-					<td>Parallel Session B4</td>
-					<td>Parallel Session C4</td>
-					<td>Parallel Session D4</td>
-					<td>Parallel Session E4</td>
-					<td>Parallel Session F4</td>
+					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td>Contributed Talk 1A</td>
+					<td>Contributed Talk 1B</td>
+					<td>Contributed Talk 1C</td>
+					<td>Contributed Talk 1D</td>
+					<td>Contributed Talk 1E</td>
+					<td>Contributed Talk 1F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:20-11:40</th>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:40-13:00</th>
-					<td>Parallel Session A5</td>
-					<td>Parallel Session B5</td>
-					<td>Parallel Session C5</td>
-					<td>Parallel Session D5</td>
-					<td>Parallel Session E5</td>
-					<td>Parallel Session F5</td>
+					<th scope="row" class="time-slot">11:00-11:30</th>
+					<td>Contributed Talk 2A</td>
+					<td>Contributed Talk 2B</td>
+					<td>Contributed Talk 2C</td>
+					<td>Contributed Talk 2D</td>
+					<td>Contributed Talk 2E</td>
+					<td>Contributed Talk 2F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">13:00-14:20</th>
+					<th scope="row" class="time-slot">11:30-12:00</th>
+					<td>Contributed Talk 3A</td>
+					<td>Contributed Talk 3B</td>
+					<td>Contributed Talk 3C</td>
+					<td>Contributed Talk 3D</td>
+					<td>Contributed Talk 3E</td>
+					<td>Contributed Talk 3F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:20-15:10</th>
-					<td colspan="6" class="highlight-slot">Invited Talk</td>
+					<th scope="row" class="time-slot">14:30-15:30</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">15:20-16:40</th>
-					<td>Parallel Session A6</td>
-					<td>Parallel Session B6</td>
-					<td>Parallel Session C6</td>
-					<td>Parallel Session D6</td>
-					<td>Parallel Session E6</td>
-					<td>Parallel Session F6</td>
+					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td>Contributed Talk 4A</td>
+					<td>Contributed Talk 4B</td>
+					<td>Contributed Talk 4C</td>
+					<td>Contributed Talk 4D</td>
+					<td>Contributed Talk 4E</td>
+					<td>Contributed Talk 4F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:40-17:00</th>
-					<td colspan="6" class="shared-slot">Poster / Coffee</td>
+					<th scope="row" class="time-slot">16:00-16:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:30-17:00</th>
+					<td>Contributed Talk 5A</td>
+					<td>Contributed Talk 5B</td>
+					<td>Contributed Talk 5C</td>
+					<td>Contributed Talk 5D</td>
+					<td>Contributed Talk 5E</td>
+					<td>Contributed Talk 5F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">17:00-17:30</th>
+					<td>Contributed Talk 6A</td>
+					<td>Contributed Talk 6B</td>
+					<td>Contributed Talk 6C</td>
+					<td>Contributed Talk 6D</td>
+					<td>Contributed Talk 6E</td>
+					<td>Contributed Talk 6F</td>
 				</tr>
 			</tbody>
 		</table>
@@ -199,42 +249,55 @@ Detailed program information will be updated below. Replace the placeholder sess
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">09:00-09:50</th>
-					<td colspan="6" class="highlight-slot">Invited Talk</td>
+					<th scope="row" class="time-slot">09:00-10:00</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-11:20</th>
-					<td>Parallel Session A7</td>
-					<td>Parallel Session B7</td>
-					<td>Parallel Session C7</td>
-					<td>Parallel Session D7</td>
-					<td>Parallel Session E7</td>
-					<td>Parallel Session F7</td>
+					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td>Contributed Talk 1A</td>
+					<td>Contributed Talk 1B</td>
+					<td>Contributed Talk 1C</td>
+					<td>Contributed Talk 1D</td>
+					<td>Contributed Talk 1E</td>
+					<td>Contributed Talk 1F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:20-11:40</th>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:40-13:00</th>
-					<td>Parallel Session A8</td>
-					<td>Parallel Session B8</td>
-					<td>Parallel Session C8</td>
-					<td>Parallel Session D8</td>
-					<td>Parallel Session E8</td>
-					<td>Parallel Session F8</td>
+					<th scope="row" class="time-slot">11:00-11:30</th>
+					<td>Contributed Talk 2A</td>
+					<td>Contributed Talk 2B</td>
+					<td>Contributed Talk 2C</td>
+					<td>Contributed Talk 2D</td>
+					<td>Contributed Talk 2E</td>
+					<td>Contributed Talk 2F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">13:00-14:20</th>
+					<th scope="row" class="time-slot">11:30-12:00</th>
+					<td>Contributed Talk 3A</td>
+					<td>Contributed Talk 3B</td>
+					<td>Contributed Talk 3C</td>
+					<td>Contributed Talk 3D</td>
+					<td>Contributed Talk 3E</td>
+					<td>Contributed Talk 3F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:20-15:40</th>
-					<td colspan="6" class="highlight-slot">Excursion / Special Event</td>
+					<th scope="row" class="time-slot">14:30-15:30</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">18:00-20:00</th>
-					<td colspan="6" class="shared-slot">Conference Banquet</td>
+					<th scope="row" class="time-slot">15:30-16:30</th>
+					<td colspan="6" class="highlight-slot">Prize Winner Talk</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:30-17:30</th>
+					<td colspan="6" class="shared-slot">Free Discussion Time</td>
 				</tr>
 			</tbody>
 		</table>
@@ -259,47 +322,78 @@ Detailed program information will be updated below. Replace the placeholder sess
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">09:00-09:50</th>
-					<td colspan="6" class="highlight-slot">Invited Talk</td>
+					<th scope="row" class="time-slot">09:00-10:00</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-11:20</th>
-					<td>Parallel Session A9</td>
-					<td>Parallel Session B9</td>
-					<td>Parallel Session C9</td>
-					<td>Parallel Session D9</td>
-					<td>Parallel Session E9</td>
-					<td>Parallel Session F9</td>
+					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td>Contributed Talk 1A</td>
+					<td>Contributed Talk 1B</td>
+					<td>Contributed Talk 1C</td>
+					<td>Contributed Talk 1D</td>
+					<td>Contributed Talk 1E</td>
+					<td>Contributed Talk 1F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:20-11:40</th>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:40-13:00</th>
-					<td>Parallel Session A10</td>
-					<td>Parallel Session B10</td>
-					<td>Parallel Session C10</td>
-					<td>Parallel Session D10</td>
-					<td>Parallel Session E10</td>
-					<td>Parallel Session F10</td>
+					<th scope="row" class="time-slot">11:00-11:30</th>
+					<td>Contributed Talk 2A</td>
+					<td>Contributed Talk 2B</td>
+					<td>Contributed Talk 2C</td>
+					<td>Contributed Talk 2D</td>
+					<td>Contributed Talk 2E</td>
+					<td>Contributed Talk 2F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">13:00-14:20</th>
+					<th scope="row" class="time-slot">11:30-12:00</th>
+					<td>Contributed Talk 3A</td>
+					<td>Contributed Talk 3B</td>
+					<td>Contributed Talk 3C</td>
+					<td>Contributed Talk 3D</td>
+					<td>Contributed Talk 3E</td>
+					<td>Contributed Talk 3F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:20-15:10</th>
-					<td colspan="6" class="highlight-slot">Panel Discussion</td>
+					<th scope="row" class="time-slot">14:30-15:30</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">15:20-16:40</th>
-					<td>Parallel Session A11</td>
-					<td>Parallel Session B11</td>
-					<td>Parallel Session C11</td>
-					<td>Parallel Session D11</td>
-					<td>Parallel Session E11</td>
-					<td>Parallel Session F11</td>
+					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td>Contributed Talk 4A</td>
+					<td>Contributed Talk 4B</td>
+					<td>Contributed Talk 4C</td>
+					<td>Contributed Talk 4D</td>
+					<td>Contributed Talk 4E</td>
+					<td>Contributed Talk 4F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:30-17:00</th>
+					<td>Contributed Talk 5A</td>
+					<td>Contributed Talk 5B</td>
+					<td>Contributed Talk 5C</td>
+					<td>Contributed Talk 5D</td>
+					<td>Contributed Talk 5E</td>
+					<td>Contributed Talk 5F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">17:00-17:30</th>
+					<td>Contributed Talk 6A</td>
+					<td>Contributed Talk 6B</td>
+					<td>Contributed Talk 6C</td>
+					<td>Contributed Talk 6D</td>
+					<td>Contributed Talk 6E</td>
+					<td>Contributed Talk 6F</td>
 				</tr>
 			</tbody>
 		</table>
@@ -324,38 +418,78 @@ Detailed program information will be updated below. Replace the placeholder sess
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">09:00-09:50</th>
-					<td colspan="6" class="highlight-slot">Invited Talk</td>
+					<th scope="row" class="time-slot">09:00-10:00</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-11:20</th>
-					<td>Parallel Session A12</td>
-					<td>Parallel Session B12</td>
-					<td>Parallel Session C12</td>
-					<td>Parallel Session D12</td>
-					<td>Parallel Session E12</td>
-					<td>Parallel Session F12</td>
+					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td>Contributed Talk 1A</td>
+					<td>Contributed Talk 1B</td>
+					<td>Contributed Talk 1C</td>
+					<td>Contributed Talk 1D</td>
+					<td>Contributed Talk 1E</td>
+					<td>Contributed Talk 1F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:20-11:40</th>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">11:40-13:00</th>
-					<td>Parallel Session A13</td>
-					<td>Parallel Session B13</td>
-					<td>Parallel Session C13</td>
-					<td>Parallel Session D13</td>
-					<td>Parallel Session E13</td>
-					<td>Parallel Session F13</td>
+					<th scope="row" class="time-slot">11:00-11:30</th>
+					<td>Contributed Talk 2A</td>
+					<td>Contributed Talk 2B</td>
+					<td>Contributed Talk 2C</td>
+					<td>Contributed Talk 2D</td>
+					<td>Contributed Talk 2E</td>
+					<td>Contributed Talk 2F</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">13:00-14:20</th>
+					<th scope="row" class="time-slot">11:30-12:00</th>
+					<td>Contributed Talk 3A</td>
+					<td>Contributed Talk 3B</td>
+					<td>Contributed Talk 3C</td>
+					<td>Contributed Talk 3D</td>
+					<td>Contributed Talk 3E</td>
+					<td>Contributed Talk 3F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:20-15:00</th>
-					<td colspan="6" class="highlight-slot">Closing Remarks / Awards</td>
+					<th scope="row" class="time-slot">14:30-15:30</th>
+					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td>Contributed Talk 4A</td>
+					<td>Contributed Talk 4B</td>
+					<td>Contributed Talk 4C</td>
+					<td>Contributed Talk 4D</td>
+					<td>Contributed Talk 4E</td>
+					<td>Contributed Talk 4F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:30-17:00</th>
+					<td>Contributed Talk 5A</td>
+					<td>Contributed Talk 5B</td>
+					<td>Contributed Talk 5C</td>
+					<td>Contributed Talk 5D</td>
+					<td>Contributed Talk 5E</td>
+					<td>Contributed Talk 5F</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">17:00-17:30</th>
+					<td>Contributed Talk 6A</td>
+					<td>Contributed Talk 6B</td>
+					<td>Contributed Talk 6C</td>
+					<td>Contributed Talk 6D</td>
+					<td>Contributed Talk 6E</td>
+					<td>Contributed Talk 6F</td>
 				</tr>
 			</tbody>
 		</table>
