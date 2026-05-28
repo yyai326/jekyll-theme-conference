@@ -53,6 +53,23 @@ layout: default
 		font-size: 0.92em;
 	}
 
+	.program-grid .shared-talk-slot {
+		vertical-align: top;
+		text-align: left;
+	}
+
+	.program-grid .slot-label {
+		display: block;
+		margin-bottom: 0.2rem;
+		font-weight: 700;
+	}
+
+	.program-grid .slot-meta {
+		display: block;
+		font-size: 0.92em;
+		font-weight: 500;
+	}
+
 	.program-grid .talk-slot.text-muted {
 		text-align: center;
 	}
@@ -77,7 +94,11 @@ layout: default
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
@@ -116,7 +137,11 @@ layout: default
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
@@ -173,7 +198,11 @@ layout: default
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
@@ -212,7 +241,11 @@ layout: default
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
@@ -269,7 +302,11 @@ layout: default
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
@@ -308,11 +345,19 @@ layout: default
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:30</th>
-					<td colspan="6" class="highlight-slot">Prize Winner Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Prize Winner Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:30</th>
@@ -342,7 +387,11 @@ layout: default
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
@@ -381,7 +430,11 @@ layout: default
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
@@ -438,7 +491,11 @@ layout: default
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
@@ -477,7 +534,11 @@ layout: default
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot">Plenary Talk</td>
+					<td colspan="6" class="highlight-slot shared-talk-slot">
+						<strong class="slot-label">Plenary Talk</strong>
+						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Title: TBA</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
@@ -486,7 +547,7 @@ layout: default
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
 					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdos-Posa theorem</span></td>
 					<td class="talk-slot"><strong>Ingyu Baek</strong><span class="talk-title">Improved bounds for loose odd cycle densities</span></td>
-					<td class="talk-slot text-muted">TBA</td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
@@ -499,7 +560,7 @@ layout: default
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
 					<td class="talk-slot"><strong>Kathie Cameron</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
 					<td class="talk-slot"><strong>Xinqi Huang</strong><span class="talk-title">Accumulation Points of Homomorphism Thresholds</span></td>
-					<td class="talk-slot text-muted">TBA</td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
@@ -508,7 +569,7 @@ layout: default
 					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
 					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
 					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
-					<td class="talk-slot text-muted">TBA</td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 			</tbody>
 		</table>
