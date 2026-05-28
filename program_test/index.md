@@ -197,14 +197,14 @@ math: true
 					<td class="talk-slot"><strong>Mike Cummings</strong><span class="talk-title">Webs and Smooth Components of Two Column Springer Fibers</span></td>
 					<td class="talk-slot"><strong>Matías Azócar Carvajal</strong><span class="talk-title">Canonical Ramsey theorem for graphs with clean intersections</span></td>
 					<td class="talk-slot"><strong>Rongxing Xu</strong><span class="talk-title">Partitioning triangle-free planar graphs into a forest and a linear forest</span></td>
-					<td class="talk-slot"><strong>Sonwabile Mafunda</strong><span class="talk-title">On the conjecture of beineke and henning on independent distance dominating sets</span></td>
+					<td class="talk-slot"><strong>Sonwabile Mafunda</strong><span class="talk-title">On the conjecture of Beineke and Henning on independent distance dominating sets</span></td>
 					<td class="talk-slot"><strong>Yifan Jing</strong><span class="talk-title">Sharp quantitative stability in Hilbert spaces</span></td>
 					<td class="talk-slot"><strong>Fan Chang</strong><span class="talk-title">Functional Inequalities and Random Walks on Increasing Subsets of the Hypercube</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Yi-Hau Kao</strong><span class="talk-title">Proving Guo's Conjecture on Richardson Tableaux</span></td>
-					<td class="talk-slot"><strong>Zion Hefty</strong><span class="talk-title">Improving R(3,k) in just two bites</span></td>
+					<td class="talk-slot"><strong>Zion Hefty</strong><span class="talk-title">Improving $R(3,k)$ in just two bites</span></td>
 					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
 					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
@@ -243,7 +243,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td class="talk-slot"><strong>Yulin Peng</strong><span class="talk-title">Coxeter Condorcet domains and Coxeter root posets</span></td>
-					<td class="talk-slot"><strong>Jing Wang</strong><span class="talk-title">Spectral Turan Problems for Expansion Hypergraphs</span></td>
+					<td class="talk-slot"><strong>Jing Wang</strong><span class="talk-title">Spectral Turán Problems for Expansion Hypergraphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clow</strong><span class="talk-title">Small Quasi-Kernel in Digraphs with Bounded Out-Degree</span></td>
 					<td class="talk-slot"><strong>Chenglong Deng</strong><span class="talk-title">List colouring of toroidal grids</span></td>
 					<td class="talk-slot"><strong>Jie Wang</strong><span class="talk-title">Lower bound theorems on the numbers of faces of polytopes with at most $3d-1$ vertices</span></td>
@@ -286,7 +286,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices $m \times 2$ and $m \times 3$ are not Schur positive</span></td>
-					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative orderd Turan densities</span></td>
+					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative orderd Turán densities</span></td>
 					<td class="talk-slot"><strong>Hikaru Yokoi</strong><span class="talk-title">Self-duality of pathwidth for polyhedral embeddings</span></td>
 					<td class="talk-slot"><strong>Cyril Pujol</strong><span class="talk-title">Winding number and circular coloring</span></td>
 					<td class="talk-slot"><strong>Ananth Ravi</strong><span class="talk-title">The chromatic number of finite projective spaces</span></td>
@@ -579,7 +579,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
-					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turan problems</span></td>
+					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turán problems</span></td>
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
 					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdős-Posa theorem</span></td>
 					<td class="talk-slot"><strong>Ingyu Baek</strong><span class="talk-title">Improved bounds for loose odd cycle densities</span></td>
