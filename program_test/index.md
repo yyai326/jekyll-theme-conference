@@ -131,7 +131,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Mihyun Kang</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -174,7 +174,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Anton Bernshteyn</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -235,7 +235,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Van Vu</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -278,7 +278,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Joshua Zahl</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -339,7 +339,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Alexander Postnikov</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -382,7 +382,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Jaehoon Kim</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -424,7 +424,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Allen Kuntson</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -467,7 +467,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Jie Han</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -528,7 +528,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Bojan Mohar</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -571,7 +571,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
+						<span class="slot-meta">Name: Greta Panova</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
