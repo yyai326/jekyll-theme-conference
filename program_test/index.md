@@ -1,5 +1,6 @@
 ---
 layout: default
+math: true
 ---
 
 <style>
@@ -131,7 +132,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Mihyun Kang</span>
+						<span class="slot-meta">Mihyun Kang</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -152,7 +153,7 @@ layout: default
 					<th scope="row" class="time-slot">11:00-11:30</th>
 					<td class="talk-slot"><strong>Eunjeong Lee</strong><span class="talk-title">Intersections of Schubert varieties and smooth T-stable subvarieties of flag varieties</span></td>
 					<td class="talk-slot"><strong>Nicolás Sanhueza Matamala</strong><span class="talk-title">Optimal and efficient partite decompositions of hypergraphs</span></td>
-					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in 3/2-tough maximial planar graphs</span></td>
+					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in $3/2$-tough maximial planar graphs</span></td>
 					<td class="talk-slot"><strong>Ligang Jin</strong><span class="talk-title">Coloring of generalized signed graphs and its application to DP coloring</span></td>
 					<td class="talk-slot"><strong>Laurentiu Ploscaru</strong><span class="talk-title">Many Antipodal Pairs Force many Neighboring Pairs</span></td>
 					<td class="talk-slot"><strong>Semin Yoo</strong><span class="talk-title">Multiplicative irreducibility of shifted multiplicative subgroups</span></td>
@@ -174,7 +175,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Anton Bernshteyn</span>
+						<span class="slot-meta">Anton Bernshteyn</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -235,7 +236,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Van Vu</span>
+						<span class="slot-meta">Van Vu</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -245,7 +246,7 @@ layout: default
 					<td class="talk-slot"><strong>Jing Wang</strong><span class="talk-title">Spectral Turan Problems for Expansion Hypergraphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clow</strong><span class="talk-title">Small Quasi-Kernel in Digraphs with Bounded Out-Degree</span></td>
 					<td class="talk-slot"><strong>Chenglong Deng</strong><span class="talk-title">List colouring of toroidal grids</span></td>
-					<td class="talk-slot"><strong>Jie Wang</strong><span class="talk-title">Lower bound theorems on the numbers of faces of polytopes with at most 3d-1 vertices</span></td>
+					<td class="talk-slot"><strong>Jie Wang</strong><span class="talk-title">Lower bound theorems on the numbers of faces of polytopes with at most $3d-1$ vertices</span></td>
 					<td class="talk-slot"><strong>Alexander Gavrilyuk</strong><span class="talk-title">Intersecting families of spanning trees in complete bipartite graphs</span></td>
 				</tr>
 				<tr>
@@ -266,7 +267,7 @@ layout: default
 					<td class="talk-slot"><strong>Gaston Burrull</strong><span class="talk-title">On the Classification of Isomorphisms between Affine Bruhat Intervals</span></td>
 					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
 					<td class="talk-slot"><strong>Bartlomiej Kielak</strong><span class="talk-title">Digraphs with density maximized by transitive tournaments</span></td>
-					<td class="talk-slot"><strong>Xiaolan Hu</strong><span class="talk-title">Planar graphs of odd girth 7 are fractional 14 5-colorable</span></td>
+					<td class="talk-slot"><strong>Xiaolan Hu</strong><span class="talk-title">Planar graphs of odd girth 7 are fractional $14/5$-colorable</span></td>
 					<td class="talk-slot"><strong>Mangaldeep Saha</strong><span class="talk-title">Normal 4-pseudomanifolds with a relative 2-skeleton</span></td>
 					<td class="talk-slot"><strong>Yetong Sha</strong><span class="talk-title">Spanning trees of bounded degree in random geometric graphs</span></td>
 				</tr>
@@ -278,13 +279,13 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Joshua Zahl</span>
+						<span class="slot-meta">Joshua Zahl</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices m x 2 and m x 3 are not Schur positive</span></td>
+					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices $m \times 2$ and $m \times 3$ are not Schur positive</span></td>
 					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative orderd Turan densities</span></td>
 					<td class="talk-slot"><strong>Hikaru Yokoi</strong><span class="talk-title">Self-duality of pathwidth for polyhedral embeddings</span></td>
 					<td class="talk-slot"><strong>Cyril Pujol</strong><span class="talk-title">Winding number and circular coloring</span></td>
@@ -339,7 +340,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Alexander Postnikov</span>
+						<span class="slot-meta">Alexander Postnikov</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -382,7 +383,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Jaehoon Kim</span>
+						<span class="slot-meta">Jaehoon Kim</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -424,7 +425,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Allen Kuntson</span>
+						<span class="slot-meta">Allen Kuntson</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -432,7 +433,7 @@ layout: default
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td class="talk-slot"><strong>Sen-Peng Eu</strong><span class="talk-title">On Ternary Trees and Fighting Fish</span></td>
 					<td class="talk-slot"><strong>Chenyang Zhang</strong><span class="talk-title">Sharp bounds for uniform union-free hypergraphs</span></td>
-					<td class="talk-slot"><strong>Masahiro Sanka</strong><span class="talk-title">Hamiltonicity of P2 u kP1-free graphs with many vertices</span></td>
+					<td class="talk-slot"><strong>Masahiro Sanka</strong><span class="talk-title">Hamiltonicity of $P_2 \cup kP_1$-free graphs with many vertices</span></td>
 					<td class="talk-slot"><strong>Xujun Liu</strong><span class="talk-title">Between proper and square colorings of sparse graphs</span></td>
 					<td class="talk-slot"><strong>Shohei Satake</strong><span class="talk-title">On spectrally indistinguishable pseudorandom graphs</span></td>
 					<td class="talk-slot"><strong>Attila Sali</strong><span class="talk-title">More Shattering News</span></td>
@@ -467,7 +468,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Jie Han</span>
+						<span class="slot-meta">Jie Han</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -528,7 +529,7 @@ layout: default
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Bojan Mohar</span>
+						<span class="slot-meta">Bojan Mohar</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -558,9 +559,9 @@ layout: default
 					<th scope="row" class="time-slot">11:30-12:00</th>
 					<td class="talk-slot"><strong>Maryam Mohammadi Yekta</strong><span class="talk-title">A lower bound for the coefficients of denormalized Lorentzian Laurent series and applications</span></td>
 					<td class="talk-slot"><strong>Donglei Yang</strong><span class="talk-title">Packing 4-cliques in edge-weighted graphs</span></td>
-					<td class="talk-slot"><strong>Takahiro Ueoro</strong><span class="talk-title">On graphs without cycles of length 0 modulo 3 or 4 modulo 6</span></td>
-					<td class="talk-slot"><strong>Luis Kuffner</strong><span class="talk-title">Homomorphism bounds for $(K_4,-)$-minor-free signed graphs of negative girth k</span></td>
-					<td class="talk-slot"><strong>Nikolai Terekhov</strong><span class="talk-title">On the problem of Füredi concerning (k,L)-systems</span></td>
+					<td class="talk-slot"><strong>Takahiro Ueoro</strong><span class="talk-title">On graphs without cycles of length $0 \bmod 3$ or $4 \bmod 6$</span></td>
+					<td class="talk-slot"><strong>Luis Kuffner</strong><span class="talk-title">Homomorphism bounds for $(K_4,-)$-minor-free signed graphs of negative girth $k$</span></td>
+					<td class="talk-slot"><strong>Nikolai Terekhov</strong><span class="talk-title">On the problem of Füredi concerning $(k, L)$-systems</span></td>
 					<td class="talk-slot"><strong>Florian Lehner</strong><span class="talk-title">Three Cops Win on the Torus (even if only two can move at a time)</span></td>
 				</tr>
 				<tr>
@@ -571,7 +572,7 @@ layout: default
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Name: Greta Panova</span>
+						<span class="slot-meta">Greta Panova</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
