@@ -308,7 +308,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
-					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdos-Sós Problem</span></td>
+					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
 					<td class="talk-slot"><strong>Richard Lang</strong><span class="talk-title">Spanning components and surfaces under minimum vertex degree</span></td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
 					<td class="talk-slot"><strong>Lukas Klawuhn</strong><span class="talk-title">Designs of Perfect Matchings</span></td>
@@ -369,7 +369,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
 					<td class="talk-slot"><strong>Minho Song</strong><span class="talk-title">Deograms and their links to rational Catalan objects</span></td>
-					<td class="talk-slot"><strong>Yulin Yang</strong><span class="talk-title">An Erdos matching conjecture for vector spaces</span></td>
+					<td class="talk-slot"><strong>Yulin Yang</strong><span class="talk-title">An Erdős matching conjecture for vector spaces</span></td>
 					<td class="talk-slot"><strong>Tianjiao Dai</strong><span class="talk-title">An exact Ore-degree condition for Hamilton cycles in oriented graphs</span></td>
 					<td class="talk-slot"><strong>Kenta Ozeki</strong><span class="talk-title">Odd edge colorings of graphs with high connectivity</span></td>
 					<td class="talk-slot"><strong>Dohyeon Lee</strong><span class="talk-title">Helly-type Theorems for Multiple Piercing</span></td>
@@ -475,7 +475,7 @@ math: true
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Hau-Wen Huang</strong><span class="talk-title">Odd graphs and a skew group ring</span></td>
-					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdos-Rogers function on hypergraphs</span></td>
+					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
@@ -500,7 +500,7 @@ math: true
 					<td class="talk-slot"><strong>Laihao Ding</strong><span class="talk-title">Vanishing orders and zero degree Turán densities</span></td>
 					<td class="talk-slot"><strong>Jacob Stegemann</strong><span class="talk-title">A duality theorem for infinite tree-width</span></td>
 					<td class="talk-slot"><strong>Yangyan Gu</strong><span class="talk-title">Online list version of Hadwiger's conjecture</span></td>
-					<td class="talk-slot"><strong>Georgy Sokolov</strong><span class="talk-title">On the Erdos-Kleitman problem</span></td>
+					<td class="talk-slot"><strong>Georgy Sokolov</strong><span class="talk-title">On the Erdős-Kleitman problem</span></td>
 					<td class="talk-slot"><strong>Ryota Masubara</strong><span class="talk-title">On bipartite holes and k-leaf-connectedness</span></td>
 				</tr>
 			</tbody>
@@ -581,7 +581,7 @@ math: true
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
 					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turan problems</span></td>
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
-					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdos-Posa theorem</span></td>
+					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdős-Posa theorem</span></td>
 					<td class="talk-slot"><strong>Ingyu Baek</strong><span class="talk-title">Improved bounds for loose odd cycle densities</span></td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
