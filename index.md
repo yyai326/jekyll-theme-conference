@@ -28,7 +28,7 @@ Nominations for the Asian Prize for Combinatorics: April 30, 2026
 - Mihyun Kang (Graz University of Technology)
 - Jaehoon Kim (Korea Advanced Institute of Science and Technology)
 - Allen Knutson (Cornell University)
-- Bojan Mohar (Simon Fraser University)
+- Bojan Mohar (Simon Fraser University and University of Ljubljana)
 - Greta Panova (University of Southern California)
 - Alexander Postnikov (MIT)
 - Van Vu (University of Hong Kong)
