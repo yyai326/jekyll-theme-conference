@@ -674,7 +674,7 @@ math: true
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Jie Han</span>
+						<span class="slot-meta">Bojan Mohar</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
@@ -735,7 +735,7 @@ math: true
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Bojan Mohar</span>
+						<span class="slot-meta">Jie Han</span>
 						<span class="slot-meta">Title: TBA</span>
 					</td>
 				</tr>
