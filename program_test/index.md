@@ -8,6 +8,10 @@ math: true
 		margin-bottom: 2.5rem;
 	}
 
+	.program-grid-mobile {
+		display: none;
+	}
+
 	.program-grid {
 		min-width: 1140px;
 		margin-bottom: 0;
@@ -79,6 +83,115 @@ math: true
 	.program-grid .talk-slot.text-muted {
 		text-align: center;
 	}
+
+	@media (max-width: 991.98px) {
+		.program-grid-wrapper.mobile-enhanced .table-responsive {
+			display: none;
+		}
+
+		.program-grid-wrapper.mobile-enhanced .program-grid-mobile {
+			display: block;
+		}
+
+		.program-slot-card {
+			margin-bottom: 1rem;
+			border: 1px solid #d8dee4;
+			border-radius: 0.9rem;
+			overflow: hidden;
+			background: #fff;
+			box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+		}
+
+		.program-slot-time {
+			padding: 0.75rem 0.95rem;
+			background: #f8f9fa;
+			font-weight: 700;
+			font-size: 0.95rem;
+			border-bottom: 1px solid #e9ecef;
+		}
+
+		.program-room-list {
+			display: grid;
+			gap: 0.75rem;
+			padding: 0.85rem;
+		}
+
+		.program-room-entry {
+			padding: 0.8rem 0.9rem;
+			border: 1px solid #edf1f4;
+			border-radius: 0.8rem;
+			background: #fff;
+		}
+
+		.program-room-label {
+			margin-bottom: 0.35rem;
+			font-size: 0.76rem;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			text-transform: uppercase;
+			color: #6c757d;
+		}
+
+		.program-room-content {
+			font-size: 0.95rem;
+			line-height: 1.35;
+		}
+
+		.program-room-content strong {
+			display: block;
+			margin-bottom: 0.2rem;
+		}
+
+		.program-grid-mobile .talk-title {
+			display: block;
+			font-size: 0.92em;
+		}
+
+		.program-grid-mobile .shared-slot,
+		.program-grid-mobile .highlight-slot,
+		.program-grid-mobile .registration-slot {
+			padding: 0.9rem 1rem;
+			font-weight: 600;
+		}
+
+		.program-grid-mobile .shared-slot {
+			background-color: #eaf4ff;
+		}
+
+		.program-grid-mobile .highlight-slot {
+			background-color: #fdf4dd;
+		}
+
+		.program-grid-mobile .registration-slot {
+			background-color: #e2e6ea;
+		}
+
+		.program-grid-mobile .shared-talk-slot {
+			text-align: center;
+		}
+
+		.program-grid-mobile .slot-label {
+			display: block;
+			margin-bottom: 0.2rem;
+			font-weight: 700;
+		}
+
+		.program-grid-mobile .slot-meta {
+			display: block;
+			font-size: 0.92em;
+			font-weight: 500;
+		}
+
+		.program-grid-mobile .text-muted {
+			text-align: center;
+		}
+	}
+
+	@media (min-width: 576px) and (max-width: 991.98px) {
+		.program-room-list {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
 </style>
 
 ## Sunday (8/23)
@@ -106,6 +219,99 @@ math: true
 		</table>
 	</div>
 </div>
+
+<script>
+	(() => {
+		const buildMobileProgram = () => {
+			const mobileContainers = [];
+
+			document.querySelectorAll('.program-grid-wrapper').forEach((wrapper) => {
+				if (wrapper.querySelector('.program-grid-mobile')) {
+					return;
+				}
+
+				const table = wrapper.querySelector('.program-grid');
+				if (!table) {
+					return;
+				}
+
+				const roomHeaders = Array.from(table.querySelectorAll('thead th'))
+					.slice(1)
+					.map((header) => header.textContent.trim());
+
+				const mobileView = document.createElement('div');
+				mobileView.className = 'program-grid-mobile';
+
+				table.querySelectorAll('tbody tr').forEach((row) => {
+					const timeCell = row.querySelector('.time-slot');
+					if (!timeCell) {
+						return;
+					}
+
+					const detailCells = Array.from(row.children).filter((cell) => !cell.classList.contains('time-slot'));
+					if (!detailCells.length) {
+						return;
+					}
+
+					const card = document.createElement('section');
+					card.className = 'program-slot-card';
+
+					const timeBlock = document.createElement('div');
+					timeBlock.className = 'program-slot-time';
+					timeBlock.textContent = timeCell.textContent.trim();
+					card.appendChild(timeBlock);
+
+					if (detailCells.length === 1 || detailCells[0].colSpan > 1) {
+						const sharedBlock = document.createElement('div');
+						sharedBlock.className = 'program-slot-body';
+						detailCells[0].classList.forEach((className) => sharedBlock.classList.add(className));
+						sharedBlock.innerHTML = detailCells[0].innerHTML;
+						card.appendChild(sharedBlock);
+					} else {
+						const roomList = document.createElement('div');
+						roomList.className = 'program-room-list';
+
+						detailCells.forEach((cell, index) => {
+							const entry = document.createElement('div');
+							entry.className = 'program-room-entry';
+							cell.classList.forEach((className) => entry.classList.add(className));
+
+							const label = document.createElement('div');
+							label.className = 'program-room-label';
+							label.textContent = roomHeaders[index] || `Room ${index + 1}`;
+
+							const content = document.createElement('div');
+							content.className = 'program-room-content';
+							content.innerHTML = cell.innerHTML;
+
+							entry.appendChild(label);
+							entry.appendChild(content);
+							roomList.appendChild(entry);
+						});
+
+						card.appendChild(roomList);
+					}
+
+					mobileView.appendChild(card);
+				});
+
+				wrapper.appendChild(mobileView);
+				wrapper.classList.add('mobile-enhanced');
+				mobileContainers.push(mobileView);
+			});
+
+			if (mobileContainers.length && window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
+				window.MathJax.typesetPromise(mobileContainers);
+			}
+		};
+
+		if (document.readyState === 'loading') {
+			document.addEventListener('DOMContentLoaded', buildMobileProgram, { once: true });
+		} else {
+			buildMobileProgram();
+		}
+	})();
+</script>
 
 ## Monday (8/24)
 
