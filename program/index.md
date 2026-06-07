@@ -800,7 +800,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
-					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice lattice points in generalized permutohedra from A to B</span></td>
+					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
 					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
 					<td class="talk-slot"><strong>Kathie Cameron</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
