@@ -342,7 +342,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Mihyun Kang</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Phase transitions in random graphs on surfaces</span>
 					</td>
 				</tr>
 				<tr>
@@ -510,7 +510,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Hojoon Lee</strong><span class="talk-title">Positivity Phenomena in Koornwinder Moments for the 2-ASEP</span></td>
 					<td class="talk-slot"><strong>Henry Liu</strong><span class="talk-title">On degree powers in the degenerate Turán problem</span></td>
 					<td class="talk-slot"><strong>Sarah Houdaigoui</strong><span class="talk-title">A quasi-polynomial bound for the minimal excluded minors for a surface</span></td>
-					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">INDICATED LIST COLORING GAME ON GRAPHS</span></td>
+					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">Indicated List Coloring Game On Graphs</span></td>
 					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 					<td class="talk-slot"><strong>Elizaveta Iarovikova</strong><span class="talk-title">A complete t-intersection theorem for families of spanning trees</span></td>
 				</tr>
@@ -555,7 +555,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
-					<td class="talk-slot"><strong>Liu Xin bei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
+					<td class="talk-slot"><strong>Liu Xinbei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>ZhiFei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
 					<td class="talk-slot"><strong>Taehee Hong</strong><span class="talk-title">p-competitively orientable graphs</span></td>
 					<td class="talk-slot"><strong>Eckhard Steffen</strong><span class="talk-title">Edge-coloring 4- and 5-regular projective planar graphs with no Petersen-minor</span></td>
@@ -593,7 +593,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jaehoon Kim</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Local Conditions for Global Structures in Graphs</span>
 					</td>
 				</tr>
 				<tr>
@@ -678,7 +678,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Bojan Mohar</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Back to the basics --- The Four-Color Theorem and its generalizations</span>
 					</td>
 				</tr>
 				<tr>
@@ -739,7 +739,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jie Han</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Random sparsification of graphs</span>
 					</td>
 				</tr>
 				<tr>
