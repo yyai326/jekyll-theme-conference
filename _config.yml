@@ -70,16 +70,16 @@ conference:
       url: '/'  # relative URL to homepage
     breakpoint: md
     links:
-#      - name: Program
-#        relative_url: /program/
-      - name: Submission
-        relative_url: /Abstract_submission/
+      - name: Program
+        relative_url: /program/
+#      - name: Submission
+#        relative_url: /Abstract_submission/
       - name: Registration
         relative_url: /Registration/
       - name: Speakers
         relative_url: /speakers/
-      - name: Prize
-        relative_url: /Prize/
+#      - name: Prize
+#        relative_url: /Prize/
       - name: Location
         relative_url: /location/
       - name: Committee

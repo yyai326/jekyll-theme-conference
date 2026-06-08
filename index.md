@@ -18,7 +18,7 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 Conference: August 24-28, 2026   
  
-Nominations for the Asian Prize for Combinatorics: April 30, 2026
+Nominations for the Asian Prize for Combinatorics: April 30, 2026 (See the following [page](/Prize/) for the explanation of the prize)
 
 
 
