@@ -417,7 +417,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
 					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
-					<td class="talk-slot"><strong>Jie-Xiang Zhu</strong><span class="talk-title">Optimal matching on the p-biased Boolean cube</span></td>
+					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -511,14 +511,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Henry Liu</strong><span class="talk-title">On degree powers in the degenerate Turán problem</span></td>
 					<td class="talk-slot"><strong>Sarah Houdaigoui</strong><span class="talk-title">A quasi-polynomial bound for the minimal excluded minors for a surface</span></td>
 					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">Indicated List Coloring Game On Graphs</span></td>
-					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Elizaveta Iarovikova</strong><span class="talk-title">A complete t-intersection theorem for families of spanning trees</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
 					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
-					<td class="talk-slot"><strong>Richard Lang</strong><span class="talk-title">Spanning components and surfaces under minimum vertex degree</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
 					<td class="talk-slot"><strong>Lukas Klawuhn</strong><span class="talk-title">Designs of Perfect Matchings</span></td>
 					<td class="talk-slot"><strong>Andrey Kupavskii</strong><span class="talk-title">Intersection theorems in spread domains</span></td>
