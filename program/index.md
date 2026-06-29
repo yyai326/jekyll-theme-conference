@@ -390,12 +390,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Tirtharaj Basu</strong><span class="talk-title">A tableaux formula for q-rook numbers.</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Yijia Fang</strong><span class="talk-title">Canonical Ramsey Property for All Triangles</span></td>
 					<td class="talk-slot"><strong>Nikolai Karol</strong><span class="talk-title">Structure of k-Matching-Planar Graphs</span></td>
 					<td class="talk-slot"><strong>Myungho Choi</strong><span class="talk-title">2-limited broadcast domination in cubic graphs</span></td>
 					<td class="talk-slot"><strong>Tomoki Tamaru</strong><span class="talk-title">More on the Corner-Vector Construction for Spherical Designs</span></td>
-					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Multivariate occupancy fraction bounds</span></td>
+					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Degree-sequence bounds for independent sets via multivariate local occupancy</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
@@ -683,7 +683,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Hau-Wen Huang</strong><span class="talk-title">Odd graphs and a skew group ring</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
