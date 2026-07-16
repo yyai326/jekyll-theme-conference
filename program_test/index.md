@@ -3,6 +3,9 @@ layout: default
 math: true
 ---
 
+The program grid below provides an overview of the schedule for each day of the conference.   
+Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
+
 <style>
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
@@ -43,6 +46,16 @@ math: true
 
 	.program-grid .registration-slot {
 		background-color: #e2e6ea;
+		font-weight: 600;
+	}
+
+	.program-grid .ceremony-slot {
+		background-color: #e6f4ea;
+		font-weight: 600;
+	}
+
+	.program-grid .banquet-slot {
+		background-color: #fde9d9;
 		font-weight: 600;
 	}
 
@@ -149,7 +162,9 @@ math: true
 
 		.program-grid-mobile .shared-slot,
 		.program-grid-mobile .highlight-slot,
-		.program-grid-mobile .registration-slot {
+		.program-grid-mobile .registration-slot,
+		.program-grid-mobile .ceremony-slot,
+		.program-grid-mobile .banquet-slot {
 			padding: 0.9rem 1rem;
 			font-weight: 600;
 		}
@@ -164,6 +179,14 @@ math: true
 
 		.program-grid-mobile .registration-slot {
 			background-color: #e2e6ea;
+		}
+
+		.program-grid-mobile .ceremony-slot {
+			background-color: #e6f4ea;
+		}
+
+		.program-grid-mobile .banquet-slot {
+			background-color: #fde9d9;
 		}
 
 		.program-grid-mobile .shared-talk-slot {
@@ -213,7 +236,10 @@ math: true
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">16:00-20:00</th>
-					<td colspan="6" class="registration-slot">Registration</td>
+					<td colspan="6" class="registration-slot shared-talk-slot">
+						<strong class="slot-label">Registration</strong>
+						<span class="slot-meta">IBS Science Culture Center, 2nd floor</span>
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -332,14 +358,17 @@ math: true
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">08:00-09:00</th>
-					<td colspan="6" class="registration-slot">Registration</td>
+					<td colspan="6" class="registration-slot shared-talk-slot">
+						<strong class="slot-label">Registration</strong>
+						<span class="slot-meta">DCC</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Mihyun Kang</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Phase transitions in random graphs on surfaces</span>
 					</td>
 				</tr>
 				<tr>
@@ -347,7 +376,7 @@ math: true
 					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
 					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
 					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
-					<td class="talk-slot"><strong>Weiqiang Yu</strong><span class="talk-title">Colouring negative exact-distance graphs of signed graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
 					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
 				</tr>
@@ -387,12 +416,12 @@ math: true
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Tirtharaj Basu</strong><span class="talk-title">A tableaux formula for q-rook numbers.</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Yijia Fang</strong><span class="talk-title">Canonical Ramsey Property for All Triangles</span></td>
 					<td class="talk-slot"><strong>Nikolai Karol</strong><span class="talk-title">Structure of k-Matching-Planar Graphs</span></td>
 					<td class="talk-slot"><strong>Myungho Choi</strong><span class="talk-title">2-limited broadcast domination in cubic graphs</span></td>
 					<td class="talk-slot"><strong>Tomoki Tamaru</strong><span class="talk-title">More on the Corner-Vector Construction for Spherical Designs</span></td>
-					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Multivariate occupancy fraction bounds</span></td>
+					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Degree-sequence bounds for independent sets via multivariate local occupancy</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
@@ -414,7 +443,7 @@ math: true
 					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
 					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
-					<td class="talk-slot"><strong>Jie-Xiang Zhu</strong><span class="talk-title">Optimal matching on the p-biased Boolean cube</span></td>
+					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -507,15 +536,15 @@ math: true
 					<td class="talk-slot"><strong>Hojoon Lee</strong><span class="talk-title">Positivity Phenomena in Koornwinder Moments for the 2-ASEP</span></td>
 					<td class="talk-slot"><strong>Henry Liu</strong><span class="talk-title">On degree powers in the degenerate Turán problem</span></td>
 					<td class="talk-slot"><strong>Sarah Houdaigoui</strong><span class="talk-title">A quasi-polynomial bound for the minimal excluded minors for a surface</span></td>
-					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">INDICATED LIST COLORING GAME ON GRAPHS</span></td>
-					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
+					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">Indicated List Coloring Game On Graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Elizaveta Iarovikova</strong><span class="talk-title">A complete t-intersection theorem for families of spanning trees</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
 					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
-					<td class="talk-slot"><strong>Richard Lang</strong><span class="talk-title">Spanning components and surfaces under minimum vertex degree</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
 					<td class="talk-slot"><strong>Lukas Klawuhn</strong><span class="talk-title">Designs of Perfect Matchings</span></td>
 					<td class="talk-slot"><strong>Andrey Kupavskii</strong><span class="talk-title">Intersection theorems in spread domains</span></td>
@@ -552,7 +581,7 @@ math: true
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
-					<td class="talk-slot"><strong>Liu Xin bei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
+					<td class="talk-slot"><strong>Liu Xinbei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>ZhiFei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
 					<td class="talk-slot"><strong>Taehee Hong</strong><span class="talk-title">p-competitively orientable graphs</span></td>
 					<td class="talk-slot"><strong>Eckhard Steffen</strong><span class="talk-title">Edge-coloring 4- and 5-regular projective planar graphs with no Petersen-minor</span></td>
@@ -590,11 +619,21 @@ math: true
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jaehoon Kim</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Local Conditions for Global Structures in Graphs</span>
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">15:30-16:30</th>
+					<th scope="row" class="time-slot">15:30-15:40</th>
+					<td colspan="6" class="shared-slot">10 min Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">15:40-16:10</th>
+					<td colspan="6" class="ceremony-slot shared-talk-slot">
+						<strong class="slot-label">Prize Ceremony</strong>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:10-17:10</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Prize Winner Talk</strong>
 						<span class="slot-meta">Name: TBA</span>
@@ -602,8 +641,14 @@ math: true
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:30-17:30</th>
-					<td colspan="6" class="shared-slot">Free Discussion Time</td>
+					<th scope="row" class="time-slot">17:10-18:00</th>
+					<td colspan="6" class="shared-slot">Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">18:00 onward</th>
+					<td colspan="6" class="banquet-slot shared-talk-slot">
+						<strong class="slot-label">Banquet</strong>
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -675,12 +720,12 @@ math: true
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Bojan Mohar</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Back to the basics --- The Four-Color Theorem and its generalizations</span>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Hau-Wen Huang</strong><span class="talk-title">Odd graphs and a skew group ring</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
@@ -736,7 +781,7 @@ math: true
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jie Han</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Random sparsification of graphs</span>
 					</td>
 				</tr>
 				<tr>
@@ -746,7 +791,7 @@ math: true
 					<td class="talk-slot"><strong>Masaki Kashima</strong><span class="talk-title">New conditions ensuring specified factors of graphs</span></td>
 					<td class="talk-slot"><strong>Jung Hon Yip</strong><span class="talk-title">Hadwiger's Conjecture for $\{co-claw,co-gem\}$-free graphs and $\{fork,antifork\}$-free graphs</span></td>
 					<td class="talk-slot"><strong>Gang Yang</strong><span class="talk-title">Boolean lattice without small rainbow subposets</span></td>
-					<td class="talk-slot"><strong>Katherine Perry</strong><span class="talk-title">Rainbow Spanning Trees in Edge-colored Graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
@@ -797,7 +842,7 @@ math: true
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
-					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice lattice points in generalized permutohedra from A to B</span></td>
+					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
 					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
 					<td class="talk-slot"><strong>Kathie Cameron</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>

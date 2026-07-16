@@ -49,6 +49,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		font-weight: 600;
 	}
 
+	.program-grid .ceremony-slot {
+		background-color: #e6f4ea;
+		font-weight: 600;
+	}
+
+	.program-grid .banquet-slot {
+		background-color: #fde9d9;
+		font-weight: 600;
+	}
+
 	.program-grid .talk-slot {
 		vertical-align: top;
 		text-align: left;
@@ -152,7 +162,9 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 		.program-grid-mobile .shared-slot,
 		.program-grid-mobile .highlight-slot,
-		.program-grid-mobile .registration-slot {
+		.program-grid-mobile .registration-slot,
+		.program-grid-mobile .ceremony-slot,
+		.program-grid-mobile .banquet-slot {
 			padding: 0.9rem 1rem;
 			font-weight: 600;
 		}
@@ -167,6 +179,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 		.program-grid-mobile .registration-slot {
 			background-color: #e2e6ea;
+		}
+
+		.program-grid-mobile .ceremony-slot {
+			background-color: #e6f4ea;
+		}
+
+		.program-grid-mobile .banquet-slot {
+			background-color: #fde9d9;
 		}
 
 		.program-grid-mobile .shared-talk-slot {
@@ -216,7 +236,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">16:00-20:00</th>
-					<td colspan="6" class="registration-slot">Registration</td>
+					<td colspan="6" class="registration-slot shared-talk-slot">
+						<strong class="slot-label">Registration</strong>
+						<span class="slot-meta">IBS Science Culture Center, 2nd floor</span>
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -335,7 +358,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			<tbody>
 				<tr>
 					<th scope="row" class="time-slot">08:00-09:00</th>
-					<td colspan="6" class="registration-slot">Registration</td>
+					<td colspan="6" class="registration-slot shared-talk-slot">
+						<strong class="slot-label">Registration</strong>
+						<span class="slot-meta">DCC</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">09:00-10:00</th>
@@ -350,7 +376,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
 					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
 					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
-					<td class="talk-slot"><strong>Weiqiang Yu</strong><span class="talk-title">Colouring negative exact-distance graphs of signed graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
 					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
 				</tr>
@@ -597,7 +623,17 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">15:30-16:30</th>
+					<th scope="row" class="time-slot">15:30-15:40</th>
+					<td colspan="6" class="shared-slot">10 min Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">15:40-16:10</th>
+					<td colspan="6" class="ceremony-slot shared-talk-slot">
+						<strong class="slot-label">Prize Ceremony</strong>
+					</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:10-17:10</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Prize Winner Talk</strong>
 						<span class="slot-meta">Name: TBA</span>
@@ -605,8 +641,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:30-17:30</th>
-					<td colspan="6" class="shared-slot">Free Discussion Time</td>
+					<th scope="row" class="time-slot">17:10-18:00</th>
+					<td colspan="6" class="shared-slot">Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">18:00 onward</th>
+					<td colspan="6" class="banquet-slot shared-talk-slot">
+						<strong class="slot-label">Banquet</strong>
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -749,7 +791,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Masaki Kashima</strong><span class="talk-title">New conditions ensuring specified factors of graphs</span></td>
 					<td class="talk-slot"><strong>Jung Hon Yip</strong><span class="talk-title">Hadwiger's Conjecture for $\{co-claw,co-gem\}$-free graphs and $\{fork,antifork\}$-free graphs</span></td>
 					<td class="talk-slot"><strong>Gang Yang</strong><span class="talk-title">Boolean lattice without small rainbow subposets</span></td>
-					<td class="talk-slot"><strong>Katherine Perry</strong><span class="talk-title">Rainbow Spanning Trees in Edge-colored Graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
