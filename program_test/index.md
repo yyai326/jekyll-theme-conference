@@ -235,10 +235,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">16:00-20:00</th>
+					<th scope="row" class="time-slot">15:00-18:00</th>
 					<td colspan="6" class="registration-slot shared-talk-slot">
 						<strong class="slot-label">Registration</strong>
-						<span class="slot-meta">IBS Science Culture Center, 2nd floor</span>
+						<span class="slot-meta">DCC</span>
 					</td>
 				</tr>
 			</tbody>
@@ -444,6 +444,13 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
 					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
 					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">18:00 onward</th>
+					<td colspan="6" class="banquet-slot shared-talk-slot">
+						<strong class="slot-label">Reception</strong>
+						<span class="slot-meta">IBS Theory Building, 1st floor</span>
+					</td>
 				</tr>
 			</tbody>
 		</table>
@@ -820,15 +827,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">14:30-15:30</th>
-					<td colspan="6" class="highlight-slot shared-talk-slot">
-						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Greta Panova</span>
-						<span class="slot-meta">Title: TBA</span>
-					</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">15:30-16:00</th>
+					<th scope="row" class="time-slot">14:30-15:00</th>
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
 					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turán problems</span></td>
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
@@ -837,11 +836,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:00-16:30</th>
+					<th scope="row" class="time-slot">15:00-15:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">16:30-17:00</th>
+					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
 					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
@@ -850,7 +849,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">17:00-17:30</th>
+					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Maxim Klimenko</strong><span class="talk-title">Covering integer points of a cross-polytope by subspaces</span></td>
 					<td class="talk-slot"><strong>Fan Yang</strong><span class="talk-title">Extremal density for subdivisions with length or sparsity constraints</span></td>
 					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
