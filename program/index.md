@@ -7,7 +7,7 @@ The program grid below provides an overview of the schedule for each day of the 
 Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
 
 <div class="alert alert-warning" role="alert">
-	<strong>Presentation note.</strong> Only small writeboards will be available at the conference, so speakers are strongly encouraged to prepare slides for their presentations.
+	<strong>Presentation note.</strong> Only small whiteboards will be available at the conference, so speakers are strongly encouraged to prepare slides for their presentations.
 </div>
 
 <style>
@@ -380,7 +380,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
 					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
 					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
 					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
 					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
 				</tr>
@@ -554,7 +554,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
-					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
 					<td class="talk-slot"><strong>Lukas Klawuhn</strong><span class="talk-title">Designs of Perfect Matchings</span></td>
@@ -736,7 +736,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
@@ -848,7 +848,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
 					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
-					<td class="talk-slot"><strong>Kathie Cameron</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
+					<td class="talk-slot"><strong>Ni Luh Dewi Sintiari</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
 					<td class="talk-slot"><strong>Xinqi Huang</strong><span class="talk-title">Accumulation Points of Homomorphism Thresholds</span></td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
@@ -858,7 +858,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Fan Yang</strong><span class="talk-title">Extremal density for subdivisions with length or sparsity constraints</span></td>
 					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
 					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
-					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 			</tbody>
