@@ -6,6 +6,10 @@ math: true
 The program grid below provides an overview of the schedule for each day of the conference.   
 Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
 
+<div class="alert alert-warning" role="alert">
+	<strong>Presentation note.</strong> Only small writeboards will be available at the conference, so speakers are strongly encouraged to prepare slides for their presentations.
+</div>
+
 <style>
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
@@ -449,7 +453,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">18:00 onward</th>
 					<td colspan="6" class="banquet-slot shared-talk-slot">
 						<strong class="slot-label">Reception</strong>
-						<span class="slot-meta">IBS Theory Building, 1st floor</span>
+						<span class="slot-meta">IBS Science Culture Center, 3rd floor</span>
 					</td>
 				</tr>
 			</tbody>

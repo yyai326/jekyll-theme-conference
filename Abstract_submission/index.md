@@ -4,6 +4,10 @@ layout: default
 
 # Call for Abstracts
 
+<div class="alert alert-warning" role="alert">
+	<strong>Presentation note.</strong> Only small writeboards will be available at the conference, so speakers are strongly encouraged to prepare slides for their presentations.
+</div>
+
 ASIACOMB invites submissions of abstracts for 20~25-minute contributed talks on all areas of combinatorics, including (not limited to):
 - Additive combinatorics
 - Algebraic combinatorics
