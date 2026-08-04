@@ -488,7 +488,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
-					<td class="talk-slot"><strong>Yulin Peng</strong><span class="talk-title">Coxeter Condorcet domains and Coxeter root posets</span></td>
+					<td class="talk-slot"><strong>Yulin Peng</strong><span class="talk-title">Coxeter Condorcet domains and Condorcet root posets</span></td>
 					<td class="talk-slot"><strong>Jing Wang</strong><span class="talk-title">Spectral Turán Problems for Expansion Hypergraphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clow</strong><span class="talk-title">Small Quasi-Kernel in Digraphs with Bounded Out-Degree</span></td>
 					<td class="talk-slot"><strong>Chenglong Deng</strong><span class="talk-title">List colouring of toroidal grids</span></td>
@@ -616,7 +616,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">11:30-12:00</th>
 					<td class="talk-slot"><strong>Minho Song</strong><span class="talk-title">Deograms and their links to rational Catalan objects</span></td>
 					<td class="talk-slot"><strong>Yulin Yang</strong><span class="talk-title">An Erdős matching conjecture for vector spaces</span></td>
-					<td class="talk-slot"><strong>Tianjiao Dai</strong><span class="talk-title">An exact Ore-degree condition for Hamilton cycles in oriented graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Kenta Ozeki</strong><span class="talk-title">Odd edge colorings of graphs with high connectivity</span></td>
 					<td class="talk-slot"><strong>Dohyeon Lee</strong><span class="talk-title">Helly-type Theorems for Multiple Piercing</span></td>
 					<td class="talk-slot"><strong>Colin Geniet</strong><span class="talk-title">Basis Number of Graphs Excluding Minors</span></td>
