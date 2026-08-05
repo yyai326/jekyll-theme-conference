@@ -5,7 +5,8 @@ layout: default
 ## Registration Information
 
 Early registration deadline: June 14, 2026   
-Late registration deadline: August 14, 2026   
+Late registration deadline: August 14, 2026    
+Onsite registration is also available during the conference.
 
 #### Registration Fees
 
