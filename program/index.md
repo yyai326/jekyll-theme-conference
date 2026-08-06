@@ -373,6 +373,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Mihyun Kang</span>
 						<span class="slot-meta">Title: Phase transitions in random graphs on surfaces</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -415,7 +416,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Anton Bernshteyn</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Matchings and the Banach--Tarski Paradox</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -484,6 +486,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Van Vu</span>
 						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -527,6 +530,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Joshua Zahl</span>
 						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -588,6 +592,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Alexander Postnikov</span>
 						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -631,6 +636,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jaehoon Kim</span>
 						<span class="slot-meta">Title: Local Conditions for Global Structures in Graphs</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -641,6 +647,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">15:40-16:10</th>
 					<td colspan="6" class="ceremony-slot shared-talk-slot">
 						<strong class="slot-label">Prize Ceremony</strong>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -649,6 +656,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Prize Winner Talk</strong>
 						<span class="slot-meta">Name: TBA</span>
 						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -689,6 +697,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Allen Knutson</span>
 						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -732,6 +741,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Bojan Mohar</span>
 						<span class="slot-meta">Title: Back to the basics --- The Four-Color Theorem and its generalizations</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
@@ -793,6 +803,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Jie Han</span>
 						<span class="slot-meta">Title: Random sparsification of graphs</span>
+						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
 				<tr>
