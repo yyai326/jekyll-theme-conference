@@ -1,3 +1,4 @@
-# Keep this folder in the repository, but ignore all local abstract-book files.
+# Keep this folder's contents local.  The .gitignore file itself is the only
+# tracked file so Git can preserve this rule.
 *
 !.gitignore

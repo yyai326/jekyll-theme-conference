@@ -536,7 +536,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices $m \times 2$ and $m \times 3$ are not Schur positive</span></td>
-					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative orderd Turán densities</span></td>
+					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative Ordered Turán Densities</span></td>
 					<td class="talk-slot"><strong>Hikaru Yokoi</strong><span class="talk-title">Self-duality of pathwidth for polyhedral embeddings</span></td>
 					<td class="talk-slot"><strong>Cyril Pujol</strong><span class="talk-title">Winding number and circular coloring</span></td>
 					<td class="talk-slot"><strong>Ananth Ravi</strong><span class="talk-title">The chromatic number of finite projective spaces</span></td>
