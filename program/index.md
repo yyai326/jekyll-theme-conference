@@ -404,7 +404,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Arjun Ranganathan</strong><span class="talk-title">Exact minimum co-degree bounds for tight Hamilton cycles</span></td>
 					<td class="talk-slot"><strong>Xiang Chen</strong><span class="talk-title">A constructive characterization of uniformly 4-connected graphs</span></td>
 					<td class="talk-slot"><strong>Xiaowei Yu</strong><span class="talk-title">(Fractional) balanced coloring of signed graphs</span></td>
-					<td class="talk-slot"><strong>Jun Gao</strong><span class="talk-title">New upper bound for lattice covering by spheres</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Guo-Dong Hong</strong><span class="talk-title">Simultaneous popular polynomial Szemerédi theorem over finite fields</span></td>
 				</tr>
 				<tr>
@@ -505,7 +505,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
 					<td class="talk-slot"><strong>Hanlin Xu</strong><span class="talk-title">MacNeille completions of parabolic quotients in the symmetric group</span></td>
-					<td class="talk-slot"><strong>Shumin Sun</strong><span class="talk-title">Rational codegree Turán density of hypergraphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Seokbeom Kim</strong><span class="talk-title">The structure of $\Delta(1, 2, 2)$-free tournaments</span></td>
 					<td class="talk-slot"><strong>Zihui Xu</strong><span class="talk-title">Between proper and square colorings of planar graphs with maximum degree at most four</span></td>
 					<td class="talk-slot"><strong>David Yost</strong><span class="talk-title">Decomposability of polyhedra and their graphs</span></td>
