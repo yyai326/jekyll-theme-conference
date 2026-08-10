@@ -361,14 +361,18 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="time-slot">08:00-09:00</th>
+					<th scope="row" class="time-slot">08:30-09:15</th>
 					<td colspan="6" class="registration-slot shared-talk-slot">
 						<strong class="slot-label">Registration</strong>
 						<span class="slot-meta">DCC</span>
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">09:00-10:00</th>
+					<th scope="row" class="time-slot">09:15-09:30</th>
+					<td colspan="6" class="shared-slot">Opening Remarks</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">09:30-10:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Mihyun Kang</span>
@@ -377,35 +381,26 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-10:30</th>
-					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
-					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
-					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
-					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
-					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
-					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
-				</tr>
-				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
+					<td class="talk-slot"><strong>Yi-Hau Kao</strong><span class="talk-title">Proving Guo's Conjecture on Richardson Tableaux</span></td>
+					<td class="talk-slot"><strong>Yijia Fang</strong><span class="talk-title">Canonical Ramsey Property for All Triangles</span></td>
+					<td class="talk-slot"><strong>Nikolai Karol</strong><span class="talk-title">Structure of k-Matching-Planar Graphs</span></td>
+					<td class="talk-slot"><strong>Myungho Choi</strong><span class="talk-title">2-limited broadcast domination in cubic graphs</span></td>
+					<td class="talk-slot"><strong>Tomoki Tamaru</strong><span class="talk-title">More on the Corner-Vector Construction for Spherical Designs</span></td>
+					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Degree-sequence bounds for independent sets via multivariate local occupancy</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
-					<td class="talk-slot"><strong>Eunjeong Lee</strong><span class="talk-title">Intersections of Schubert varieties and smooth T-stable subvarieties of flag varieties</span></td>
-					<td class="talk-slot"><strong>Nicolás Sanhueza Matamala</strong><span class="talk-title">Optimal and efficient partite decompositions of hypergraphs</span></td>
-					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in $3/2$-tough maximial planar graphs</span></td>
-					<td class="talk-slot"><strong>Ligang Jin</strong><span class="talk-title">Coloring of generalized signed graphs and its application to DP coloring</span></td>
-					<td class="talk-slot"><strong>Laurentiu Ploscaru</strong><span class="talk-title">Many Antipodal Pairs Force many Neighboring Pairs</span></td>
-					<td class="talk-slot"><strong>Semin Yoo</strong><span class="talk-title">Multiplicative irreducibility of shifted multiplicative subgroups</span></td>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
-					<td class="talk-slot"><strong>Yibo Gao</strong><span class="talk-title">Billey--Postnikov posets, rationally smooth Schubert varieties, and Poincaré duality</span></td>
-					<td class="talk-slot"><strong>Arjun Ranganathan</strong><span class="talk-title">Exact minimum co-degree bounds for tight Hamilton cycles</span></td>
-					<td class="talk-slot"><strong>Xiang Chen</strong><span class="talk-title">A constructive characterization of uniformly 4-connected graphs</span></td>
-					<td class="talk-slot"><strong>Xiaowei Yu</strong><span class="talk-title">(Fractional) balanced coloring of signed graphs</span></td>
-					<td class="talk-slot text-muted">-</td>
-					<td class="talk-slot"><strong>Guo-Dong Hong</strong><span class="talk-title">Simultaneous popular polynomial Szemerédi theorem over finite fields</span></td>
+					<td class="talk-slot"><strong>Mike Cummings</strong><span class="talk-title">Webs and Smooth Components of Two Column Springer Fibers</span></td>
+					<td class="talk-slot"><strong>Matías Azócar Carvajal</strong><span class="talk-title">Canonical Ramsey theorem for graphs with clean intersections</span></td>
+					<td class="talk-slot"><strong>Rongxing Xu</strong><span class="talk-title">Partitioning triangle-free planar graphs into a forest and a linear forest</span></td>
+					<td class="talk-slot"><strong>Sonwabile Mafunda</strong><span class="talk-title">On the conjecture of Beineke and Henning on independent distance dominating sets</span></td>
+					<td class="talk-slot"><strong>Yifan Jing</strong><span class="talk-title">Sharp quantitative stability in Hilbert spaces</span></td>
+					<td class="talk-slot"><strong>Fan Chang</strong><span class="talk-title">Functional Inequalities and Random Walks on Increasing Subsets of the Hypercube</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">12:00-14:30</th>
@@ -422,12 +417,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot text-muted">-</td>
-					<td class="talk-slot"><strong>Yijia Fang</strong><span class="talk-title">Canonical Ramsey Property for All Triangles</span></td>
-					<td class="talk-slot"><strong>Nikolai Karol</strong><span class="talk-title">Structure of k-Matching-Planar Graphs</span></td>
-					<td class="talk-slot"><strong>Myungho Choi</strong><span class="talk-title">2-limited broadcast domination in cubic graphs</span></td>
-					<td class="talk-slot"><strong>Tomoki Tamaru</strong><span class="talk-title">More on the Corner-Vector Construction for Spherical Designs</span></td>
-					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Degree-sequence bounds for independent sets via multivariate local occupancy</span></td>
+					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
+					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
+					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
+					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
+					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
+					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
@@ -435,21 +430,21 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
-					<td class="talk-slot"><strong>Mike Cummings</strong><span class="talk-title">Webs and Smooth Components of Two Column Springer Fibers</span></td>
-					<td class="talk-slot"><strong>Matías Azócar Carvajal</strong><span class="talk-title">Canonical Ramsey theorem for graphs with clean intersections</span></td>
-					<td class="talk-slot"><strong>Rongxing Xu</strong><span class="talk-title">Partitioning triangle-free planar graphs into a forest and a linear forest</span></td>
-					<td class="talk-slot"><strong>Sonwabile Mafunda</strong><span class="talk-title">On the conjecture of Beineke and Henning on independent distance dominating sets</span></td>
-					<td class="talk-slot"><strong>Yifan Jing</strong><span class="talk-title">Sharp quantitative stability in Hilbert spaces</span></td>
-					<td class="talk-slot"><strong>Fan Chang</strong><span class="talk-title">Functional Inequalities and Random Walks on Increasing Subsets of the Hypercube</span></td>
+					<td class="talk-slot"><strong>Eunjeong Lee</strong><span class="talk-title">Intersections of Schubert varieties and smooth T-stable subvarieties of flag varieties</span></td>
+					<td class="talk-slot"><strong>Nicolás Sanhueza Matamala</strong><span class="talk-title">Optimal and efficient partite decompositions of hypergraphs</span></td>
+					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in $3/2$-tough maximial planar graphs</span></td>
+					<td class="talk-slot"><strong>Ligang Jin</strong><span class="talk-title">Coloring of generalized signed graphs and its application to DP coloring</span></td>
+					<td class="talk-slot"><strong>Laurentiu Ploscaru</strong><span class="talk-title">Many Antipodal Pairs Force many Neighboring Pairs</span></td>
+					<td class="talk-slot"><strong>Semin Yoo</strong><span class="talk-title">Multiplicative irreducibility of shifted multiplicative subgroups</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
-					<td class="talk-slot"><strong>Yi-Hau Kao</strong><span class="talk-title">Proving Guo's Conjecture on Richardson Tableaux</span></td>
-					<td class="talk-slot"><strong>Zion Hefty</strong><span class="talk-title">Improving $R(3,k)$ in just two bites</span></td>
-					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
-					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
-					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
-					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
+					<td class="talk-slot"><strong>Yibo Gao</strong><span class="talk-title">Billey--Postnikov posets, rationally smooth Schubert varieties, and Poincaré duality</span></td>
+					<td class="talk-slot"><strong>Arjun Ranganathan</strong><span class="talk-title">Exact minimum co-degree bounds for tight Hamilton cycles</span></td>
+					<td class="talk-slot"><strong>Xiang Chen</strong><span class="talk-title">A constructive characterization of uniformly 4-connected graphs</span></td>
+					<td class="talk-slot"><strong>Xiaowei Yu</strong><span class="talk-title">(Fractional) balanced coloring of signed graphs</span></td>
+					<td class="talk-slot"><strong>Maxim Klimenko</strong><span class="talk-title">Covering integer points of a cross-polytope by subspaces</span></td>
+					<td class="talk-slot"><strong>Guo-Dong Hong</strong><span class="talk-title">Simultaneous popular polynomial Szemerédi theorem over finite fields</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">18:00 onward</th>
@@ -505,7 +500,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
 					<td class="talk-slot"><strong>Hanlin Xu</strong><span class="talk-title">MacNeille completions of parabolic quotients in the symmetric group</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Zion Hefty</strong><span class="talk-title">Improving $R(3,k)$ in just two bites</span></td>
 					<td class="talk-slot"><strong>Seokbeom Kim</strong><span class="talk-title">The structure of $\Delta(1, 2, 2)$-free tournaments</span></td>
 					<td class="talk-slot"><strong>Zihui Xu</strong><span class="talk-title">Between proper and square colorings of planar graphs with maximum degree at most four</span></td>
 					<td class="talk-slot"><strong>David Yost</strong><span class="talk-title">Decomposability of polyhedra and their graphs</span></td>
@@ -529,7 +524,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Joshua Zahl</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: (Discretized) incidence geometry, harmonic analysis, and geometric measure theory</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -550,16 +545,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">16:30-17:00</th>
 					<td class="talk-slot"><strong>Hojoon Lee</strong><span class="talk-title">Positivity Phenomena in Koornwinder Moments for the 2-ASEP</span></td>
 					<td class="talk-slot"><strong>Henry Liu</strong><span class="talk-title">On degree powers in the degenerate Turán problem</span></td>
-					<td class="talk-slot"><strong>Sarah Houdaigoui</strong><span class="talk-title">A quasi-polynomial bound for the minimal excluded minors for a surface</span></td>
+					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">Indicated List Coloring Game On Graphs</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 					<td class="talk-slot"><strong>Elizaveta Iarovikova</strong><span class="talk-title">A complete t-intersection theorem for families of spanning trees</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
 					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
-					<td class="talk-slot text-muted">-</td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Fan Yang</strong><span class="talk-title">Extremal density for subdivisions with length or sparsity constraints</span></td>
+					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
 					<td class="talk-slot"><strong>Lukas Klawuhn</strong><span class="talk-title">Designs of Perfect Matchings</span></td>
 					<td class="talk-slot"><strong>Andrey Kupavskii</strong><span class="talk-title">Intersection theorems in spread domains</span></td>
@@ -591,7 +586,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Alexander Postnikov</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Honeycombs, plabic graphs, and polypositroids</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -621,7 +616,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">11:30-12:00</th>
 					<td class="talk-slot"><strong>Minho Song</strong><span class="talk-title">Deograms and their links to rational Catalan objects</span></td>
 					<td class="talk-slot"><strong>Yulin Yang</strong><span class="talk-title">An Erdős matching conjecture for vector spaces</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Alexander Clifton</strong><span class="talk-title">Locally Irregular Graph Covering</span></td>
 					<td class="talk-slot"><strong>Kenta Ozeki</strong><span class="talk-title">Odd edge colorings of graphs with high connectivity</span></td>
 					<td class="talk-slot"><strong>Dohyeon Lee</strong><span class="talk-title">Helly-type Theorems for Multiple Piercing</span></td>
 					<td class="talk-slot"><strong>Colin Geniet</strong><span class="talk-title">Basis Number of Graphs Excluding Minors</span></td>
@@ -746,11 +741,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
-					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
+					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
-					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
+					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
 					<td class="talk-slot"><strong>Zhenyu Li</strong><span class="talk-title">A step toward Chen-Lih-Wu conjecture</span></td>
 				</tr>
 				<tr>
@@ -808,12 +803,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
-					<td class="talk-slot"><strong>Shiqi Cao</strong><span class="talk-title">Dowling's polynomial conjecture for independent sets of matroids</span></td>
+					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
 					<td class="talk-slot"><strong>Guorong Gao</strong><span class="talk-title">Almost regular subgraphs under spectral radius constraints</span></td>
 					<td class="talk-slot"><strong>Masaki Kashima</strong><span class="talk-title">New conditions ensuring specified factors of graphs</span></td>
 					<td class="talk-slot"><strong>Jung Hon Yip</strong><span class="talk-title">Hadwiger's Conjecture for $\{co-claw,co-gem\}$-free graphs and $\{fork,antifork\}$-free graphs</span></td>
 					<td class="talk-slot"><strong>Gang Yang</strong><span class="talk-title">Boolean lattice without small rainbow subposets</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Shiqi Cao</strong><span class="talk-title">Dowling's polynomial conjecture for independent sets of matroids</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
@@ -825,8 +820,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Jialin He</strong><span class="talk-title">On the Number of Triangles in $K_4$-Free Graphs</span></td>
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
 					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
+					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
 					<td class="talk-slot"><strong>Junchi Zhang</strong><span class="talk-title">Submodular flows on measurable spaces</span></td>
-					<td class="talk-slot"><strong>Shunichi Maezawa</strong><span class="talk-title">On Reconfiguration Graphs Induced by Rainbow Spanning Trees</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
@@ -835,7 +830,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Takahiro Ueoro</strong><span class="talk-title">On graphs without cycles of length $0 \bmod 3$ or $4 \bmod 6$</span></td>
 					<td class="talk-slot"><strong>Luis Kuffner</strong><span class="talk-title">Homomorphism bounds for $(K_4,-)$-minor-free signed graphs of negative girth $k$</span></td>
 					<td class="talk-slot"><strong>Nikolai Terekhov</strong><span class="talk-title">On the problem of Füredi concerning $(k, L)$-systems</span></td>
-					<td class="talk-slot"><strong>Florian Lehner</strong><span class="talk-title">Three Cops Win on the Torus (even if only two can move at a time)</span></td>
+					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">12:00-14:30</th>
@@ -848,7 +843,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
 					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdős-Posa theorem</span></td>
 					<td class="talk-slot"><strong>Ingyu Baek</strong><span class="talk-title">Improved bounds for loose odd cycle densities</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Shunichi Maezawa</strong><span class="talk-title">On Reconfiguration Graphs Induced by Rainbow Spanning Trees</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:00-15:30</th>
@@ -857,20 +852,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
-					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
-					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
 					<td class="talk-slot"><strong>Ni Luh Dewi Sintiari</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
+					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
+					<td class="talk-slot"><strong>Sarah Houdaigoui</strong><span class="talk-title">A quasi-polynomial bound for the minimal excluded minors for a surface</span></td>
 					<td class="talk-slot"><strong>Xinqi Huang</strong><span class="talk-title">Accumulation Points of Homomorphism Thresholds</span></td>
-					<td class="talk-slot text-muted">-</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">16:00-16:30</th>
-					<td class="talk-slot"><strong>Maxim Klimenko</strong><span class="talk-title">Covering integer points of a cross-polytope by subspaces</span></td>
-					<td class="talk-slot"><strong>Fan Yang</strong><span class="talk-title">Extremal density for subdivisions with length or sparsity constraints</span></td>
-					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
-					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
-					<td class="talk-slot text-muted">-</td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Florian Lehner</strong><span class="talk-title">Three Cops Win on the Torus (even if only two can move at a time)</span></td>
 				</tr>
 			</tbody>
 		</table>
