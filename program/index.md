@@ -480,7 +480,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Van Vu</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: New Matrix Perturbation Bounds via Relative Norm</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -534,7 +534,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative Ordered Turán Densities</span></td>
 					<td class="talk-slot"><strong>Hikaru Yokoi</strong><span class="talk-title">Self-duality of pathwidth for polyhedral embeddings</span></td>
 					<td class="talk-slot"><strong>Cyril Pujol</strong><span class="talk-title">Winding number and circular coloring</span></td>
-					<td class="talk-slot"><strong>Ananth Ravi</strong><span class="talk-title">The chromatic number of finite projective spaces</span></td>
+					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 					<td class="talk-slot"><strong>Eduard Inozemtsev</strong><span class="talk-title">Frankl's diversity theorem for permutations</span></td>
 				</tr>
 				<tr>
@@ -547,7 +547,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Henry Liu</strong><span class="talk-title">On degree powers in the degenerate Turán problem</span></td>
 					<td class="talk-slot"><strong>On-Hei Solomon Lo</strong><span class="talk-title">A characterization of graphs with no $K_{3,4}$-minor</span></td>
 					<td class="talk-slot"><strong>Yiting Jiang</strong><span class="talk-title">Indicated List Coloring Game On Graphs</span></td>
-					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
+					<td class="talk-slot"><strong>Ananth Ravi</strong><span class="talk-title">The chromatic number of finite projective spaces</span></td>
 					<td class="talk-slot"><strong>Elizaveta Iarovikova</strong><span class="talk-title">A complete t-intersection theorem for families of spanning trees</span></td>
 				</tr>
 				<tr>
