@@ -382,16 +382,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">11:00-11:30</th>
 					<td class="talk-slot"><strong>Yi-Hau Kao</strong><span class="talk-title">Proving Guo's Conjecture on Richardson Tableaux</span></td>
 					<td class="talk-slot"><strong>Yijia Fang</strong><span class="talk-title">Canonical Ramsey Property for All Triangles</span></td>
 					<td class="talk-slot"><strong>Nikolai Karol</strong><span class="talk-title">Structure of k-Matching-Planar Graphs</span></td>
 					<td class="talk-slot"><strong>Myungho Choi</strong><span class="talk-title">2-limited broadcast domination in cubic graphs</span></td>
 					<td class="talk-slot"><strong>Tomoki Tamaru</strong><span class="talk-title">More on the Corner-Vector Construction for Spherical Designs</span></td>
 					<td class="talk-slot"><strong>Jaehyeon Seo</strong><span class="talk-title">Degree-sequence bounds for independent sets via multivariate local occupancy</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">11:00-11:30</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
@@ -417,16 +417,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Masato Kobayashi</strong><span class="talk-title">A quite simple formula on Bruhat order and bigrassmannian permutations</span></td>
 					<td class="talk-slot"><strong>Lin-Peng Zhang</strong><span class="talk-title">Perfect tilings with the generalised triangle in k-graphs</span></td>
 					<td class="talk-slot"><strong>Yoshimi Egawa</strong><span class="talk-title">Generation theorem for 5-connected graphs</span></td>
 					<td class="talk-slot"><strong>Yakov Shubin</strong><span class="talk-title">On supersaturation in the Erdős-Sós Problem</span></td>
 					<td class="talk-slot"><strong>Arsenii Sagdeev</strong><span class="talk-title">Graphs in Euclidean Ramsey Theory</span></td>
 					<td class="talk-slot"><strong>Ningyuan Yang</strong><span class="talk-title">Chromatic thresholds for linear equations and recurrence</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">16:00-16:30</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
@@ -530,16 +530,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices $m \times 2$ and $m \times 3$ are not Schur positive</span></td>
 					<td class="talk-slot"><strong>Dylan King</strong><span class="talk-title">Relative Ordered Turán Densities</span></td>
 					<td class="talk-slot"><strong>Hikaru Yokoi</strong><span class="talk-title">Self-duality of pathwidth for polyhedral embeddings</span></td>
 					<td class="talk-slot"><strong>Cyril Pujol</strong><span class="talk-title">Winding number and circular coloring</span></td>
 					<td class="talk-slot"><strong>Ferdinand Ihringer</strong><span class="talk-title">Local arcs, locally repairable codes, large matchings</span></td>
 					<td class="talk-slot"><strong>Eduard Inozemtsev</strong><span class="talk-title">Frankl's diversity theorem for permutations</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">16:00-16:30</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
@@ -741,16 +741,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
 					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
 					<td class="talk-slot"><strong>Zhenyu Li</strong><span class="talk-title">A step toward Chen-Lih-Wu conjecture</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">16:00-16:30</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
@@ -847,10 +847,6 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:00-15:30</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td class="talk-slot"><strong>Warut Thawinrak</strong><span class="talk-title">Counting lattice points in generalized permutohedra from A to B</span></td>
 					<td class="talk-slot"><strong>Ni Luh Dewi Sintiari</strong><span class="talk-title">A Positive Instance of Scott's Conjecture on Induced Subdivisions</span></td>
 					<td class="talk-slot"><strong>Márk Hunor Juhász</strong><span class="talk-title">Matching Problems in Temporal Graphs</span></td>
