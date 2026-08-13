@@ -28,6 +28,8 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
     - **From Daejeon Station**: Bus No. 707 to DCC (approx. 1 hour) or take a subway to Government Complex Daejeon Station and then transfer to Bus No. 618 (approx. 40 minutes).
     - **From Bus Station at Daejeon Government Complex (대전청사)**: Bus No. 911 or 618 to DCC (approx. 20 minutes). 
 
+Also look at [How to get to IBS, Daejeon](https://travel.dimag.kr/). IBS is located near DCC, and it also provides information about how to get some nearby hotels.
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.4038674012477!2d127.39177500000001!3d36.375216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356549856f487a11%3A0xd03c3bec141f8760!2sDaejeon%20Convention%20Center!5e0!3m2!1sen!2skr!4v1766534770381!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
@@ -44,6 +46,12 @@ After arriving at Incheon International Airport (ICN), you can take one of the f
 * [ICC Hotel](http://hotel.hotelicc.com/view/index.do?SS_SVC_LANG_CODE=ENG): A hotel located near DCC. ICC Hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 150,000 KRW per night.
 * [Toyoko Inn Daejeon Government Complex](https://www.toyoko-inn.com/korea/search/detail/00234/): A hotel located near the Daejeon Government Complex. Toyoko Inn is roughly 40 minutes by walk or 20 minutes by bus from DCC. Prices for a standard room start at around 80,000 KRW per night.
 * [I-Hotel](https://i-hotel.co.kr/): A hotel located near DCC. I-Hotel is roughly 3 minutes by walk from DCC. Prices for a standard room start at around 100,000 KRW per night.
+
+
+### Restorants and Cafes
+
+[Nearby restaurants and cafes](http://www.micedaejeon.com/images/djec/link/Restaurant_Guide_Book_Around_DCC_Eng.pdf) around DCC provided by Daejeon Tourism Organization
+
 
 
 <!--You can adapt the design as well as the section shown on the map by copying the `assets/js/main.js` from the theme's repository and editing it. See also the subsection [Location / Room Overview](https://github.com/DigitaleGesellschaft/jekyll-theme-conference/#location--room-overview) section of the theme's README file.-->
