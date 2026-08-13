@@ -58,6 +58,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		font-weight: 600;
 	}
 
+	.program-grid .group-photo-slot {
+		background-color: #e6f4ea;
+		font-weight: 600;
+	}
+
 	.program-grid .banquet-slot {
 		background-color: #fde9d9;
 		font-weight: 600;
@@ -168,6 +173,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		.program-grid-mobile .highlight-slot,
 		.program-grid-mobile .registration-slot,
 		.program-grid-mobile .ceremony-slot,
+		.program-grid-mobile .group-photo-slot,
 		.program-grid-mobile .banquet-slot {
 			padding: 0.9rem 1rem;
 			font-weight: 600;
@@ -186,6 +192,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		}
 
 		.program-grid-mobile .ceremony-slot {
+			background-color: #e6f4ea;
+		}
+
+		.program-grid-mobile .group-photo-slot {
 			background-color: #e6f4ea;
 		}
 
@@ -486,16 +496,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Yulin Peng</strong><span class="talk-title">Coxeter Condorcet domains and Condorcet root posets</span></td>
 					<td class="talk-slot"><strong>Jing Wang</strong><span class="talk-title">Spectral Turán Problems for Expansion Hypergraphs</span></td>
 					<td class="talk-slot"><strong>Alexander Clow</strong><span class="talk-title">Small Quasi-Kernel in Digraphs with Bounded Out-Degree</span></td>
 					<td class="talk-slot"><strong>Chenglong Deng</strong><span class="talk-title">List colouring of toroidal grids</span></td>
 					<td class="talk-slot"><strong>Jie Wang</strong><span class="talk-title">Lower bound theorems on the numbers of faces of polytopes with at most $3d-1$ vertices</span></td>
 					<td class="talk-slot"><strong>Alexander Gavrilyuk</strong><span class="talk-title">Intersecting families of spanning trees in complete bipartite graphs</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
@@ -591,17 +601,21 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
-					<th scope="row" class="time-slot">10:00-10:30</th>
+					<th scope="row" class="time-slot">10:00-10:10</th>
+					<td colspan="6" class="group-photo-slot shared-talk-slot">Group Photo</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">10:10-10:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Liu Xinbei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>ZhiFei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
 					<td class="talk-slot"><strong>Taehee Hong</strong><span class="talk-title">p-competitively orientable graphs</span></td>
 					<td class="talk-slot"><strong>Eckhard Steffen</strong><span class="talk-title">Edge-coloring 4- and 5-regular projective planar graphs with no Petersen-minor</span></td>
 					<td class="talk-slot"><strong>Haofang Sun</strong><span class="talk-title">Curvilinear Tilings and Hurwitz Problem</span></td>
 					<td class="talk-slot"><strong>Yeonsu Chang</strong><span class="talk-title">Algorithmic Applications of Reduced Component Max-Leaf</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
@@ -697,16 +711,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Sen-Peng Eu</strong><span class="talk-title">On Ternary Trees and Fighting Fish</span></td>
 					<td class="talk-slot"><strong>Chenyang Zhang</strong><span class="talk-title">Sharp bounds for uniform union-free hypergraphs</span></td>
 					<td class="talk-slot"><strong>Masahiro Sanka</strong><span class="talk-title">Hamiltonicity of $P_2 \cup kP_1$-free graphs with many vertices</span></td>
 					<td class="talk-slot"><strong>Xujun Liu</strong><span class="talk-title">Between proper and square colorings of sparse graphs</span></td>
 					<td class="talk-slot"><strong>Shohei Satake</strong><span class="talk-title">On spectrally indistinguishable pseudorandom graphs</span></td>
 					<td class="talk-slot"><strong>Attila Sali</strong><span class="talk-title">More Shattering News</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
@@ -803,16 +817,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:00-10:30</th>
+					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
 					<td class="talk-slot"><strong>Guorong Gao</strong><span class="talk-title">Almost regular subgraphs under spectral radius constraints</span></td>
 					<td class="talk-slot"><strong>Masaki Kashima</strong><span class="talk-title">New conditions ensuring specified factors of graphs</span></td>
 					<td class="talk-slot"><strong>Jung Hon Yip</strong><span class="talk-title">Hadwiger's Conjecture for $\{co-claw,co-gem\}$-free graphs and $\{fork,antifork\}$-free graphs</span></td>
 					<td class="talk-slot"><strong>Gang Yang</strong><span class="talk-title">Boolean lattice without small rainbow subposets</span></td>
 					<td class="talk-slot"><strong>Shiqi Cao</strong><span class="talk-title">Dowling's polynomial conjecture for independent sets of matroids</span></td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
