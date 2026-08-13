@@ -691,7 +691,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta">Allen Knutson</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta">Title: Periodic pipe dreams and matrix positroid varieties</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
