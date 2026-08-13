@@ -106,6 +106,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		text-align: center;
 	}
 
+	.poster-list {
+		margin-bottom: 2.5rem;
+	}
+
+	.poster-list .poster-presenter {
+		display: block;
+		margin-bottom: 0.2rem;
+	}
+
+	.poster-list .poster-title {
+		display: block;
+		line-height: 1.4;
+	}
+
 	@media (max-width: 991.98px) {
 		.program-grid-wrapper.mobile-enhanced .table-responsive {
 			display: none;
@@ -872,4 +886,39 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+
+## Poster Presentations
+
+Poster presentations will take place on Tuesday and Wednesday on the 2nd floor of DCC.
+
+<ul class="list-group poster-list">
+	<li class="list-group-item">
+		<strong class="poster-presenter">Norihiro Nakashima</strong>
+		<span class="poster-title">Weight Enumerators as Quasi-Polynomials and the Periodicity of Minimum Weights</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Masaya Tomie</strong>
+		<span class="poster-title">Bipancyclicity of the generalized Fibonacci cube $B_n(110)$</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Márton Marits</strong>
+		<span class="poster-title">Covering graphs by subgraphs with bounded fractional chromatic number</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Takumi Iwasaki</strong>
+		<span class="poster-title">Forbidden subgraphs and the existence of covers and partitions of graphs by paths and cycles</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Wenbin Wang</strong>
+		<span class="poster-title">Non-bipartite extremal number for 3-chromatic graphs with a critical-edge</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Soura Sena Das</strong>
+		<span class="poster-title">On oriented total coloring of sparse graphs</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Yasuko Matsui</strong>
+		<span class="poster-title">Enumeration of Minimum-Cost Compact Edge-Colorings of Trees</span>
+	</li>
+</ul>
 
