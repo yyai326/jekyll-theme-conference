@@ -29,7 +29,7 @@ Nominations for the Asian Prize for Combinatorics: April 30, 2026 (See the follo
 - Jaehoon Kim (Korea Advanced Institute of Science and Technology)
 - Allen Knutson (Cornell University)
 - Bojan Mohar (Simon Fraser University and University of Ljubljana)
-- Alexander Postnikov (MIT)
+- Alexander Postnikov (Massachusetts Institute of Technology)
 - Van Vu (University of Hong Kong)
 - Joshua Zahl (Nankai University)
 
@@ -42,8 +42,8 @@ Abstract submission is closed. Thank you for your interest in ASIACOMB 2026. We 
 
 - Hong Liu (IBS ECOPRO, Chair)
 - Felix Christian Clemen (University of Victoria)
-- Seonghyuk Im (KIAS)
 - Zichao Dong (IBS ECOPRO)
+- Seonghyuk Im (KIAS)
 - Suyun Jiang (Jianghan University)
 - Zhuo Wu (Universitat Politècnica de Catalunya)
 

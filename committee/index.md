@@ -43,8 +43,8 @@ layout: default
 
 - Hong Liu (IBS ECOPRO, Chair)
 - Felix Christian Clemen (University of Victoria)
-- Seonghyuk Im (KIAS)
 - Zichao Dong (IBS ECOPRO)
+- Seonghyuk Im (KIAS)
 - Suyun Jiang (Jianghan University)
 - Zhuo Wu (Universitat Politècnica de Catalunya)
 
