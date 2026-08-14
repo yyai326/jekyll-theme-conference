@@ -849,7 +849,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
 					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
 					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
-					<td class="talk-slot"><strong>Junchi Zhang</strong><span class="talk-title">Submodular flows on measurable spaces</span></td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
