@@ -528,7 +528,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Seokbeom Kim</strong><span class="talk-title">The structure of $\Delta(1, 2, 2)$-free tournaments</span></td>
 					<td class="talk-slot"><strong>Zihui Xu</strong><span class="talk-title">Between proper and square colorings of planar graphs with maximum degree at most four</span></td>
 					<td class="talk-slot"><strong>David Yost</strong><span class="talk-title">Decomposability of polyhedra and their graphs</span></td>
-					<td class="talk-slot"><strong>Hyunwoo Lee</strong><span class="talk-title">Anticoncentration of random spanning trees in almost regular graphs</span></td>
+					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
@@ -783,7 +783,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">16:30-17:00</th>
 					<td class="talk-slot"><strong>Jiali Du</strong><span class="talk-title">On m-partite (di)graphical semiregular representation of finite groups</span></td>
-					<td class="talk-slot"><strong>Dingyuan Liu</strong><span class="talk-title">Turán problems for simplicial complexes</span></td>
+					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turán problems</span></td>
 					<td class="talk-slot"><strong>Jungho Ahn</strong><span class="talk-title">Unavoidable pivot-minors in graphs of large rank-depth</span></td>
 					<td class="talk-slot"><strong>Yisai Xue</strong><span class="talk-title">On the chromatic profile for tripartite graphs and beyond</span></td>
 					<td class="talk-slot"><strong>Miklos Ruszinko</strong><span class="talk-title">Monochromatic paths and components</span></td>
@@ -848,7 +848,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Jialin He</strong><span class="talk-title">On the Number of Triangles in $K_4$-Free Graphs</span></td>
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
 					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
-					<td class="talk-slot"><strong>Hideki Matsumura</strong><span class="talk-title">Ellipsoidal designs and the Prouhet--Tarry--Escott problem</span></td>
+					<td class="talk-slot"><strong>Hyunwoo Lee</strong><span class="talk-title">Anticoncentration of random spanning trees in almost regular graphs</span></td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
@@ -867,7 +867,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">14:30-15:00</th>
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
-					<td class="talk-slot"><strong>Yuefang Sun</strong><span class="talk-title">On oriented Turán problems</span></td>
+					<td class="talk-slot"><strong>Dingyuan Liu</strong><span class="talk-title">Turán problems for simplicial complexes</span></td>
 					<td class="talk-slot"><strong>Ravindra Pawar</strong><span class="talk-title">Matching Minors: a sequel to the results of Lovász and Plummer</span></td>
 					<td class="talk-slot"><strong>O-joung Kwon</strong><span class="talk-title">Induced-packing variants of the Erdős-Posa theorem</span></td>
 					<td class="talk-slot"><strong>Ingyu Baek</strong><span class="talk-title">Improved bounds for loose odd cycle densities</span></td>
