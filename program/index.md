@@ -533,7 +533,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
 					<td class="talk-slot"><strong>Gaston Burrull</strong><span class="talk-title">On the Classification of Isomorphisms between Affine Bruhat Intervals</span></td>
-					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
+					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Bartlomiej Kielak</strong><span class="talk-title">Digraphs with density maximized by transitive tournaments</span></td>
 					<td class="talk-slot"><strong>Xiaolan Hu</strong><span class="talk-title">Planar graphs of odd girth 7 are fractional $14/5$-colorable</span></td>
 					<td class="talk-slot"><strong>Mangaldeep Saha</strong><span class="talk-title">Normal 4-pseudomanifolds with a relative 2-skeleton</span></td>
@@ -774,7 +774,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
-					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
+					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
 					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
