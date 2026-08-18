@@ -7,7 +7,7 @@ layout: default
 
 ## Information about the Venue
 
-The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, South Korea.
+The conference will be held at the Daejeon Convention Center (DCC) Exhibition Hall 1 in Daejeon, South Korea.
 ![View of DCC](/assets/images/DCC.jpg)
 
 

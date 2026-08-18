@@ -266,7 +266,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">15:00-18:00</th>
 					<td colspan="6" class="registration-slot shared-talk-slot">
 						<strong class="slot-label">Registration</strong>
-						<span class="slot-meta">DCC</span>
+						<span class="slot-meta">DCC Exhibition Hall 1, first floor</span>
 					</td>
 				</tr>
 			</tbody>
@@ -388,12 +388,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">08:30-09:15</th>
 					<td colspan="6" class="registration-slot shared-talk-slot">
 						<strong class="slot-label">Registration</strong>
-						<span class="slot-meta">DCC</span>
+						<span class="slot-meta">DCC Exhibition Hall 1, first floor</span>
 					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">09:15-09:30</th>
-					<td colspan="6" class="shared-slot">Opening Remarks</td>
+					<td colspan="6" class="shared-slot shared-talk-slot">
+						<strong class="slot-label">Opening Remarks</strong>
+						<span class="slot-meta">DCC 2nd floor</span>
+					</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">09:30-10:30</th>
