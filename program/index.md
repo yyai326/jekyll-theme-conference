@@ -892,7 +892,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 ## Poster Presentations
 
-Poster presentations will take place on Tuesday and Wednesday on the 2nd floor of DCC.
+Poster presentations will take place from Tuesday to Friday on the 2nd floor of DCC.
 
 <ul class="list-group poster-list">
 	<li class="list-group-item">
