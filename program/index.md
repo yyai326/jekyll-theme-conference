@@ -466,7 +466,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Hyunwoo Lee</strong><span class="talk-title">Anticoncentration of random spanning trees in almost regular graphs</span></td>
 					<td class="talk-slot"><strong>Arjun Ranganathan</strong><span class="talk-title">Exact minimum co-degree bounds for tight Hamilton cycles</span></td>
 					<td class="talk-slot"><strong>Xiang Chen</strong><span class="talk-title">A constructive characterization of uniformly 4-connected graphs</span></td>
 					<td class="talk-slot"><strong>Xiaowei Yu</strong><span class="talk-title">(Fractional) balanced coloring of signed graphs</span></td>
@@ -535,7 +535,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:30-12:00</th>
-					<td class="talk-slot"><strong>Gaston Burrull</strong><span class="talk-title">On the Classification of Isomorphisms between Affine Bruhat Intervals</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Guanghui Wang</strong><span class="talk-title">Erdős-Rogers function on hypergraphs</span></td>
 					<td class="talk-slot"><strong>Bartlomiej Kielak</strong><span class="talk-title">Digraphs with density maximized by transitive tournaments</span></td>
 					<td class="talk-slot"><strong>Xiaolan Hu</strong><span class="talk-title">Planar graphs of odd girth 7 are fractional $14/5$-colorable</span></td>
@@ -737,7 +737,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Masahiro Sanka</strong><span class="talk-title">Hamiltonicity of $P_2 \cup kP_1$-free graphs with many vertices</span></td>
 					<td class="talk-slot"><strong>Xujun Liu</strong><span class="talk-title">Between proper and square colorings of sparse graphs</span></td>
 					<td class="talk-slot"><strong>Shohei Satake</strong><span class="talk-title">On spectrally indistinguishable pseudorandom graphs</span></td>
-					<td class="talk-slot"><strong>Attila Sali</strong><span class="talk-title">More Shattering News</span></td>
+					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
@@ -851,7 +851,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Jialin He</strong><span class="talk-title">On the Number of Triangles in $K_4$-Free Graphs</span></td>
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
 					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
-					<td class="talk-slot"><strong>Hyunwoo Lee</strong><span class="talk-title">Anticoncentration of random spanning trees in almost regular graphs</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
