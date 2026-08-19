@@ -466,7 +466,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
-					<td class="talk-slot"><strong>Yibo Gao</strong><span class="talk-title">Billey--Postnikov posets, rationally smooth Schubert varieties, and Poincaré duality</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Arjun Ranganathan</strong><span class="talk-title">Exact minimum co-degree bounds for tight Hamilton cycles</span></td>
 					<td class="talk-slot"><strong>Xiang Chen</strong><span class="talk-title">A constructive characterization of uniformly 4-connected graphs</span></td>
 					<td class="talk-slot"><strong>Xiaowei Yu</strong><span class="talk-title">(Fractional) balanced coloring of signed graphs</span></td>
