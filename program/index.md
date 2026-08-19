@@ -799,7 +799,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Jacob Stegemann</strong><span class="talk-title">A duality theorem for infinite tree-width</span></td>
 					<td class="talk-slot"><strong>Yangyan Gu</strong><span class="talk-title">Online list version of Hadwiger's conjecture</span></td>
 					<td class="talk-slot"><strong>Georgy Sokolov</strong><span class="talk-title">On the Erdős-Kleitman problem</span></td>
-					<td class="talk-slot"><strong>Ryota Masubara</strong><span class="talk-title">On bipartite holes and k-leaf-connectedness</span></td>
+					<td class="talk-slot"><strong>Ryota Matsubara</strong><span class="talk-title">On bipartite holes and k-leaf-connectedness</span></td>
 				</tr>
 			</tbody>
 		</table>
