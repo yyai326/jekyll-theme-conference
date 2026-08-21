@@ -3,6 +3,6 @@ name: Bojan Mohar
 first_name: Bojan
 last_name: Mohar
 img: /assets/images/mohar.jpg
-affiliation: Simon Fraser University
+affiliation: Simon Fraser University and University of Ljubljana
 
 ---

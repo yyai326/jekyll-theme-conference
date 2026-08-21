@@ -7,7 +7,7 @@ layout: home
 ## About ASIACOMB
 ASIACOMB is a biennial conference held in Asia that promotes international collaboration by strengthening research connections and providing a high-level forum for ideas in combinatorics
 
-The inaugural conference of the ASIACOMB series, ASIACOMB2026, will be held in Daejeon, South Korea from August 24 to 28, 2026.
+The inaugural conference of the ASIACOMB series, ASIACOMB 2026, will be held in Daejeon, South Korea from August 24 to 28, 2026.
 
 
 ## Important Dates
