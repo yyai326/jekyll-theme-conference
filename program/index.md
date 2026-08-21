@@ -404,6 +404,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Mihyun Kang</strong></span>
 						<span class="slot-meta">Title: Phase transitions in random graphs on surfaces</span>
+						<span class="slot-meta">Chair: Hong Liu</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -439,6 +440,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Anton Bernshteyn</strong></span>
 						<span class="slot-meta">Title: Matchings and the Banach--Tarski Paradox</span>
+						<span class="slot-meta">Chair: Dan Král'</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -508,6 +510,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Van Vu</strong></span>
 						<span class="slot-meta">Title: New Matrix Perturbation Bounds via Relative Norm</span>
+						<span class="slot-meta">Chair: TBA</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -552,6 +555,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Joshua Zahl</strong></span>
 						<span class="slot-meta">Title: (Discretized) incidence geometry, harmonic analysis, and geometric measure theory</span>
+						<span class="slot-meta">Chair: Péter Pál Pach</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -614,6 +618,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Alexander Postnikov</strong></span>
 						<span class="slot-meta">Title: Honeycombs, plabic graphs, and polypositroids</span>
+						<span class="slot-meta">Chair: Boram Park</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -662,6 +667,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Jaehoon Kim</strong></span>
 						<span class="slot-meta">Title: Local Conditions for Global Structures in Graphs</span>
+						<span class="slot-meta">Chair: Guanghui Wang</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -723,6 +729,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Allen Knutson</strong></span>
 						<span class="slot-meta">Title: Periodic pipe dreams and matrix positroid varieties</span>
+						<span class="slot-meta">Chair: TBA</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -767,6 +774,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Bojan Mohar</strong></span>
 						<span class="slot-meta">Title: Back to the basics --- The Four-Color Theorem and its generalizations</span>
+						<span class="slot-meta">Chair: Seog-Jin Kim</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -829,6 +837,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Jie Han</strong></span>
 						<span class="slot-meta">Title: Random sparsification of graphs</span>
+						<span class="slot-meta">Chair: Sang-il Oum</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
