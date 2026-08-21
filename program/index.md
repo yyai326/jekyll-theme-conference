@@ -905,6 +905,26 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 
 <ul class="list-group poster-list">
 	<li class="list-group-item">
+		<strong class="poster-presenter">Yen-Jen Cheng</strong>
+		<span class="poster-title">On $q$-counting of non-crossing chain and parking functions</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Soura Sena Das</strong>
+		<span class="poster-title">On oriented total coloring of sparse graphs</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Takumi Iwasaki</strong>
+		<span class="poster-title">Forbidden subgraphs and the existence of covers and partitions of graphs by paths and cycles</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Márton Marits</strong>
+		<span class="poster-title">Covering graphs by subgraphs with bounded fractional chromatic number</span>
+	</li>
+	<li class="list-group-item">
+		<strong class="poster-presenter">Yasuko Matsui</strong>
+		<span class="poster-title">Enumeration of Minimum-Cost Compact Edge-Colorings of Trees</span>
+	</li>
+	<li class="list-group-item">
 		<strong class="poster-presenter">Norihiro Nakashima</strong>
 		<span class="poster-title">Weight Enumerators as Quasi-Polynomials and the Periodicity of Minimum Weights</span>
 	</li>
@@ -913,28 +933,8 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 		<span class="poster-title">Bipancyclicity of the generalized Fibonacci cube $B_n(110)$</span>
 	</li>
 	<li class="list-group-item">
-		<strong class="poster-presenter">Márton Marits</strong>
-		<span class="poster-title">Covering graphs by subgraphs with bounded fractional chromatic number</span>
-	</li>
-	<li class="list-group-item">
-		<strong class="poster-presenter">Takumi Iwasaki</strong>
-		<span class="poster-title">Forbidden subgraphs and the existence of covers and partitions of graphs by paths and cycles</span>
-	</li>
-	<li class="list-group-item">
 		<strong class="poster-presenter">Wenbin Wang</strong>
 		<span class="poster-title">Non-bipartite extremal number for 3-chromatic graphs with a critical-edge</span>
-	</li>
-	<li class="list-group-item">
-		<strong class="poster-presenter">Soura Sena Das</strong>
-		<span class="poster-title">On oriented total coloring of sparse graphs</span>
-	</li>
-		<li class="list-group-item">
-			<strong class="poster-presenter">Yasuko Matsui</strong>
-			<span class="poster-title">Enumeration of Minimum-Cost Compact Edge-Colorings of Trees</span>
-		</li>
-	<li class="list-group-item">
-		<strong class="poster-presenter">Yen-Jen Cheng</strong>
-		<span class="poster-title">On $q$-counting of non-crossing chain and parking functions</span>
 	</li>
 
 </ul>

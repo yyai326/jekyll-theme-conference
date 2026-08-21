@@ -14,3 +14,12 @@ __pycache__/
 
 ### MacOS ###
 .DS_Store
+
+### Prize winner LaTeX build artifacts ###
+/assets/tex/prize_winner.aux
+/assets/tex/prize_winner.fdb_latexmk
+/assets/tex/prize_winner.fls
+/assets/tex/prize_winner.log
+/assets/tex/prize_winner.out
+/assets/tex/prize_winner.pdf
+/assets/tex/prize_winner.synctex.gz
