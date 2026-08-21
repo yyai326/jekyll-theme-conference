@@ -461,7 +461,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">16:30-17:00</th>
 					<td class="talk-slot"><strong>Eunjeong Lee</strong><span class="talk-title">Intersections of Schubert varieties and smooth T-stable subvarieties of flag varieties</span></td>
 					<td class="talk-slot"><strong>Nicolás Sanhueza Matamala</strong><span class="talk-title">Optimal and efficient partite decompositions of hypergraphs</span></td>
-					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in $3/2$-tough maximial planar graphs</span></td>
+					<td class="talk-slot"><strong>Lili Hao</strong><span class="talk-title">The existence of 2-factors in $3/2$-tough maximal planar graphs</span></td>
 					<td class="talk-slot"><strong>Ligang Jin</strong><span class="talk-title">Coloring of generalized signed graphs and its application to DP coloring</span></td>
 					<td class="talk-slot"><strong>Laurentiu Ploscaru</strong><span class="talk-title">Many Antipodal Pairs Force many Neighboring Pairs</span></td>
 					<td class="talk-slot"><strong>Semin Yoo</strong><span class="talk-title">Multiplicative irreducibility of shifted multiplicative subgroups</span></td>
@@ -633,7 +633,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Xinbei Liu</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
-					<td class="talk-slot"><strong>ZhiFei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
+					<td class="talk-slot"><strong>Zhifei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
 					<td class="talk-slot"><strong>Taehee Hong</strong><span class="talk-title">p-competitively orientable graphs</span></td>
 					<td class="talk-slot"><strong>Eckhard Steffen</strong><span class="talk-title">Edge-coloring 4- and 5-regular projective planar graphs with no Petersen-minor</span></td>
 					<td class="talk-slot"><strong>Haofang Sun</strong><span class="talk-title">Curvilinear Tilings and Hurwitz Problem</span></td>
