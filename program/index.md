@@ -919,9 +919,14 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 		<strong class="poster-presenter">Soura Sena Das</strong>
 		<span class="poster-title">On oriented total coloring of sparse graphs</span>
 	</li>
+		<li class="list-group-item">
+			<strong class="poster-presenter">Yasuko Matsui</strong>
+			<span class="poster-title">Enumeration of Minimum-Cost Compact Edge-Colorings of Trees</span>
+		</li>
 	<li class="list-group-item">
-		<strong class="poster-presenter">Yasuko Matsui</strong>
-		<span class="poster-title">Enumeration of Minimum-Cost Compact Edge-Colorings of Trees</span>
+		<strong class="poster-presenter">Yen-Jen Cheng</strong>
+		<span class="poster-title">On $q$-counting of non-crossing chain and parking functions</span>
 	</li>
+
 </ul>
 
