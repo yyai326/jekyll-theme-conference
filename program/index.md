@@ -402,7 +402,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">09:30-10:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Mihyun Kang</span>
+						<span class="slot-meta"><strong>Mihyun Kang</strong></span>
 						<span class="slot-meta">Title: Phase transitions in random graphs on surfaces</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -437,7 +437,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Anton Bernshteyn</span>
+						<span class="slot-meta"><strong>Anton Bernshteyn</strong></span>
 						<span class="slot-meta">Title: Matchings and the Banach--Tarski Paradox</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -506,7 +506,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Van Vu</span>
+						<span class="slot-meta"><strong>Van Vu</strong></span>
 						<span class="slot-meta">Title: New Matrix Perturbation Bounds via Relative Norm</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -550,7 +550,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Joshua Zahl</span>
+						<span class="slot-meta"><strong>Joshua Zahl</strong></span>
 						<span class="slot-meta">Title: (Discretized) incidence geometry, harmonic analysis, and geometric measure theory</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -579,7 +579,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">17:00-17:30</th>
-					<td class="talk-slot"><strong>Cordelia Yuqiao Li</strong><span class="talk-title">Homomesy on stable set polytopes of paths</span></td>
+					<td class="talk-slot text-muted">-</td>
 					<td class="talk-slot"><strong>Fan Yang</strong><span class="talk-title">Extremal density for subdivisions with length or sparsity constraints</span></td>
 					<td class="talk-slot"><strong>Shinya Fujita</strong><span class="talk-title">From Halin's Edge Removability to Matching Removability in k-connected graphs</span></td>
 					<td class="talk-slot"><strong>Naoki Matsumoto</strong><span class="talk-title">Cubic graphs with game chromatic number 3</span></td>
@@ -612,7 +612,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Alexander Postnikov</span>
+						<span class="slot-meta"><strong>Alexander Postnikov</strong></span>
 						<span class="slot-meta">Title: Honeycombs, plabic graphs, and polypositroids</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -627,7 +627,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
-					<td class="talk-slot"><strong>Liu Xinbei</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
+					<td class="talk-slot"><strong>Xinbei Liu</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>ZhiFei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
 					<td class="talk-slot"><strong>Taehee Hong</strong><span class="talk-title">p-competitively orientable graphs</span></td>
 					<td class="talk-slot"><strong>Eckhard Steffen</strong><span class="talk-title">Edge-coloring 4- and 5-regular projective planar graphs with no Petersen-minor</span></td>
@@ -660,7 +660,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Jaehoon Kim</span>
+						<span class="slot-meta"><strong>Jaehoon Kim</strong></span>
 						<span class="slot-meta">Title: Local Conditions for Global Structures in Graphs</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -721,7 +721,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Allen Knutson</span>
+						<span class="slot-meta"><strong>Allen Knutson</strong></span>
 						<span class="slot-meta">Title: Periodic pipe dreams and matrix positroid varieties</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -765,7 +765,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Bojan Mohar</span>
+						<span class="slot-meta"><strong>Bojan Mohar</strong></span>
 						<span class="slot-meta">Title: Back to the basics --- The Four-Color Theorem and its generalizations</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -827,7 +827,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
-						<span class="slot-meta">Jie Han</span>
+						<span class="slot-meta"><strong>Jie Han</strong></span>
 						<span class="slot-meta">Title: Random sparsification of graphs</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
@@ -892,7 +892,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 ## Poster Presentations
 
-Poster presentations will take place on Tuesday and Wednesday on the 2nd floor of DCC.
+Poster presentations will take place from Tuesday through Friday morning on the 2nd floor of DCC.
 
 <ul class="list-group poster-list">
 	<li class="list-group-item">
