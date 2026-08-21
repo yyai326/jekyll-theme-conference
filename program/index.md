@@ -667,7 +667,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:30-15:40</th>
-					<td colspan="6" class="shared-slot">10 min Break</td>
+					<td colspan="6" class="shared-slot">Break</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">15:40-16:10</th>
