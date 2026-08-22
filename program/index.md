@@ -48,32 +48,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		line-height: 1.3;
 	}
 
-	.program-grid-with-sessions {
-		min-width: 1280px;
-	}
-
+	.program-grid .session-column-heading,
 	.program-grid .session-slot {
-		width: 145px;
-		min-width: 145px;
-		padding: 0.85rem 0.65rem;
-		vertical-align: middle;
-		text-align: center;
-		background-color: #eef3f5;
-		font-weight: 700;
+		display: none;
 	}
 
-	.program-grid .session-slot-empty {
-		background-color: #f8f9fa;
-	}
-
-	.program-grid .session-label,
-	.program-grid .session-time {
+	.chair-session-time {
 		display: block;
-	}
-
-	.program-grid .session-time {
-		margin-top: 0.25rem;
-		font-size: 0.86em;
+		margin-top: 0.15rem;
+		font-size: 0.82em;
 		font-weight: 500;
 		color: #6c757d;
 	}
@@ -439,7 +422,9 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 					const timeBlock = document.createElement('div');
 					timeBlock.className = 'program-slot-time';
-					timeBlock.textContent = timeCell.textContent.trim();
+					const mobileTimeCell = timeCell.cloneNode(true);
+					mobileTimeCell.querySelectorAll('.chair-session-time').forEach((label) => label.remove());
+					timeBlock.textContent = mobileTimeCell.textContent.trim();
 					card.appendChild(timeBlock);
 
 					if (detailCells.length === 1 || detailCells[0].colSpan > 1) {
@@ -508,7 +493,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
-					<th scope="col">Session</th>
+					<th scope="col" class="session-column-heading">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -556,7 +541,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<span class="session-label">Morning Session</span>
 						<span class="session-time">11:00-12:00</span>
 					</th>
-					<th scope="row" class="time-slot">Chairs</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">11:00-12:00</span></th>
 					<td class="chair-slot">Eng Keat Hng</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Yaobin Chen</td>
@@ -608,7 +593,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<span class="session-label">Afternoon Session</span>
 						<span class="session-time">16:00-17:30</span>
 					</th>
-					<th scope="row" class="time-slot">Chairs</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
 					<td class="chair-slot">Seonghyuk Im</td>
 					<td class="chair-slot">Xin Wei</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
@@ -663,7 +648,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
-					<th scope="col">Session</th>
+					<th scope="col" class="session-column-heading">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -695,7 +680,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<span class="session-label">Morning Session</span>
 						<span class="session-time">10:30-12:00</span>
 					</th>
-					<th scope="row" class="time-slot">Chairs</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
@@ -756,7 +741,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<span class="session-label">Afternoon Session</span>
 						<span class="session-time">16:00-17:30</span>
 					</th>
-					<th scope="row" class="time-slot">Chairs</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Bjarne Schülke</td>
 					<td class="chair-slot">Yingzhi Tian</td>
@@ -805,7 +790,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
-					<th scope="col">Session</th>
+					<th scope="col" class="session-column-heading">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -931,7 +916,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
-					<th scope="col">Session</th>
+					<th scope="col" class="session-column-heading">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -1053,7 +1038,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
-					<th scope="col">Session</th>
+					<th scope="col" class="session-column-heading">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
