@@ -78,12 +78,13 @@ conference:
         relative_url: /Registration/
       - name: Speakers
         relative_url: /speakers/
-#      - name: Prize
-#        relative_url: /Prize/
       - name: Location
         relative_url: /location/
       - name: Committee
         relative_url: /committee/
+      - name: Prize
+        relative_url: /Prize/
+
       - name: Visa
         relative_url: /visa/
 

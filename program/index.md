@@ -48,10 +48,32 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		line-height: 1.3;
 	}
 
-	.chair-session-time {
+	.program-grid-with-sessions {
+		min-width: 1280px;
+	}
+
+	.program-grid .session-slot {
+		width: 145px;
+		min-width: 145px;
+		padding: 0.85rem 0.65rem;
+		vertical-align: middle;
+		text-align: center;
+		background-color: #eef3f5;
+		font-weight: 700;
+	}
+
+	.program-grid .session-slot-empty {
+		background-color: #f8f9fa;
+	}
+
+	.program-grid .session-label,
+	.program-grid .session-time {
 		display: block;
-		margin-top: 0.15rem;
-		font-size: 0.82em;
+	}
+
+	.program-grid .session-time {
+		margin-top: 0.25rem;
+		font-size: 0.86em;
 		font-weight: 500;
 		color: #6c757d;
 	}
@@ -232,6 +254,37 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			background-color: #f8f9fa;
 		}
 
+		.program-session-group {
+			margin-bottom: 1rem;
+			padding: 0.75rem;
+			border: 1px solid #d5dee3;
+			border-radius: 0.95rem;
+			background: #eef3f5;
+		}
+
+		.program-session-heading {
+			margin-bottom: 0.75rem;
+			padding: 0.2rem 0.15rem;
+			text-align: center;
+			font-weight: 700;
+		}
+
+		.program-session-heading .session-label,
+		.program-session-heading .session-time {
+			display: block;
+		}
+
+		.program-session-heading .session-time {
+			margin-top: 0.2rem;
+			font-size: 0.86em;
+			font-weight: 500;
+			color: #6c757d;
+		}
+
+		.program-session-group .program-slot-card:last-child {
+			margin-bottom: 0;
+		}
+
 		.program-grid-mobile .talk-title {
 			display: block;
 			font-size: 0.92em;
@@ -343,12 +396,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					return;
 				}
 
+				const hasSessionColumn = table.classList.contains('program-grid-with-sessions');
 				const roomHeaders = Array.from(table.querySelectorAll('thead th'))
-					.slice(1)
+					.slice(hasSessionColumn ? 2 : 1)
 					.map((header) => header.textContent.trim());
 
 				const mobileView = document.createElement('div');
 				mobileView.className = 'program-grid-mobile';
+				let sessionTarget = null;
+				let sessionRowsLeft = 0;
 
 				table.querySelectorAll('tbody tr').forEach((row) => {
 					const timeCell = row.querySelector('.time-slot');
@@ -356,12 +412,29 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						return;
 					}
 
-					const detailCells = Array.from(row.children).filter((cell) => !cell.classList.contains('time-slot'));
+					const sessionCell = row.querySelector('.session-slot:not(.session-slot-empty)');
+					if (sessionCell) {
+						const group = document.createElement('div');
+						group.className = 'program-session-group';
+						group.setAttribute('role', 'group');
+						group.setAttribute('aria-label', sessionCell.textContent.trim().replace(/\s+/g, ' '));
+
+						const heading = document.createElement('div');
+						heading.className = 'program-session-heading';
+						heading.innerHTML = sessionCell.innerHTML;
+						group.appendChild(heading);
+						mobileView.appendChild(group);
+
+						sessionTarget = group;
+						sessionRowsLeft = sessionCell.rowSpan || 1;
+					}
+
+					const detailCells = Array.from(row.children).filter((cell) => cell.tagName === 'TD');
 					if (!detailCells.length) {
 						return;
 					}
 
-					const card = document.createElement('section');
+					const card = document.createElement('div');
 					card.className = 'program-slot-card';
 
 					const timeBlock = document.createElement('div');
@@ -400,7 +473,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						card.appendChild(roomList);
 					}
 
-					mobileView.appendChild(card);
+					(sessionTarget || mobileView).appendChild(card);
+
+					if (sessionRowsLeft > 0) {
+						sessionRowsLeft -= 1;
+						if (sessionRowsLeft === 0) {
+							sessionTarget = null;
+						}
+					}
 				});
 
 				wrapper.appendChild(mobileView);
@@ -425,9 +505,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
-		<table class="table table-bordered program-grid">
+		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
+					<th scope="col">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -439,6 +520,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">08:30-09:15</th>
 					<td colspan="6" class="registration-slot shared-talk-slot">
 						<strong class="slot-label">Registration</strong>
@@ -446,6 +528,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:15-09:30</th>
 					<td colspan="6" class="shared-slot shared-talk-slot">
 						<strong class="slot-label">Opening Remarks</strong>
@@ -453,6 +536,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:30-10:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -463,11 +547,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr class="chair-row">
-					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">11:00-12:00</span></th>
+					<th scope="rowgroup" rowspan="3" class="session-slot">
+						<span class="session-label">Morning Session</span>
+						<span class="session-time">11:00-12:00</span>
+					</th>
+					<th scope="row" class="time-slot">Chairs</th>
 					<td class="chair-slot">Eng Keat Hng</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Yaobin Chen</td>
@@ -494,10 +583,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Fan Chang</strong><span class="talk-title">Functional Inequalities and Random Walks on Increasing Subsets of the Hypercube</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -508,11 +599,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr class="chair-row">
-					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
+					<th scope="rowgroup" rowspan="4" class="session-slot">
+						<span class="session-label">Afternoon Session</span>
+						<span class="session-time">16:00-17:30</span>
+					</th>
+					<th scope="row" class="time-slot">Chairs</th>
 					<td class="chair-slot">Seonghyuk Im</td>
 					<td class="chair-slot">Xin Wei</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
@@ -548,6 +644,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Guo-Dong Hong</strong><span class="talk-title">Simultaneous popular polynomial Szemerédi theorem over finite fields</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">18:00 onward</th>
 					<td colspan="6" class="banquet-slot shared-talk-slot">
 						<strong class="slot-label">Reception</strong>
@@ -563,9 +660,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
-		<table class="table table-bordered program-grid">
+		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
+					<th scope="col">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -577,6 +675,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -587,11 +686,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr class="chair-row">
-					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
+					<th scope="rowgroup" rowspan="4" class="session-slot">
+						<span class="session-label">Morning Session</span>
+						<span class="session-time">10:30-12:00</span>
+					</th>
+					<th scope="row" class="time-slot">Chairs</th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
@@ -627,10 +731,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Yetong Sha</strong><span class="talk-title">Spanning trees of bounded degree in random geometric graphs</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -641,11 +747,16 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr class="chair-row">
-					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
+					<th scope="rowgroup" rowspan="4" class="session-slot">
+						<span class="session-label">Afternoon Session</span>
+						<span class="session-time">16:00-17:30</span>
+					</th>
+					<th scope="row" class="time-slot">Chairs</th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Bjarne Schülke</td>
 					<td class="chair-slot">Yingzhi Tian</td>
@@ -691,9 +802,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
-		<table class="table table-bordered program-grid">
+		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
+					<th scope="col">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -705,6 +817,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -715,14 +828,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:00-10:10</th>
 					<td colspan="6" class="group-photo-slot shared-talk-slot">Group Photo</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:10-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
+					<th scope="rowgroup" rowspan="3" class="session-slot">
+						<span class="session-label">Morning Session</span>
+						<span class="session-time">10:30-12:00</span>
+					</th>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Xinbei Liu</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>Zhifei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
@@ -750,10 +869,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Colin Geniet</strong><span class="talk-title">Basis Number of Graphs Excluding Minors</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -764,10 +885,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">15:30-15:40</th>
 					<td colspan="6" class="shared-slot">Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">15:40-16:10</th>
 					<td colspan="6" class="ceremony-slot shared-talk-slot">
 						<strong class="slot-label">Prize Ceremony</strong>
@@ -775,6 +898,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">16:10-17:10</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Prize Winner Talk</strong>
@@ -784,10 +908,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">17:10-18:00</th>
 					<td colspan="6" class="shared-slot">Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">18:00 onward</th>
 					<td colspan="6" class="banquet-slot shared-talk-slot">
 						<strong class="slot-label">Banquet</strong>
@@ -802,9 +928,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
-		<table class="table table-bordered program-grid">
+		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
+					<th scope="col">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -816,6 +943,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -826,10 +954,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
+					<th scope="rowgroup" rowspan="3" class="session-slot">
+						<span class="session-label">Morning Session</span>
+						<span class="session-time">10:30-12:00</span>
+					</th>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Sen-Peng Eu</strong><span class="talk-title">On Ternary Trees and Fighting Fish</span></td>
 					<td class="talk-slot"><strong>Chenyang Zhang</strong><span class="talk-title">Sharp bounds for uniform union-free hypergraphs</span></td>
@@ -857,10 +990,12 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Pawel Pralat</strong><span class="talk-title">Top Trading Cycles with Random Preferences</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">14:30-15:30</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -871,10 +1006,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
+					<th scope="rowgroup" rowspan="3" class="session-slot">
+						<span class="session-label">Afternoon Session</span>
+						<span class="session-time">16:00-17:30</span>
+					</th>
 					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
 					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
@@ -910,9 +1050,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
-		<table class="table table-bordered program-grid">
+		<table class="table table-bordered program-grid program-grid-with-sessions">
 			<thead class="thead-light">
 				<tr>
+					<th scope="col">Session</th>
 					<th scope="col">Time</th>
 					<th scope="col">Room A</th>
 					<th scope="col">Room B</th>
@@ -924,6 +1065,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			</thead>
 			<tbody>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">09:00-10:00</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Plenary Talk</strong>
@@ -934,10 +1076,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					</td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
 				<tr>
+					<th scope="rowgroup" rowspan="3" class="session-slot">
+						<span class="session-label">Morning Session</span>
+						<span class="session-time">10:30-12:00</span>
+					</th>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
 					<td class="talk-slot"><strong>Guorong Gao</strong><span class="talk-title">Almost regular subgraphs under spectral radius constraints</span></td>
@@ -965,10 +1112,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Yoshio Sano</strong><span class="talk-title">On matching preclusion sets in weighted graphs</span></td>
 				</tr>
 				<tr>
+					<th class="session-slot session-slot-empty" aria-hidden="true"></th>
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
 				<tr>
+					<th scope="rowgroup" rowspan="2" class="session-slot">
+						<span class="session-label">Afternoon Session</span>
+						<span class="session-time">14:30-15:30</span>
+					</th>
 					<th scope="row" class="time-slot">14:30-15:00</th>
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
 					<td class="talk-slot"><strong>Dingyuan Liu</strong><span class="talk-title">Turán problems for simplicial complexes</span></td>
