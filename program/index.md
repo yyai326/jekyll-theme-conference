@@ -85,6 +85,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		text-align: center;
 	}
 
+	.program-grid th {
+		position: static;
+	}
+
+	.program-grid th:first-of-type {
+		left: auto;
+		z-index: auto;
+	}
+
 	.program-grid .time-slot {
 		width: 120px;
 		min-width: 120px;
