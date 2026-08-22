@@ -3,6 +3,12 @@ layout: default
 math: true
 ---
 
+<div class="mb-4" role="group" aria-label="Program Book downloads">
+	<strong class="mr-2">Download the Program Book:</strong>
+	<a class="btn btn-primary btn-sm mr-2 mb-2" href="{{ '/documents/asiacomb2026-abstract-book-long.pdf' | relative_url }}" download>Complete Version</a>
+	<a class="btn btn-outline-primary btn-sm mb-2" href="{{ '/documents/asiacomb2026-abstract-book-short.pdf' | relative_url }}" download>Print Version</a>
+</div>
+
 The program grid below provides an overview of the schedule for each day of the conference.   
 Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
 
