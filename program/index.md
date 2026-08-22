@@ -42,6 +42,28 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		color: #adb5bd;
 	}
 
+	.contributed-chairs-grid-wrapper {
+		margin-bottom: 0.75rem;
+	}
+
+	.program-grid .chair-slot {
+		font-size: 0.95rem;
+		line-height: 1.3;
+	}
+
+	.chair-session-time {
+		display: block;
+		margin-top: 0.15rem;
+		font-size: 0.82em;
+		font-weight: 500;
+		color: #6c757d;
+	}
+
+	.contributed-chair-note {
+		margin-bottom: 2.5rem;
+		color: #6c757d;
+	}
+
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
 	}
@@ -275,6 +297,66 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		}
 	}
 </style>
+
+## Contributed Session Chairs
+
+<div class="program-grid-wrapper contributed-chairs-grid-wrapper">
+	<div class="table-responsive">
+		<table class="table table-bordered program-grid contributed-chairs-grid" aria-describedby="contributed-chair-note">
+			<thead class="thead-light">
+				<tr>
+					<th scope="col">Session</th>
+					<th scope="col">Room A</th>
+					<th scope="col">Room B</th>
+					<th scope="col">Room C</th>
+					<th scope="col">Room D</th>
+					<th scope="col">Room E</th>
+					<th scope="col">Room F</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row" class="time-slot">Mon 1<span class="chair-session-time">11:00-12:00</span></th>
+					<td class="chair-slot">Eng Keat Hng</td>
+					<td class="chair-slot">Hyunwoo Lee</td>
+					<td class="chair-slot">Yaobin Chen</td>
+					<td class="chair-slot">Katherine Perry</td>
+					<td class="chair-slot">Tuan Tran</td>
+					<td class="chair-slot">Mengyu Cao</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">Mon 2<span class="chair-session-time">16:00-17:30</span></th>
+					<td class="chair-slot">Seonghyuk Im</td>
+					<td class="chair-slot">Xin Wei</td>
+					<td class="chair-slot">Xiaofan Yuan</td>
+					<td class="chair-slot">Xujun Liu</td>
+					<td class="chair-slot">Yifan Jing</td>
+					<td class="chair-slot">Mengyu Cao</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">Tue 1<span class="chair-session-time">10:30-12:00</span></th>
+					<td class="chair-slot">Dingyuan Liu</td>
+					<td class="chair-slot">Hyunwoo Lee</td>
+					<td class="chair-slot">Xiaofan Yuan</td>
+					<td class="chair-slot">Shenggui Zhang</td>
+					<td class="chair-slot">Simon Piga</td>
+					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
+				</tr>
+				<tr>
+					<th scope="row" class="time-slot">Tue 2<span class="chair-session-time">16:00-17:30</span></th>
+					<td class="chair-slot">Dingyuan Liu</td>
+					<td class="chair-slot">Bjarne Schülke</td>
+					<td class="chair-slot">Yingzhi Tian</td>
+					<td class="chair-slot">Zhifei Yan</td>
+					<td class="chair-slot">Simon Piga</td>
+					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<p id="contributed-chair-note" class="contributed-chair-note">Chairs for the contributed sessions from Wednesday through Friday will be announced later.</p>
 
 ## Sunday (8/23)
 
