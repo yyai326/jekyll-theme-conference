@@ -42,12 +42,9 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		color: #adb5bd;
 	}
 
-	.contributed-chairs-grid-wrapper {
-		margin-bottom: 0.75rem;
-	}
-
 	.program-grid .chair-slot {
-		font-size: 0.95rem;
+		background-color: #f8f9fa;
+		font-size: 0.9rem;
 		line-height: 1.3;
 	}
 
@@ -60,7 +57,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 	}
 
 	.contributed-chair-note {
-		margin-bottom: 2.5rem;
+		margin-bottom: 2rem;
 		color: #6c757d;
 	}
 
@@ -231,6 +228,10 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 			margin-bottom: 0.2rem;
 		}
 
+		.program-room-entry.chair-slot {
+			background-color: #f8f9fa;
+		}
+
 		.program-grid-mobile .talk-title {
 			display: block;
 			font-size: 0.92em;
@@ -297,66 +298,6 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		}
 	}
 </style>
-
-## Contributed Session Chairs
-
-<div class="program-grid-wrapper contributed-chairs-grid-wrapper">
-	<div class="table-responsive">
-		<table class="table table-bordered program-grid contributed-chairs-grid" aria-describedby="contributed-chair-note">
-			<thead class="thead-light">
-				<tr>
-					<th scope="col">Session</th>
-					<th scope="col">Room A</th>
-					<th scope="col">Room B</th>
-					<th scope="col">Room C</th>
-					<th scope="col">Room D</th>
-					<th scope="col">Room E</th>
-					<th scope="col">Room F</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row" class="time-slot">Mon 1<span class="chair-session-time">11:00-12:00</span></th>
-					<td class="chair-slot">Eng Keat Hng</td>
-					<td class="chair-slot">Hyunwoo Lee</td>
-					<td class="chair-slot">Yaobin Chen</td>
-					<td class="chair-slot">Katherine Perry</td>
-					<td class="chair-slot">Tuan Tran</td>
-					<td class="chair-slot">Mengyu Cao</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">Mon 2<span class="chair-session-time">16:00-17:30</span></th>
-					<td class="chair-slot">Seonghyuk Im</td>
-					<td class="chair-slot">Xin Wei</td>
-					<td class="chair-slot">Xiaofan Yuan</td>
-					<td class="chair-slot">Xujun Liu</td>
-					<td class="chair-slot">Yifan Jing</td>
-					<td class="chair-slot">Mengyu Cao</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">Tue 1<span class="chair-session-time">10:30-12:00</span></th>
-					<td class="chair-slot">Dingyuan Liu</td>
-					<td class="chair-slot">Hyunwoo Lee</td>
-					<td class="chair-slot">Xiaofan Yuan</td>
-					<td class="chair-slot">Shenggui Zhang</td>
-					<td class="chair-slot">Simon Piga</td>
-					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
-				</tr>
-				<tr>
-					<th scope="row" class="time-slot">Tue 2<span class="chair-session-time">16:00-17:30</span></th>
-					<td class="chair-slot">Dingyuan Liu</td>
-					<td class="chair-slot">Bjarne Schülke</td>
-					<td class="chair-slot">Yingzhi Tian</td>
-					<td class="chair-slot">Zhifei Yan</td>
-					<td class="chair-slot">Simon Piga</td>
-					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-</div>
-
-<p id="contributed-chair-note" class="contributed-chair-note">Chairs for the contributed sessions from Wednesday through Friday will be announced later.</p>
 
 ## Sunday (8/23)
 
@@ -525,6 +466,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
+				<tr class="chair-row">
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">11:00-12:00</span></th>
+					<td class="chair-slot">Eng Keat Hng</td>
+					<td class="chair-slot">Hyunwoo Lee</td>
+					<td class="chair-slot">Yaobin Chen</td>
+					<td class="chair-slot">Katherine Perry</td>
+					<td class="chair-slot">Tuan Tran</td>
+					<td class="chair-slot">Mengyu Cao</td>
+				</tr>
 				<tr>
 					<th scope="row" class="time-slot">11:00-11:30</th>
 					<td class="talk-slot"><strong>Yi-Hau Kao</strong><span class="talk-title">Proving Guo's Conjecture on Richardson Tableaux</span></td>
@@ -560,6 +510,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
+				</tr>
+				<tr class="chair-row">
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
+					<td class="chair-slot">Seonghyuk Im</td>
+					<td class="chair-slot">Xin Wei</td>
+					<td class="chair-slot">Xiaofan Yuan</td>
+					<td class="chair-slot">Xujun Liu</td>
+					<td class="chair-slot">Yifan Jing</td>
+					<td class="chair-slot">Mengyu Cao</td>
 				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
@@ -631,6 +590,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
+				<tr class="chair-row">
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
+					<td class="chair-slot">Dingyuan Liu</td>
+					<td class="chair-slot">Hyunwoo Lee</td>
+					<td class="chair-slot">Xiaofan Yuan</td>
+					<td class="chair-slot">Shenggui Zhang</td>
+					<td class="chair-slot">Simon Piga</td>
+					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
+				</tr>
 				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Yulin Peng</strong><span class="talk-title">Coxeter Condorcet domains and Condorcet root posets</span></td>
@@ -676,6 +644,15 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
+				<tr class="chair-row">
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
+					<td class="chair-slot">Dingyuan Liu</td>
+					<td class="chair-slot">Bjarne Schülke</td>
+					<td class="chair-slot">Yingzhi Tian</td>
+					<td class="chair-slot">Zhifei Yan</td>
+					<td class="chair-slot">Simon Piga</td>
+					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
+				</tr>
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Kai Zhang</strong><span class="talk-title">The lattices $m \times 2$ and $m \times 3$ are not Schur positive</span></td>
@@ -707,6 +684,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+
+<p class="contributed-chair-note">Chairs for the contributed sessions from Wednesday through Friday will be announced later.</p>
 
 ## Wednesday (8/26)
 
