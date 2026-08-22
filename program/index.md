@@ -3,10 +3,11 @@ layout: default
 math: true
 ---
 
-<div class="mb-4" role="group" aria-label="Program Book downloads">
-	<strong class="mr-2">Download the Program Book:</strong>
-	<a class="btn btn-primary btn-sm mr-2 mb-2" href="{{ '/documents/asiacomb2026-abstract-book-long.pdf' | relative_url }}" download>Complete Version</a>
-	<a class="btn btn-outline-primary btn-sm mb-2" href="{{ '/documents/asiacomb2026-abstract-book-short.pdf' | relative_url }}" download>Print Version</a>
+<div class="program-book-downloads" role="group" aria-label="Program Book downloads">
+	<strong>Download the Program Book:</strong>
+	<a class="program-book-download-link" href="{{ '/documents/asiacomb2026-abstract-book-long.pdf' | relative_url }}" download>Complete Version</a>
+	<span class="program-book-download-separator" aria-hidden="true">|</span>
+	<a class="program-book-download-link" href="{{ '/documents/asiacomb2026-abstract-book-short.pdf' | relative_url }}" download>Print Version</a>
 </div>
 
 The program grid below provides an overview of the schedule for each day of the conference.   
@@ -17,6 +18,30 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 </div>
 
 <style>
+	.program-book-downloads {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.4rem 0.75rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.program-book-download-link {
+		color: #2f6173;
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 0.15em;
+	}
+
+	.program-book-download-link:hover,
+	.program-book-download-link:focus {
+		color: #1f414d;
+	}
+
+	.program-book-download-separator {
+		color: #adb5bd;
+	}
+
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
 	}
