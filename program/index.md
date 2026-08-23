@@ -943,7 +943,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Allen Knutson</strong></span>
 						<span class="slot-meta">Title: Periodic pipe dreams and matrix positroid varieties</span>
-						<span class="slot-meta">Chair: TBA</span>
+						<span class="slot-meta">Chair: Kenta Ozeki</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
