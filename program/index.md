@@ -61,11 +61,6 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		color: #6c757d;
 	}
 
-	.contributed-chair-note {
-		margin-bottom: 2rem;
-		color: #6c757d;
-	}
-
 	.program-grid-wrapper {
 		margin-bottom: 2.5rem;
 	}
@@ -753,7 +748,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Bjarne Schülke</td>
-					<td class="chair-slot">Yingzhi Tian</td>
+					<td class="chair-slot">T.B.A.</td>
 					<td class="chair-slot">Zhifei Yan</td>
 					<td class="chair-slot">Simon Piga</td>
 					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
@@ -789,8 +784,6 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
-
-<p class="contributed-chair-note">Chairs for the contributed sessions from Wednesday through Friday will be announced later.</p>
 
 ## Wednesday (8/26)
 
@@ -831,11 +824,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">10:10-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
-				<tr>
-					<th scope="rowgroup" rowspan="3" class="session-slot">
+				<tr class="chair-row">
+					<th scope="rowgroup" rowspan="4" class="session-slot">
 						<span class="session-label">Morning Session</span>
 						<span class="session-time">10:30-12:00</span>
 					</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
+					<td class="chair-slot">Semin Yoo</td>
+					<td class="chair-slot">Chong Shangguan</td>
+					<td class="chair-slot">Ben Lund</td>
+					<td class="chair-slot">Zhifei Yan</td>
+					<td class="chair-slot">Zimu Xiang</td>
+					<td class="chair-slot">Eng Keat Hng</td>
+				</tr>
+				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Xinbei Liu</strong><span class="talk-title">Lascoux's series, parking functions and noncrossing partitions</span></td>
 					<td class="talk-slot"><strong>Zhifei Yan</strong><span class="talk-title">Monochromatic matchings in hypergraphs</span></td>
@@ -952,11 +954,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
-				<tr>
-					<th scope="rowgroup" rowspan="3" class="session-slot">
+				<tr class="chair-row">
+					<th scope="rowgroup" rowspan="4" class="session-slot">
 						<span class="session-label">Morning Session</span>
 						<span class="session-time">10:30-12:00</span>
 					</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
+					<td class="chair-slot">Daniel McGinnis</td>
+					<td class="chair-slot">Hyunwoo Lee</td>
+					<td class="chair-slot">Masaki Kashima</td>
+					<td class="chair-slot">Zhifei Yan</td>
+					<td class="chair-slot">Guangfu Wang</td>
+					<td class="chair-slot">Eng Keat Hng</td>
+				</tr>
+				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Sen-Peng Eu</strong><span class="talk-title">On Ternary Trees and Fighting Fish</span></td>
 					<td class="talk-slot"><strong>Chenyang Zhang</strong><span class="talk-title">Sharp bounds for uniform union-free hypergraphs</span></td>
@@ -1004,11 +1015,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">15:30-16:00</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
-				<tr>
-					<th scope="rowgroup" rowspan="3" class="session-slot">
+				<tr class="chair-row">
+					<th scope="rowgroup" rowspan="4" class="session-slot">
 						<span class="session-label">Afternoon Session</span>
 						<span class="session-time">16:00-17:30</span>
 					</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
+					<td class="chair-slot">Daniel McGinnis</td>
+					<td class="chair-slot">Xin Wei</td>
+					<td class="chair-slot">Colin Geniet</td>
+					<td class="chair-slot">Donglei Yang</td>
+					<td class="chair-slot">Zimu Xiang</td>
+					<td class="chair-slot">Pawel Pralat</td>
+				</tr>
+				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
 					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
@@ -1074,11 +1094,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">10:00-10:30</th>
 					<td colspan="6" class="shared-slot">Coffee Break</td>
 				</tr>
-				<tr>
-					<th scope="rowgroup" rowspan="3" class="session-slot">
+				<tr class="chair-row">
+					<th scope="rowgroup" rowspan="4" class="session-slot">
 						<span class="session-label">Morning Session</span>
 						<span class="session-time">10:30-12:00</span>
 					</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">10:30-12:00</span></th>
+					<td class="chair-slot">Tony Huynh</td>
+					<td class="chair-slot">Xin Wei</td>
+					<td class="chair-slot">Shinya Fujita</td>
+					<td class="chair-slot">Zichao Dong</td>
+					<td class="chair-slot">Yaobin Chen</td>
+					<td class="chair-slot">Jihye Park</td>
+				</tr>
+				<tr>
 					<th scope="row" class="time-slot">10:30-11:00</th>
 					<td class="talk-slot"><strong>Mikhail Bludov</strong><span class="talk-title">On the Homotopy Type of Unbalanced Subset Complexes</span></td>
 					<td class="talk-slot"><strong>Guorong Gao</strong><span class="talk-title">Almost regular subgraphs under spectral radius constraints</span></td>
@@ -1110,11 +1139,20 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">12:00-14:30</th>
 					<td colspan="6" class="shared-slot">Lunch Break</td>
 				</tr>
-				<tr>
-					<th scope="rowgroup" rowspan="2" class="session-slot">
+				<tr class="chair-row">
+					<th scope="rowgroup" rowspan="3" class="session-slot">
 						<span class="session-label">Afternoon Session</span>
 						<span class="session-time">14:30-15:30</span>
 					</th>
+					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">14:30-15:30</span></th>
+					<td class="chair-slot">Janhsoo Kim</td>
+					<td class="chair-slot">Alexander Clifton</td>
+					<td class="chair-slot">Xiaofan Yuan</td>
+					<td class="chair-slot">Zichao Dong</td>
+					<td class="chair-slot">Yaobin Chen</td>
+					<td class="chair-slot">Eng Keat Hng</td>
+				</tr>
+				<tr>
 					<th scope="row" class="time-slot">14:30-15:00</th>
 					<td class="talk-slot"><strong>Donghyun Kim</strong><span class="talk-title">Exploring the science fiction</span></td>
 					<td class="talk-slot"><strong>Dingyuan Liu</strong><span class="talk-title">Turán problems for simplicial complexes</span></td>
