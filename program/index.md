@@ -748,7 +748,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">16:00-17:30</span></th>
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Bjarne Schülke</td>
-					<td class="chair-slot">T.B.A.</td>
+					<td class="chair-slot">Suyun Jiang</td>
 					<td class="chair-slot">Zhifei Yan</td>
 					<td class="chair-slot">Simon Piga</td>
 					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
