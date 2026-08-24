@@ -688,7 +688,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
-					<td class="chair-slot">Shenggui Zhang</td>
+					<td class="chair-slot">Laihao Ding</td>
 					<td class="chair-slot">Simon Piga</td>
 					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
 				</tr>
