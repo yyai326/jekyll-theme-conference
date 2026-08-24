@@ -3,6 +3,8 @@ layout: default
 math: true
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/program-abstracts.css' | relative_url }}">
+
 <div class="program-book-downloads" role="group" aria-label="Program Book downloads">
 	<strong>Download the Program Book:</strong>
 	<a class="program-book-download-link" href="{{ '/documents/asiacomb2026-abstract-book-long.pdf' | relative_url }}" download>Complete Version</a>
@@ -10,7 +12,8 @@ math: true
 	<a class="program-book-download-link" href="{{ '/documents/asiacomb2026-abstract-book-short.pdf' | relative_url }}" download>Print Version</a>
 </div>
 
-The program grid below provides an overview of the schedule for each day of the conference.   
+The program grid below provides an overview of the schedule for each day of the conference. Select any plenary or contributed talk to view its abstract.
+
 Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
 
 <div class="alert alert-warning" role="alert">
@@ -1214,4 +1217,36 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 	</li>
 
 </ul>
+
+<div class="program-abstract-backdrop" data-abstract-close hidden></div>
+
+<aside
+	id="program-abstract-inspector"
+	class="program-abstract-inspector"
+	role="dialog"
+	aria-modal="true"
+	aria-hidden="true"
+	aria-labelledby="program-abstract-title"
+	data-manifest-url="{{ '/assets/program-abstracts.json' | relative_url }}"
+	data-site-root="{{ '/' | relative_url }}"
+	hidden
+>
+	<header class="program-abstract-header">
+		<div class="program-abstract-heading">
+			<span class="program-abstract-kind"></span>
+			<h2 id="program-abstract-title" tabindex="-1"></h2>
+			<p class="program-abstract-speaker"></p>
+		</div>
+		<button type="button" class="program-abstract-close" data-abstract-close aria-label="Close abstract">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</header>
+	<p class="program-abstract-meta"></p>
+	<div class="program-abstract-body">
+		<p class="program-abstract-status" role="status" aria-live="polite">Loading abstract&hellip;</p>
+		<img class="program-abstract-page" alt="" draggable="false" hidden>
+	</div>
+</aside>
+
+<script src="{{ '/assets/js/program-abstracts.js' | relative_url }}" defer></script>
 
