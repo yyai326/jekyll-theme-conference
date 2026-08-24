@@ -673,7 +673,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<strong class="slot-label">Plenary Talk</strong>
 						<span class="slot-meta"><strong>Van Vu</strong></span>
 						<span class="slot-meta">Title: New Matrix Perturbation Bounds via Relative Norm</span>
-						<span class="slot-meta">Chair: TBA</span>
+						<span class="slot-meta">Chair: Hong Liu</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
@@ -691,7 +691,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="chair-slot">Dingyuan Liu</td>
 					<td class="chair-slot">Hyunwoo Lee</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
-					<td class="chair-slot">Laihao Ding</td>
+					<td class="chair-slot">Zhifei Yan</td>
 					<td class="chair-slot">Simon Piga</td>
 					<td class="chair-slot">Nicolás Sanhueza Matamala</td>
 				</tr>
@@ -836,7 +836,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="chair-slot">Semin Yoo</td>
 					<td class="chair-slot">Chong Shangguan</td>
 					<td class="chair-slot">Ben Lund</td>
-					<td class="chair-slot">Zhifei Yan</td>
+					<td class="chair-slot">Laihao Ding</td>
 					<td class="chair-slot">Zimu Xiang</td>
 					<td class="chair-slot">Eng Keat Hng</td>
 				</tr>
