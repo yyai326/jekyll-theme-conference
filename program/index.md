@@ -901,8 +901,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<th scope="row" class="time-slot">16:10-17:10</th>
 					<td colspan="6" class="highlight-slot shared-talk-slot">
 						<strong class="slot-label">Prize Winner Talk</strong>
-						<span class="slot-meta">Name: TBA</span>
-						<span class="slot-meta">Title: TBA</span>
+						<span class="slot-meta"><strong>Huy Tuan Pham</strong></span>
+						<span class="slot-meta">Title: Random Graphs: Typical and Extremal Behaviors</span>
 						<span class="slot-meta">Location: DCC 2nd floor</span>
 					</td>
 				</tr>
