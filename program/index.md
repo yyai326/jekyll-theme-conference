@@ -1148,7 +1148,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 						<span class="session-time">14:30-15:30</span>
 					</th>
 					<th scope="row" class="time-slot">Chairs <span class="chair-session-time">14:30-15:30</span></th>
-					<td class="chair-slot">Janhsoo Kim</td>
+					<td class="chair-slot">Jangsoo Kim</td>
 					<td class="chair-slot">Alexander Clifton</td>
 					<td class="chair-slot">Xiaofan Yuan</td>
 					<td class="chair-slot">Zichao Dong</td>
