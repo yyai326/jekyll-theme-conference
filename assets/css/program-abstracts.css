@@ -61,6 +61,7 @@
 
 .program-abstract-backdrop[hidden],
 .program-abstract-inspector[hidden],
+.program-abstract-note[hidden],
 .program-abstract-status[hidden],
 .program-abstract-page[hidden] {
 	display: none !important;
@@ -167,6 +168,16 @@
 	font-size: 0.86rem;
 }
 
+.program-abstract-note {
+	margin: 0;
+	padding: 0.7rem 1.2rem;
+	border-bottom: 1px solid #ead9a5;
+	background: #fff7df;
+	color: #624f17;
+	font-size: 0.86rem;
+	font-weight: 600;
+}
+
 .program-abstract-body {
 	min-height: 0;
 	flex: 1 1 auto;
@@ -219,6 +230,10 @@ body.program-abstract-open {
 	}
 
 	.program-abstract-meta {
+		padding: 0.65rem 1rem;
+	}
+
+	.program-abstract-note {
 		padding: 0.65rem 1rem;
 	}
 

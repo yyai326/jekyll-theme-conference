@@ -38,6 +38,7 @@
 		const speaker = inspector.querySelector('.program-abstract-speaker');
 		const kind = inspector.querySelector('.program-abstract-kind');
 		const meta = inspector.querySelector('.program-abstract-meta');
+		const note = inspector.querySelector('.program-abstract-note');
 		const status = inspector.querySelector('.program-abstract-status');
 		const pageImage = inspector.querySelector('.program-abstract-page');
 		const closeButton = inspector.querySelector('.program-abstract-close');
@@ -128,6 +129,8 @@
 			meta.textContent = [entry.day, formatTime(entry.time), location]
 				.filter(Boolean)
 				.join('  •  ');
+			note.textContent = entry.note || '';
+			note.hidden = !entry.note;
 
 			pageImage.hidden = true;
 			pageImage.removeAttribute('src');

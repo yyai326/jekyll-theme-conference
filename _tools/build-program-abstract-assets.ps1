@@ -244,6 +244,30 @@ if (($actualPages -join ',') -ne ($expectedPages -join ',')) {
     throw 'The selected final PDF pages do not match the expected plenary and contributed page ranges.'
 }
 
+# Homepage-only schedule changes belong here when the finalized Program Book and
+# its source mapping should remain unchanged. The page field continues to point
+# to the talk's existing abstract page in the book.
+$webScheduleOverrides = @{
+    'contributed-171' = @{
+        day  = 'Friday, August 28'
+        time = '11:00-11:30'
+        room = 'E'
+        note = 'This abstract page shows the former schedule. The talk has moved to Friday, 11:00–11:30, Room E.'
+    }
+}
+foreach ($entryId in $webScheduleOverrides.Keys) {
+    $entry = @($allEntries | Where-Object { $_.id -eq $entryId })
+    if ($entry.Count -ne 1) {
+        throw "Expected one abstract entry for homepage override '$entryId', but found $($entry.Count)."
+    }
+
+    $override = $webScheduleOverrides[$entryId]
+    $entry[0].day = $override.day
+    $entry[0].time = $override.time
+    $entry[0].room = $override.room
+    $entry[0] | Add-Member -NotePropertyName note -NotePropertyValue $override.note
+}
+
 $tempBase = [IO.Path]::GetFullPath([IO.Path]::GetTempPath()).TrimEnd([IO.Path]::DirectorySeparatorChar)
 $tempDirectory = Join-Path $tempBase ('asiacomb-program-abstracts-' + [guid]::NewGuid().ToString('N'))
 $tempDirectory = [IO.Path]::GetFullPath($tempDirectory)

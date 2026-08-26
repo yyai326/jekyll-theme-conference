@@ -1034,7 +1034,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 				<tr>
 					<th scope="row" class="time-slot">16:00-16:30</th>
 					<td class="talk-slot"><strong>Péter Pál Pach</strong><span class="talk-title">On the density of Kravitz sets</span></td>
-					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
+					<td class="talk-slot text-muted"><strong>Wenling Zhou</strong><span class="talk-title">Moved to Friday, 11:00–11:30, Room E</span></td>
 					<td class="talk-slot"><strong>Mujin Choi</strong><span class="talk-title">Odd-Cycle-Packing-treewidth and Grid Theorem for odd-minor relation</span></td>
 					<td class="talk-slot"><strong>Yian Xu</strong><span class="talk-title">Polynomial chi-boundedness of graphs forbidding specific forests</span></td>
 					<td class="talk-slot"><strong>Alexander Natalchenko</strong><span class="talk-title">Anti-Ramsey Numbers of Expansions of Graphs</span></td>
@@ -1125,7 +1125,7 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 					<td class="talk-slot"><strong>Jialin He</strong><span class="talk-title">On the Number of Triangles in $K_4$-Free Graphs</span></td>
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
 					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
-					<td class="talk-slot text-muted">-</td>
+					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>
 				<tr>
@@ -1242,6 +1242,7 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 		</button>
 	</header>
 	<p class="program-abstract-meta"></p>
+	<p class="program-abstract-note" hidden></p>
 	<div class="program-abstract-body">
 		<p class="program-abstract-status" role="status" aria-live="polite">Loading abstract&hellip;</p>
 		<img class="program-abstract-page" alt="" draggable="false" hidden>
