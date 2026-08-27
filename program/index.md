@@ -1328,14 +1328,6 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 
 <ul class="list-group poster-list">
 	<li class="list-group-item">
-		<strong class="poster-presenter">Yen-Jen Cheng</strong>
-		<span class="poster-title">On $q$-counting of non-crossing chain and parking functions</span>
-	</li>
-	<li class="list-group-item">
-		<strong class="poster-presenter">Soura Sena Das</strong>
-		<span class="poster-title">On oriented total coloring of sparse graphs</span>
-	</li>
-	<li class="list-group-item">
 		<strong class="poster-presenter">Takumi Iwasaki</strong>
 		<span class="poster-title">Forbidden subgraphs and the existence of covers and partitions of graphs by paths and cycles</span>
 	</li>
@@ -1394,4 +1386,3 @@ Poster presentations will take place from Tuesday through Friday morning on the 
 </aside>
 
 <script src="{{ '/assets/js/program-abstracts.js' | relative_url }}" defer></script>
-
