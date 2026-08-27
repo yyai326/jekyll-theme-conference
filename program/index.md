@@ -1055,7 +1055,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day program-day-highlighted" open>
+<details class="program-day">
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Thursday (8/27)</span>
 	</summary>
@@ -1201,7 +1201,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day" open>
+<details class="program-day program-day-highlighted" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Friday (8/28)</span>
 	</summary>
