@@ -268,6 +268,23 @@ foreach ($entryId in $webScheduleOverrides.Keys) {
     $entry[0] | Add-Member -NotePropertyName note -NotePropertyValue $override.note
 }
 
+$webTitleOverrides = @{
+    'contributed-133' = @{
+        title = 'All (infinite) graphs are majority 3-choosable'
+        note  = 'This abstract page shows the former title.'
+    }
+}
+foreach ($entryId in $webTitleOverrides.Keys) {
+    $entry = @($allEntries | Where-Object { $_.id -eq $entryId })
+    if ($entry.Count -ne 1) {
+        throw "Expected one abstract entry for homepage title override '$entryId', but found $($entry.Count)."
+    }
+
+    $override = $webTitleOverrides[$entryId]
+    $entry[0].title = $override.title
+    $entry[0] | Add-Member -NotePropertyName note -NotePropertyValue $override.note
+}
+
 $tempBase = [IO.Path]::GetFullPath([IO.Path]::GetTempPath()).TrimEnd([IO.Path]::DirectorySeparatorChar)
 $tempDirectory = Join-Path $tempBase ('asiacomb-program-abstracts-' + [guid]::NewGuid().ToString('N'))
 $tempDirectory = [IO.Path]::GetFullPath($tempDirectory)

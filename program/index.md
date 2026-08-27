@@ -1266,7 +1266,7 @@ The program grid below provides an overview of the schedule for each day of the 
 					<td class="talk-slot"><strong>Daniel McGinnis</strong><span class="talk-title">Multi-extremal Betti numbers</span></td>
 					<td class="talk-slot"><strong>Jialin He</strong><span class="talk-title">On the Number of Triangles in $K_4$-Free Graphs</span></td>
 					<td class="talk-slot"><strong>Koshin Yoshida</strong><span class="talk-title">Partitions of a bipartite graph into cycles containing specified paths</span></td>
-					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All graphs are majority 3-choosable</span></td>
+					<td class="talk-slot"><strong>Jan Ouborny</strong><span class="talk-title">All (infinite) graphs are majority 3-choosable</span></td>
 					<td class="talk-slot"><strong>Wenling Zhou</strong><span class="talk-title">Some exact values of the uniform Turán densities</span></td>
 					<td class="talk-slot text-muted">-</td>
 				</tr>

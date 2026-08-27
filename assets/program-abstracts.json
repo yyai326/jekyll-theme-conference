@@ -1489,12 +1489,13 @@
         "id":  "contributed-133",
         "kind":  "contributed",
         "speaker":  "Jan Ouborny",
-        "title":  "All graphs are majority 3-choosable",
+        "title":  "All (infinite) graphs are majority 3-choosable",
         "day":  "Friday, August 28",
         "time":  "11:00-11:30",
         "room":  "D",
         "image":  "/documents/abstracts/contributed-133.png",
-        "page":  148
+        "page":  148,
+        "note":  "This abstract page shows the former title."
     },
     {
         "id":  "contributed-197",
