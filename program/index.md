@@ -12,7 +12,7 @@ math: true
 	<a class="program-book-download-link" href="{{ '/documents/asiacomb2026-abstract-book-short.pdf' | relative_url }}" download>Print Version</a>
 </div>
 
-The program grid below provides an overview of the schedule for each day of the conference. Select any plenary or contributed talk to view its abstract.
+The program grid below provides an overview of the schedule for each day of the conference. Select a day heading to show or hide its schedule, and select any plenary or contributed talk to view its abstract.
 
 Note that this is a preliminary version and may be subject to changes. Please check back for updates as the conference date approaches.
 
@@ -182,7 +182,115 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		line-height: 1.4;
 	}
 
+	.program-day {
+		margin-bottom: 1rem;
+		border: 1px solid #d8dee4;
+		border-radius: 0.9rem;
+		background: #fff;
+		overflow: hidden;
+	}
+
+	.program-day[open] {
+		margin-bottom: 2.5rem;
+	}
+
+	.program-day-summary {
+		display: flex;
+		align-items: center;
+		gap: 0.8rem;
+		padding: 0.9rem 1.1rem;
+		background: #f8f9fa;
+		color: #273740;
+		cursor: pointer;
+		list-style: none;
+		transition: background-color 160ms ease;
+	}
+
+	.program-day-summary::-webkit-details-marker {
+		display: none;
+	}
+
+	.program-day-summary::before {
+		width: 0.55rem;
+		height: 0.55rem;
+		flex: 0 0 auto;
+		border-right: 2px solid #58717c;
+		border-bottom: 2px solid #58717c;
+		content: "";
+		transform: rotate(-45deg);
+		transition: transform 160ms ease;
+	}
+
+	.program-day[open] > .program-day-summary::before {
+		transform: rotate(45deg) translate(-0.1rem, -0.1rem);
+	}
+
+	.program-day-summary::after {
+		margin-left: auto;
+		color: #60727b;
+		content: "Show schedule";
+		font-size: 0.82rem;
+		font-weight: 600;
+	}
+
+	.program-day[open] > .program-day-summary::after {
+		content: "Hide schedule";
+	}
+
+	.program-day[open] > .program-day-summary {
+		border-bottom: 1px solid #dfe5e8;
+	}
+
+	.program-day-summary:hover {
+		background: #eef3f5;
+	}
+
+	.program-day-summary:focus-visible {
+		outline: 3px solid rgba(47, 97, 115, 0.28);
+		outline-offset: -3px;
+	}
+
+	.program-day-title {
+		font-size: 1.45rem;
+		font-weight: 700;
+		line-height: 1.25;
+	}
+
+	.program-day-highlighted {
+		border-color: #7fa6b5;
+		box-shadow: 0 8px 22px rgba(47, 97, 115, 0.1);
+	}
+
+	.program-day-highlighted > .program-day-summary {
+		background: #eaf4f7;
+		color: #214b5a;
+	}
+
+	.program-day-highlighted > .program-day-summary:hover {
+		background: #dfeff3;
+	}
+
+	.program-day-content {
+		padding: 1rem 1rem 0;
+	}
+
+	.program-day .program-grid-wrapper {
+		margin-bottom: 1rem;
+	}
+
 	@media (max-width: 991.98px) {
+		.program-day-summary {
+			padding: 0.8rem 0.9rem;
+		}
+
+		.program-day-title {
+			font-size: 1.2rem;
+		}
+
+		.program-day-content {
+			padding: 0.75rem 0.75rem 0;
+		}
+
 		.program-grid-wrapper.mobile-enhanced .table-responsive {
 			display: none;
 		}
@@ -342,7 +450,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 	}
 </style>
 
-## Sunday (8/23)
+<details class="program-day">
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Sunday (8/23)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -370,6 +482,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
 <script>
 	(() => {
@@ -493,7 +607,11 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 	})();
 </script>
 
-## Monday (8/24)
+<details class="program-day">
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Monday (8/24)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -647,8 +765,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
-## Tuesday (8/25)
+<details class="program-day">
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Tuesday (8/25)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -787,8 +911,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
-## Wednesday (8/26)
+<details class="program-day">
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Wednesday (8/26)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -922,8 +1052,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
-## Thursday (8/27)
+<details class="program-day program-day-highlighted" open>
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Thursday (8/27)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -1062,8 +1198,14 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
-## Friday (8/28)
+<details class="program-day" open>
+	<summary class="program-day-summary">
+		<span class="program-day-title" role="heading" aria-level="2">Friday (8/28)</span>
+	</summary>
+	<div class="program-day-content">
 
 <div class="program-grid-wrapper">
 	<div class="table-responsive">
@@ -1177,6 +1319,8 @@ Note that this is a preliminary version and may be subject to changes. Please ch
 		</table>
 	</div>
 </div>
+	</div>
+</details>
 
 ## Poster Presentations
 
