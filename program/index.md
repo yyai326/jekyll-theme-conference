@@ -256,20 +256,6 @@ The program grid below provides an overview of the schedule for each day of the 
 		line-height: 1.25;
 	}
 
-	.program-day-highlighted {
-		border-color: #7fa6b5;
-		box-shadow: 0 8px 22px rgba(47, 97, 115, 0.1);
-	}
-
-	.program-day-highlighted > .program-day-summary {
-		background: #eaf4f7;
-		color: #214b5a;
-	}
-
-	.program-day-highlighted > .program-day-summary:hover {
-		background: #dfeff3;
-	}
-
 	.program-day-content {
 		padding: 1rem 1rem 0;
 	}
@@ -450,7 +436,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	}
 </style>
 
-<details class="program-day">
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Sunday (8/23)</span>
 	</summary>
@@ -607,7 +593,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	})();
 </script>
 
-<details class="program-day">
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Monday (8/24)</span>
 	</summary>
@@ -768,7 +754,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day">
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Tuesday (8/25)</span>
 	</summary>
@@ -914,7 +900,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day">
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Wednesday (8/26)</span>
 	</summary>
@@ -1055,7 +1041,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day">
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Thursday (8/27)</span>
 	</summary>
@@ -1201,7 +1187,7 @@ The program grid below provides an overview of the schedule for each day of the 
 	</div>
 </details>
 
-<details class="program-day program-day-highlighted" open>
+<details class="program-day" open>
 	<summary class="program-day-summary">
 		<span class="program-day-title" role="heading" aria-level="2">Friday (8/28)</span>
 	</summary>
