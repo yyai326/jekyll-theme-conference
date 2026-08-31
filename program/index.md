@@ -14,12 +14,6 @@ math: true
 
 The program grid below provides an overview of the schedule for each day of the conference. Select a day heading to show or hide its schedule, and select any plenary or contributed talk to view its abstract.
 
-
-
-<div class="alert alert-warning" role="alert">
-	<strong>Presentation note.</strong> Only small whiteboards will be available at the conference, so speakers are strongly encouraged to prepare slides for their presentations.
-</div>
-
 <style>
 	.program-book-downloads {
 		display: flex;
