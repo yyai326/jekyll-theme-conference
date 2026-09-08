@@ -3,7 +3,7 @@ preposition: at
 #description: >-
 #  AsiaComb 2025 organization on 2025/11/16 in Hangzhou, China
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://asiacomb.com" # the public hostname for the conference website
 
 theme: jekyll-theme-conference
 

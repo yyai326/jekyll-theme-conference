@@ -19,7 +19,7 @@ ASIACOMB invites submissions of abstracts for 20~25-minute contributed talks on 
 - Connection of combinatorics with theoretical computer science, analysis, or probability.
 
 
-Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template](/assets/tex/abstract_model.tex).
+Abstracts should be a maximum of 1 page in length (including figures and references) and must be prepared using the provided [LaTeX template]({{ '/assets/tex/abstract_model.tex' | relative_url }}).
 
 ## Way of Submission
 Submission is closed. Thank you for your interest in ASIACOMB 2026. We look forward to seeing you at the conference!

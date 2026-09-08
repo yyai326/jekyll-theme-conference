@@ -18,7 +18,7 @@ Early registration deadline: June 14, 2026
 Late registration deadline: August 14, 2026   
 Conference: August 24-28, 2026   
  
-Nominations for the Asian Prize for Combinatorics: April 30, 2026 (See the following [page](/Prize/) for the explanation of the prize)
+Nominations for the Asian Prize for Combinatorics: April 30, 2026 (See the following [page]({{ '/Prize/' | relative_url }}) for the explanation of the prize)
 
 
 
@@ -50,22 +50,22 @@ Abstract submission is closed. Thank you for your interest in ASIACOMB 2026. We 
 ### Registration
 Early registration starts. You can register at [Registration Page](https://asiacomb.kr/). The early registration deadline is *June 14, 2026*.   
 
-Please see [Registration](/Registration/) for more details.
+Please see [Registration]({{ '/Registration/' | relative_url }}) for more details.
 
 
 ### Venue
 The conference will be held at the Daejeon Convention Center (DCC) in Daejeon, South Korea.
-For more information about the venue and accommodation, please visit the [Location](/location/) page.
+For more information about the venue and accommodation, please visit the [Location]({{ '/location/' | relative_url }}) page.
 
 ### Contact
 For any inquiries, please contact us at <asiacomb2026@ibs.re.kr>.
 
-![lh](/assets/images/poster.png)
+![lh]({{ '/assets/images/poster.png' | relative_url }})
 
 
 ### Sponsors
 
-![lh](/assets/images/ECOPRO_logo.png) ![lh](/assets/images/IBS_logo.png) <img src="/assets/images/daejeon_tourism_organization.png" alt="lh" style="height: 100px; width: auto; vertical-align: middle;" />
+![lh]({{ '/assets/images/ECOPRO_logo.png' | relative_url }}) ![lh]({{ '/assets/images/IBS_logo.png' | relative_url }}) <img src="{{ '/assets/images/daejeon_tourism_organization.png' | relative_url }}" alt="lh" style="height: 100px; width: auto; vertical-align: middle;" />
 
 
 

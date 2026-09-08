@@ -98,7 +98,7 @@
 
     {%- if site.conference.navigation.logo %}
       <div class="navbar-brand navbar-logo mr-0 ml-1 text-right overflow-hidden">
-        <a href="{{ site.conference.navigation.logo.url }}">
+        <a href="{{ site.conference.navigation.logo.url | relative_url }}">
           {%- if site.conference.navigation.logo.img %}
             <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
           {%- else %}
